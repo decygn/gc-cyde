@@ -1211,6 +1211,7 @@ nav a:nth-child(3) {
 
 		#title {
 			height: fit-content !important;
+			top: 110px !important;
 		}
 
 		#title img {
