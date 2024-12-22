@@ -1206,6 +1206,7 @@ nav a:nth-child(3) {
 
 		#page_content {
 			padding-bottom: 0 !important;
+			min-height: calc(100vh - 200px) !important;
 		}
 
 		#title {
