@@ -173,7 +173,7 @@ a:hover {
 
 #title img {
 	display: block;
-	height: fit-content;
+	height: auto;
 	width: 70%;
 	max-width: 990px;
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/title.png);
