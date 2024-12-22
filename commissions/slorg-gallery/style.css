@@ -1213,6 +1213,10 @@ nav a:nth-child(3) {
 			height: fit-content !important;
 		}
 
+		#title img {
+			object-fit: cover;
+		}
+
 	}
 
 }
