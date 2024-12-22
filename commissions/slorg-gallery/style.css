@@ -1,1220 +1,1219 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
 
-    html, 
-    body {
-        overflow-x: hidden !important;
-    }
+html,
+body {
+	overflow-x: hidden !important;
+}
 
-	#sb_side,
-	#page_banner,
-	#sb_top,
-	#shopBar,
-	#aio_sidebar,
-	#galCats,
-	#galleryKeeper,
-	hr,
-	#page_footer {
-		display: none;
-	}
+#sb_side,
+#page_banner,
+#sb_top,
+#shopBar,
+#aio_sidebar,
+#galCats,
+#galleryKeeper,
+hr,
+#page_footer {
+	display: none;
+}
 
-	body {
-		background: url(https://i.imgur.com/3hbfer2.jpeg) no-repeat top center/cover;
-		font-family: Grandstander;
-		color: #fff;
-	}
+body {
+	background: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/background.jpg) no-repeat top center/cover;
+	font-family: Grandstander;
+	color: #fff;
+}
 
-	a {
-		color: #8c3e0f;
-		transition: .3s all ease;
-	}
+a {
+	color: #8c3e0f;
+	transition: .3s all ease;
+}
 
-	a:hover {
-		color: #482e11;
-	}
+a:hover {
+	color: #482e11;
+}
 
-	/* =================== PAGE EVENT STYLING =================== */
+/* =================== PAGE EVENT STYLING =================== */
 
-	#page_event {
-		color: #000;
-		font-family: Verdana, Arial, Helvetica, sans-serif;
-		margin: 50px auto;
-		min-height: 0;
-	}
+#page_event {
+	color: #000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 50px auto;
+	min-height: 0;
+}
 
-	.re {
-		border-radius: 5px;
-		padding: 15px;
-	}
+.re {
+	border-radius: 5px;
+	padding: 15px;
+}
 
-	.shh {
-		padding-top: 6px;
-		line-height: 2;
-	}
+.shh {
+	padding-top: 6px;
+	line-height: 2;
+}
 
-	/* =================== LAYOUT STRUCTURE =================== */
+/* =================== LAYOUT STRUCTURE =================== */
 
 
-	#container {
-		display: block;
-		top: 0;
-		min-width: 0 !important;
-		width: 100% !important;
-	}
+#container {
+	display: block;
+	top: 0;
+	min-width: 0 !important;
+	width: 100% !important;
+}
 
-	#page_content {
-		top: 0;
-		padding-top: 300px;
-		padding-bottom: 500px;
-		position: relative;
-		width: 100% !important;
-		min-height: 100vh !important;
-	}
+#page_content {
+	top: 0;
+	padding-top: 300px;
+	padding-bottom: 500px;
+	position: relative;
+	width: 100% !important;
+	min-height: 100vh !important;
+}
 
-	#gallery_items {
-		width: 100% !important;
-		height: 100% !important;
-		display: block !important;
-		position: relative !important;
+#gallery_items {
+	width: 100% !important;
+	height: 100% !important;
+	display: block !important;
+	position: relative !important;
+	opacity: 0;
+	animation: fadein 3s ease-in-out 2s forwards;
+}
+
+@keyframes fadein {
+	0% {
 		opacity: 0;
-		animation: fadein 3s ease-in-out 2s forwards;
 	}
 
-	@keyframes fadein {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 100;
-		}
+	100% {
+		opacity: 100;
 	}
+}
 
 
-	/* =================== TITLE SIGN =================== */
+/* =================== TITLE SIGN =================== */
 
 
-	#nameboard {
-		position: absolute;
-		top: 0;
-		width: fit-content;
-		left: 0 !important;
-		right: 0 !important;
-		margin: 0 auto;
+#nameboard {
+	position: absolute;
+	top: 0;
+	width: fit-content;
+	left: 0 !important;
+	right: 0 !important;
+	margin: 0 auto;
+	opacity: 0;
+	z-index: -1;
+	animation: nameboard-reveal ease-in-out 1.4s .3s forwards;
+}
+
+@keyframes nameboard-reveal {
+	0% {
 		opacity: 0;
-		z-index: -1;
-		animation: nameboard-reveal ease-in-out 1.4s .3s forwards;
+		margin-top: -130px;
 	}
 
-	@keyframes nameboard-reveal {
-		0% {
-			opacity: 0;
-			margin-top: -130px;
-		}
-
-		100% {
-			opacity: 1;
-			margin-top: -50px;
-		}
+	100% {
+		opacity: 1;
+		margin-top: -50px;
 	}
+}
 
-	#galleryInfo {
-		position: absolute;
-		display: inline-block;
-		text-align: center;
-		margin: 0 auto !important;
-		left: 0;
-		right: 0;
-        top: 0;
-		text-transform: uppercase;
-		letter-spacing: 0.5px;
+#galleryInfo {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto !important;
+	left: 0;
+	right: 0;
+	top: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	opacity: 0;
+	font-size: 12px;
+	line-height: 1;
+	color: #fff;
+	animation: galleryinfo-reveal ease-in-out 1.4s .3s forwards;
+}
+
+@keyframes galleryinfo-reveal {
+	0% {
 		opacity: 0;
-		font-size: 12px;
-		line-height: 1;
-		color: #fff;
-		animation: galleryinfo-reveal ease-in-out 1.4s .3s forwards;
 	}
 
-	@keyframes galleryinfo-reveal {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-            top: 74px;
-		}
+	100% {
+		opacity: 1;
+		top: 74px;
 	}
+}
 
-	.gallery-name {
-		display: block;
-		text-shadow: 0 0px 12px white, 0 0 1px #ffea00 !important;
-		mix-blend-mode: lighten;
-		font-size: 20px;
-	}
-
-
-	/* =================== TITLE =================== */
+.gallery-name {
+	display: block;
+	text-shadow: 0 0px 12px white, 0 0 1px #ffea00 !important;
+	mix-blend-mode: lighten;
+	font-size: 20px;
+}
 
 
-	#title {
-		width: 100%;
-		left: 0;
-		right: 0;
-		top: 160px;
-		height: 40vh;
-		margin: 0 auto;
-		text-align: center;
-		position: absolute;
-		display: flex;
+/* =================== TITLE =================== */
+
+#title {
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 160px;
+	height: 40vh;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	display: flex;
+	opacity: 0;
+	justify-content: center;
+	align-items: center;
+	animation: title-reveal ease-in-out 1.2s .9s forwards;
+}
+
+#title img {
+	display: block;
+	height: fit-content;
+	width: 70%;
+	max-width: 990px;
+	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/title.png);
+	animation: float ease-in-out 2s infinite;
+}
+
+@keyframes title-reveal {
+	0% {
 		opacity: 0;
-		justify-content: center;
-		align-items: center;
-		animation: title-reveal ease-in-out 1.2s .9s forwards;
+		margin-top: -30px;
 	}
 
-	#title img {
-		display: block;
-		height: fit-content;
-		width: 70%;
-		max-width: 990px;
-		content: url(https://i.imgur.com/jdFR9iF.png);
-		animation: float ease-in-out 2s infinite;
+	100% {
+		opacity: 1;
+		margin-top: 0;
+	}
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
 	}
 
-	@keyframes title-reveal {
-		0% {
-			opacity: 0;
-			margin-top: -30px;
-		}
-
-		100% {
-			opacity: 1;
-			margin-top: 0;
-		}
+	50% {
+		transform: translateY(10px);
 	}
 
-	@keyframes float {
-		0% {
-			transform: translateY(0px);
-		}
+	100% {
+		transform: translateY(0px);
+	}
+}
 
-		50% {
-			transform: translateY(10px);
-		}
+/* =================== FOREGROUNDS =================== */
 
-		100% {
-			transform: translateY(0px);
-		}
+
+#page_content::before {
+	content: url(https://i.imgur.com/rR6zvlI.png);
+	bottom: 58px;
+	position: fixed;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	pointer-events: none;
+	z-index: 5;
+	opacity: 0;
+	transform: scale(0.9) !important;
+	transform-origin: left bottom;
+	animation: slide-left 1s ease-in-out 1.2s forwards;
+}
+
+#container::before {
+	content: url(https://i.imgur.com/ecur0oo.png);
+	bottom: -10px;
+	position: fixed;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	pointer-events: none;
+	z-index: 9;
+	opacity: 0;
+	animation: slide-left 1.2s ease-in-out 1s forwards;
+}
+
+@keyframes slide-left {
+	0% {
+		margin-left: -50px;
+		margin-bottom: -120px;
+		transform: rotate(10deg);
 	}
 
-	/* =================== FOREGROUNDS =================== */
+	100% {
+		opacity: 100%;
+		margin-left: 0;
+		margin-bottom: -0px;
+		transform: rotate(0deg);
+	}
+}
 
+#container::after {
+	content: url(https://i.imgur.com/49FypBi.png);
+	right: 0;
+	bottom: -10px;
+	position: fixed;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	pointer-events: none;
+	opacity: 0;
+	z-index: 9;
+	animation: slide-right 1.2s ease-in-out 1.4s forwards;
+}
 
-	#page_content::before {
-		content: url(https://i.imgur.com/rR6zvlI.png);
-		bottom: 58px;
-		position: fixed;
-		background-repeat: no-repeat;
-		background-position: bottom;
-		background-size: 100%;
-		pointer-events: none;
-		z-index: 5;
-		opacity: 0;
-		transform: scale(0.9) !important;
-		transform-origin: left bottom;
-		animation: slide-left 1s ease-in-out 1.2s forwards;
+@keyframes slide-right {
+	0% {
+		margin-right: -50px;
+		margin-bottom: -120px;
+		transform: rotate(-10deg);
 	}
 
-	#container::before {
-		content: url(https://i.imgur.com/ecur0oo.png);
-		bottom: -10px;
-		position: fixed;
-		background-repeat: no-repeat;
-		background-position: bottom;
-		background-size: 100%;
-		pointer-events: none;
-		z-index: 9;
-		opacity: 0;
-		animation: slide-left 1.2s ease-in-out 1s forwards;
+	100% {
+		opacity: 100%;
+		margin-right: 0;
+		margin-bottom: -0px;
+		transform: rotate(0deg);
+	}
+}
+
+/* =================== FOREGROUND ITEMS =================== */
+
+
+.slorg-ball {
+	opacity: 0;
+	left: 40px;
+	bottom: 204px;
+	position: fixed;
+	z-index: 10;
+	animation: slide-right 1.2s ease-in-out 1.4s forwards;
+}
+
+#foreground-items {
+	opacity: 0;
+	bottom: 10px;
+	position: fixed;
+	right: 0px;
+	z-index: 10;
+	animation: slide-left 1.2s ease-in-out 1s forwards;
+}
+
+.slorg-fall {
+	right: -20px;
+	bottom: -29px;
+	z-indeX: -5;
+	position: fixed;
+}
+
+.slorg-fall img {
+	transform: scale(0.9);
+}
+
+#nav {
+	transform: scale(0.75);
+	width: 100%;
+	z-index: 14;
+	text-align: center !important;
+}
+
+nav a {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 28px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #484741;
+	mix-blend-mode: overlay;
+	text-shadow: 0 0px 22px white, 0 0 5px #ffea00;
+	transition: .3s all ease;
+}
+
+nav a:hover {
+	color: #d5cdcd;
+	text-shadow: 0 0px 15px #000, 0 0 5px #4d4949;
+}
+
+nav a:nth-child(1) {
+	transform: rotate(-2deg);
+	margin-top: 81px;
+}
+
+nav a:nth-child(2) {
+	transform: rotate(1deg);
+}
+
+nav a:nth-child(3) {
+	margin-top: 156px;
+	font-size: 22px;
+	letter-spacing: 0.5px;
+}
+
+
+/* =================== GALLERY ITEM STYLING =================== */
+
+.gallery_item {
+	left: 0;
+	top: 0;
+	position: absolute;
+	text-align: center;
+	display: none;
+}
+
+.gallery_item img {
+	width: 80px !important;
+	height: 80px !important;
+	border: 0 !important;
+	background: none !important;
+	margin-bottom: 3px;
+}
+
+.gallery-item-info {
+	opacity: 0;
+	transition: .3s ease all;
+}
+
+.gallery_item:hover .gallery-item-info {
+	opacity: 1;
+}
+
+.gallery-item-name {
+	line-height: 1;
+}
+
+.gallery-item-qty {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+/* =================== ITEM ANIMATIONS =================== */
+
+/* move across screen */
+
+@keyframes move-ltr {
+	0% {
+		transform: translateX(calc(100vw + 180px));
 	}
 
-	@keyframes slide-left {
-		0% {
-			margin-left: -50px;
-			margin-bottom: -120px;
-			transform: rotate(10deg);
-		}
+	100% {
+		transform: translateX(calc(0vw - 180px));
+	}
+}
 
-		100% {
-			opacity: 100%;
-			margin-left: 0;
-			margin-bottom: -0px;
-			transform: rotate(0deg);
-		}
+@keyframes move-rtl {
+	0% {
+		transform: translateX(calc(0vw - 180px));
 	}
 
-	#container::after {
-		content: url(https://i.imgur.com/49FypBi.png);
-		right: 0;
-		bottom: -10px;
-		position: fixed;
-		background-repeat: no-repeat;
-		background-position: bottom;
-		background-size: 100%;
-		pointer-events: none;
-		opacity: 0;
-		z-index: 9;
-		animation: slide-right 1.2s ease-in-out 1.4s forwards;
+	100% {
+		transform: translateX(calc(100vw + 180px));
+	}
+}
+
+/* faerie fly */
+
+@keyframes fly {
+	0% {
+		left: calc(100vw + 180px);
 	}
 
-	@keyframes slide-right {
-		0% {
-			margin-right: -50px;
-			margin-bottom: -120px;
-			transform: rotate(-10deg);
-		}
+	100% {
+		left: calc(0vw - 80px);
+	}
+}
 
-		100% {
-			opacity: 100%;
-			margin-right: 0;
-			margin-bottom: -0px;
-			transform: rotate(0deg);
-		}
+@keyframes bob {
+	0% {
+		transform: scale3d(1, 1, 1) translateY(-3vw) rotate(-5deg);
 	}
 
-	/* =================== FOREGROUND ITEMS =================== */
-
-
-	.slorg-ball {
-		opacity: 0;
-		left: 40px;
-		bottom: 204px;
-		position: fixed;
-		z-index: 10;
-		animation: slide-right 1.2s ease-in-out 1.4s forwards;
+	50% {
+		transform: scale3d(1.05, 0.96, 1) translateY(3vw) rotate(-10deg);
 	}
 
-	#foreground-items {
-		opacity: 0;
-		bottom: 10px;
-		position: fixed;
-		right: 0px;
-		z-index: 10;
-		animation: slide-left 1.2s ease-in-out 1s forwards;
+	100% {
+		transform: translateY(-3vw) rotate(-5deg);
+	}
+}
+
+/* squeeze */
+
+@keyframes squeeze1 {
+	0% {
+		transform: scale3d(1, 1, 1);
 	}
 
-	.slorg-fall {
-		right: -20px;
-		bottom: -29px;
-		z-indeX: -5;
-		position: fixed;
+	50% {
+		transform: scale3d(1.05, 0.96, 1);
 	}
 
-	.slorg-fall img {
-		transform: scale(0.9);
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes squeeze2 {
+	0% {
+		transform: scale3d(1.05, 0.96, 1);
 	}
 
-	#nav {
-		transform: scale(0.75);
-		width: 100%;
-		z-index: 14;
-		text-align: center !important;
+	50% {
+		transform: scale3d(1, 1, 1);
 	}
 
-	nav a {
-		width: 100%;
-		height: 80px;
-		position: absolute;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-size: 28px;
-		font-weight: 900;
-		text-transform: uppercase;
-		color: #484741;
-		mix-blend-mode: overlay;
-		text-shadow: 0 0px 22px white, 0 0 5px #ffea00;
-		transition: .3s all ease;
+	100% {
+		transform: scale3d(1.05, 0.96, 1);
+	}
+}
+
+
+/* ball bounce */
+
+@keyframes bounce {
+	0% {
+		animation-timing-function: ease-in;
+		transform: translateY(-55px);
 	}
 
-	nav a:hover {
-		color: #d5cdcd;
-		text-shadow: 0 0px 15px #000, 0 0 5px #4d4949;
-	}
-
-	nav a:nth-child(1) {
-		transform: rotate(-2deg);
-		margin-top: 81px;
-	}
-
-	nav a:nth-child(2) {
-		transform: rotate(1deg);
-	}
-
-	nav a:nth-child(3) {
-		margin-top: 156px;
-		font-size: 22px;
-		letter-spacing: 0.5px;
-	}
-
-
-	/* =================== GALLERY ITEM STYLING =================== */
-
-	.gallery_item {
-		left: 0;
-		top: 0;
-		position: absolute;
-		text-align: center;
-		display: none;
-	}
-
-	.gallery_item img {
-		width: 80px !important;
-		height: 80px !important;
-		border: 0 !important;
-		background: none !important;
-		margin-bottom: 3px;
-	}
-
-	.gallery-item-info {
-		opacity: 0;
-		transition: .3s ease all;
-	}
-
-	.gallery_item:hover .gallery-item-info {
+	24% {
 		opacity: 1;
 	}
 
-	.gallery-item-name {
-		line-height: 1;
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-34px);
 	}
 
-	.gallery-item-qty {
-		text-transform: uppercase;
-		font-size: 11px;
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-20px);
 	}
 
-	/* =================== ITEM ANIMATIONS =================== */
-
-	/* move across screen */
-
-	@keyframes move-ltr {
-		0% {
-			transform: translateX(calc(100vw + 180px));
-		}
-
-		100% {
-			transform: translateX(calc(0vw - 180px));
-		}
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
 	}
 
-	@keyframes move-rtl {
-		0% {
-			transform: translateX(calc(0vw - 180px));
-		}
-
-		100% {
-			transform: translateX(calc(100vw + 180px));
-		}
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
 	}
 
-	/* faerie fly */
-
-	@keyframes fly {
-		0% {
-			left: calc(100vw + 180px);
-		}
-
-		100% {
-			left: calc(0vw - 80px);
-		}
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
 	}
 
-	@keyframes bob {
-		0% {
-			transform: scale3d(1, 1, 1) translateY(-3vw) rotate(-5deg);
-		}
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
 
-		50% {
-			transform: scale3d(1.05, 0.96, 1) translateY(3vw) rotate(-10deg);
-		}
-
-		100% {
-			transform: translateY(-3vw) rotate(-5deg);
-		}
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
 	}
 
-	/* squeeze */
-
-	@keyframes squeeze1 {
-		0% {
-			transform: scale3d(1, 1, 1);
-		}
-
-		50% {
-			transform: scale3d(1.05, 0.96, 1);
-		}
-
-		100% {
-			transform: scale3d(1, 1, 1);
-		}
+	50% {
+		transform: rotate(20deg);
 	}
 
-	@keyframes squeeze2 {
-		0% {
-			transform: scale3d(1.05, 0.96, 1);
-		}
+	100% {
+		transform: rotate(0deg);
+	}
+}
 
-		50% {
-			transform: scale3d(1, 1, 1);
-		}
-
-		100% {
-			transform: scale3d(1.05, 0.96, 1);
-		}
+@keyframes rotate-less {
+	0% {
+		transform: rotate(0deg);
 	}
 
-
-	/* ball bounce */
-
-	@keyframes bounce {
-		0% {
-			animation-timing-function: ease-in;
-			transform: translateY(-55px);
-		}
-
-		24% {
-			opacity: 1;
-		}
-
-		40% {
-			animation-timing-function: ease-in;
-			transform: translateY(-34px);
-		}
-
-		65% {
-			animation-timing-function: ease-in;
-			transform: translateY(-20px);
-		}
-
-		82% {
-			animation-timing-function: ease-in;
-			transform: translateY(-12px);
-		}
-
-		93% {
-			animation-timing-function: ease-in;
-			transform: translateY(-6px);
-		}
-
-		25%,
-		55%,
-		75%,
-		87% {
-			animation-timing-function: ease-out;
-			transform: translateY(0px);
-		}
-
-		100% {
-			animation-timing-function: ease-out;
-			opacity: 1;
-			transform: translateY(0px);
-		}
+	50% {
+		transform: rotate(4deg);
 	}
 
-	@keyframes rotate {
-		0% {
-			transform: rotate(0deg);
-		}
-
-		50% {
-			transform: rotate(20deg);
-		}
-
-		100% {
-			transform: rotate(0deg);
-		}
+	100% {
+		transform: rotate(0deg);
 	}
+}
 
-	@keyframes rotate-less {
-		0% {
-			transform: rotate(0deg);
-		}
+/* ghost */
 
-		50% {
-			transform: rotate(4deg);
-		}
-
-		100% {
-			transform: rotate(0deg);
-		}
-	}
-
-	/* ghost */
-
-	@keyframes ghost-jump {
-		0% {
-			right: 10px;
-			left: unset;
-		}
-
-		50% {
-			left: 100px;
-			right: unset;
-		}
-
-		100% {
-			left: unset;
-			right: 440px;
-		}
-	}
-
-	@keyframes ghost-blink {
-		0% {
-			opacity: 0;
-		}
-
-		50% {
-			opacity: 0.6;
-		}
-
-		70% {
-			opacity: 0.0;
-		}
-
-		100% {
-			opacity: 0.6;
-		}
-	}
-
-	/* spooky slime */
-
-	@keyframes dash {
-		0% {
-			transform: scale(1);
-			right: -80px;
-			left: unset;
-		}
-
-		30% {
-			transform: scaleX(1);
-			top: -600px;
-			right: 180px;
-		}
-
-		50% {
-			transform: scaleX(-1);
-		}
-
-		60% {
-			transform: scaleX(-1);
-			left: -150px;
-			top: 500px;
-		}
-
-		100% {
-			transform: scaleX(-1);
-			left: 150px;
-			top: -700px;
-		}
-	}
-
-
-	/* =================== ITEM POSITIONS =================== */
-
-	/* gold slorg */
-
-	.gallery_item:nth-of-type(1) {
-		display: block !important;
-		top: 600px;
-		left: 540px;
-		animation: move-ltr 280s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(1) img {
-		content: url(https://i.imgur.com/ZHmjflJ.png);
-		animation: squeeze1 1s ease infinite;
-	}
-
-	/* jelly slorg */
-
-	.gallery_item:nth-of-type(2) {
-		display: block !important;
-		top: 540px;
-		left: 500px;
-		animation: move-rtl 50s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(2) img {
-		content: url(https://i.imgur.com/QyUMZa0.png);
-		animation: squeeze2 0.3s ease infinite;
-	}
-
-	/* pirate slorg */
-
-	.gallery_item:nth-of-type(3) {
-		display: block !important;
-		top: 700px;
-		margin-right: 00px !important;
+@keyframes ghost-jump {
+	0% {
+		right: 10px;
 		left: unset;
-		animation: move-ltr 60s linear infinite;
 	}
 
-	.gallery_item:nth-of-type(3) img {
-		content: url(https://i.imgur.com/XyxAYeg.png);
-		animation: squeeze2 .5s ease infinite;
-	}
-
-	/* bouncy slorg ball */
-
-	.gallery_item:nth-of-type(4) {
-		display: block !important;
-		top: 640px;
-		left: unset;
-		right: 360px;
-		z-index: 1;
-		animation: bounce 1.8s ease-in forwards;
-
-
-		animation: bounce 5s linear 2.2s forwards;
-	}
-
-	.gallery_item:nth-of-type(4) img {
-		content: url(https://i.imgur.com/nW7ZCpZ.png);
-	}
-
-	/* black slorg plushie */
-
-	.gallery_item:nth-of-type(5) {
-		display: block !important;
-		top: 600px;
-		left: unset;
-		right: 400px !important;
-		z-index: -1;
-	}
-
-	.gallery_item:nth-of-type(5) img {
-		content: url(https://i.imgur.com/UmWFrgS.png);
-	}
-
-	/* snow slorg */
-
-	.gallery_item:nth-of-type(6) {
-		display: block !important;
-		top: 450px;
-		animation: move-ltr 250s linear infinite;
-		z-index: 1;
-	}
-
-	.gallery_item:nth-of-type(6) img {
-		content: url(https://i.imgur.com/1fnVqwS.png);
-		animation: squeeze1 1.6s ease infinite;
-	}
-
-	/* snow slorgball */
-
-	.gallery_item:nth-of-type(7) {
-		display: block !important;
-		margin-top: 840px;
-		right: 550px !important;
-		left: unset;
-		animation: bounce 4s linear 2s forwards;
-	}
-
-	.gallery_item:nth-of-type(7) img {
-		content: url(https://i.imgur.com/IwpoeYq.png);
-		animation: rotate 4s linear 2s infinite;
-	}
-
-	/* darigan slorg */
-
-	.gallery_item:nth-of-type(8) {
-		display: block !important;
-		top: 560px;
-		animation: move-rtl 70s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(8) img {
-		content: url(https://i.imgur.com/u1Xyp6w.png);
-		animation: squeeze2 1.5s ease infinite;
-	}
-
-	/* faerie slorg */
-
-	.gallery_item:nth-of-type(9) {
-		display: block !important;
-		top: 150px;
-		animation: fly 25s linear 3s infinite, bob 4s ease-in-out infinite;
-	}
-
-	.gallery_item:nth-of-type(9) img {
-		width: 100px !important;
-		height: 100px !important;
-		content: url(https://i.imgur.com/ahQZOlQ.png);
-		content: url(https://i.imgur.com/Es9g05e.gif);
-		animation: squeeze1 1s ease infinite;
-	}
-
-	/* starry slorg */
-
-	.gallery_item:nth-of-type(10) {
-		display: block !important;
-		margin-top: 830px;
-		margin-left: 230px;
-		animation: move-rtl 84s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(10) img {
-		content: url(https://i.imgur.com/96x3m6u.png);
-		animation: squeeze2 .8s ease infinite;
-	}
-
-	/* sketch slorg */
-
-	.gallery_item:nth-of-type(11) {
-		display: block !important;
-		margin-top: 640px;
-		left: 0 !important;
-		animation: move-rtl 280s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(11) img {
-		opacity: 0.85;
-		content: url(https://i.imgur.com/jurxSbH.png);
-		animation: squeeze2 1.5s ease infinite;
-	}
-
-	/* ghost slorg */
-
-	.gallery_item:nth-of-type(12) {
-		display: block !important;
-		margin-top: 350px;
-		animation: ghost-jump 47s ease-in-out infinite, ghost-blink 13s ease infinite;
-	}
-
-	.gallery_item:nth-of-type(12) img {
-		opacity: 0.6;
-		content: url(https://i.imgur.com/3kLEKtn.png);
-
-	}
-
-	/* slorg */
-
-	.gallery_item:nth-of-type(13) {
-		display: block !important;
-		margin-top: 685px;
-		animation: move-rtl 380s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(13) img {
-		content: url(https://i.imgur.com/nr9H11S.png);
-		animation: squeeze2 1s ease infinite;
-	}
-
-	/* red slorg */
-
-	.gallery_item:nth-of-type(14) {
-		display: block !important;
-		margin-top: 885px;
-		right: 100px;
-		left: unset;
-		animation: move-rtl 120s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(14) img {
-		content: url(https://i.imgur.com/ygYEVMk.png);
-		animation: squeeze2 1.5s ease infinite;
-	}
-
-	/* brown slorg */
-
-	.gallery_item:nth-of-type(15) {
-		display: block !important;
-		top: 800px;
-		left: 600px;
-		animation: move-rtl 210s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(15) img {
-		content: url(https://i.imgur.com/XP4AJOL.png);
-		animation: squeeze1 0.5s ease infinite;
-	}
-
-	/* rainbow slorg */
-
-	.gallery_item:nth-of-type(16) {
-		display: block !important;
-		margin-top: 865px;
-		margin-left: -530px;
+	50% {
+		left: 100px;
 		right: unset;
+	}
+
+	100% {
 		left: unset;
-		animation: move-ltr 90s linear infinite;
+		right: 440px;
+	}
+}
+
+@keyframes ghost-blink {
+	0% {
+		opacity: 0;
 	}
 
-	.gallery_item:nth-of-type(16) img {
-		content: url(https://i.imgur.com/dIYRZfT.png);
-		animation: squeeze2 0.8s ease infinite;
+	50% {
+		opacity: 0.6;
 	}
 
-	/* island slorg */
-
-	.gallery_item:nth-of-type(17) {
-		display: block !important;
-		margin-top: 930px;
-		margin-left: -1291px;
-		animation: move-ltr 95s linear infinite;
+	70% {
+		opacity: 0.0;
 	}
 
-	.gallery_item:nth-of-type(17) img {
-		content: url(https://i.imgur.com/mUBVJBP.png);
-		animation: squeeze2 0.8s ease infinite;
+	100% {
+		opacity: 0.6;
 	}
+}
 
-	/* halloween slorg */
+/* spooky slime */
 
-	.gallery_item:nth-of-type(18) {
-		display: block !important;
-		margin-top: 998px;
-		margin-left: -930px;
-		animation: move-ltr 170s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(18) img {
-		content: url(https://i.imgur.com/jUWwg5R.png);
-		animation: squeeze1 1.4s ease infinite;
-	}
-
-	/* dung slorg */
-
-	.gallery_item:nth-of-type(19) {
-		display: block !important;
-		margin-top: 968px;
-		animation: move-rtl 170s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(19) img {
-		content: url(https://i.imgur.com/3QAuYS4.png);
-		animation: squeeze2 1.4s ease infinite;
-	}
-
-	/* spotted slorg */
-
-	.gallery_item:nth-of-type(20) {
-		display: block !important;
-		margin-top: 774px;
-		margin-left: 530px;
-		animation: move-ltr 170s linear infinite;
-	}
-
-	.gallery_item:nth-of-type(20) img {
-		content: url(https://i.imgur.com/hLPRTa1.png);
-		animation: squeeze2 1.2s ease infinite;
-	}
-
-	/* island slorg usuki set */
-
-	.gallery_item:nth-of-type(21) {
-		z-index: -1;
-		display: block !important;
-		margin-top: 703px;
-		left: 160px;
-	}
-
-	.gallery_item:nth-of-type(21) img {
-		content: url(https://i.imgur.com/bOtqC7p.png);
-	}
-
-	/* slorg habitat */
-
-	.gallery_item:nth-of-type(22) {
-		display: block !important;
-		margin: 330px auto 0;
-		right: 0;
-		left: 450px;
-	}
-
-	.gallery_item:nth-of-type(22) img {
-		content: url(https://i.imgur.com/iwLYmla.png);
-	}
-
-	/* rainbow slorg plushie */
-
-	.gallery_item:nth-of-type(23) {
-		display: block !important;
-		margin-top: 670px;
-		left: 50px !important;
-		z-index: -1;
-	}
-
-	.gallery_item:nth-of-type(23) img {
-		transform: rotate(-15deg);
-		content: url(https://i.imgur.com/M6KnhwN.png);
-	}
-
-	/* slorg slime */
-
-	.gallery_item:nth-of-type(24) {
-		display: block !important;
-		top: 500px;
-		left: -40px !important;
-	}
-
-	.gallery_item:nth-of-type(24) img {
-		content: url(https://i.imgur.com/E9OFPsx.png);
-	}
-
-	/* slorg feeder */
-
-	.gallery_item:nth-of-type(25) {
-		display: block !important;
-		top: 550px;
+@keyframes dash {
+	0% {
+		transform: scale(1);
+		right: -80px;
 		left: unset;
-		right: 780px;
-		z-index: 1;
 	}
 
-	.gallery_item:nth-of-type(25) img {
-		content: url(https://i.imgur.com/yQdHQIM.png);
+	30% {
+		transform: scaleX(1);
+		top: -600px;
+		right: 180px;
 	}
 
-	/* slorg bath tub*/
-
-	.gallery_item:nth-of-type(26) {
-		display: block !important;
-		top: 410px;
-		left: 260px;
-	}
-
-	.gallery_item:nth-of-type(26) img {
-		content: url(https://i.imgur.com/NSMIyA5.png);
+	50% {
 		transform: scaleX(-1);
 	}
 
-	/* rainbow slorg squeaky toy */
-
-	.gallery_item:nth-of-type(27) {
-		display: block !important;
-		top: 1011px;
-		left: 460px;
+	60% {
+		transform: scaleX(-1);
+		left: -150px;
+		top: 500px;
 	}
 
-	.gallery_item:nth-of-type(27) img {
-		content: url(https://i.imgur.com/jpzJzoD.png);
-		transform: scaleX(-1) scaleY(-0.9) rotate(40deg);
-		filter: brightness(1.1);
+	100% {
+		transform: scaleX(-1);
+		left: 150px;
+		top: -700px;
 	}
+}
 
-	/* the evil slorg */
 
-	.gallery_item:nth-of-type(28) {
-		display: block !important;
-		top: 711px;
-		left: unset;
-		right: -40px;
-	}
+/* =================== ITEM POSITIONS =================== */
 
-	.gallery_item:nth-of-type(28) img {
-		content: url(https://i.imgur.com/caMxnLk.png);
-	}
+/* gold slorg */
 
-	/* black slorg */
+.gallery_item:nth-of-type(1) {
+	display: block !important;
+	top: 600px;
+	left: 540px;
+	animation: move-ltr 280s linear infinite;
+}
 
-	.gallery_item:nth-of-type(29) {
-		display: block !important;
-		margin-top: 698px;
-		left: 500px;
-		animation: move-rtl 123s ease-in-out infinite;
-	}
+.gallery_item:nth-of-type(1) img {
+	content: url(https://i.imgur.com/ZHmjflJ.png);
+	animation: squeeze1 1s ease infinite;
+}
 
-	.gallery_item:nth-of-type(29) img {
-		content: url(https://i.imgur.com/iZRr3kq.png);
-		animation: squeeze1 1s ease infinite;
-	}
+/* jelly slorg */
 
-	/* spooky slime */
+.gallery_item:nth-of-type(2) {
+	display: block !important;
+	top: 540px;
+	left: 500px;
+	animation: move-rtl 50s linear infinite;
+}
 
-	.gallery_item:nth-of-type(30) {
-		display: block !important;
-		margin-top: 98px;
-		animation: dash 9s ease-in-out infinite;
-	}
+.gallery_item:nth-of-type(2) img {
+	content: url(https://i.imgur.com/QyUMZa0.png);
+	animation: squeeze2 0.3s ease infinite;
+}
 
-	.gallery_item:nth-of-type(30) img {
-		content: url(https://i.imgur.com/SbvYk82.png);
-	}
+/* pirate slorg */
 
-	/* strawberry slorg */
+.gallery_item:nth-of-type(3) {
+	display: block !important;
+	top: 700px;
+	margin-right: 00px !important;
+	left: unset;
+	animation: move-ltr 60s linear infinite;
+}
 
-	.gallery_item:nth-of-type(31) {
-		display: block !important;
-		margin-top: 988px;
-		margin-left: 320px;
-		animation: move-rtl 223s linear infinite;
-	}
+.gallery_item:nth-of-type(3) img {
+	content: url(https://i.imgur.com/XyxAYeg.png);
+	animation: squeeze2 .5s ease infinite;
+}
 
-	.gallery_item:nth-of-type(31) img {
-		content: url(https://i.imgur.com/PA1ypsU.png);
-		animation: squeeze1 1s ease infinite;
-	}
+/* bouncy slorg ball */
 
-	/* blue slorg */
+.gallery_item:nth-of-type(4) {
+	display: block !important;
+	top: 640px;
+	left: unset;
+	right: 360px;
+	z-index: 1;
+	animation: bounce 1.8s ease-in forwards;
 
-	.gallery_item:nth-of-type(32) {
-		display: block !important;
-		margin-top: 861px;
-		animation: move-ltr 118s linear infinite;
-	}
 
-	.gallery_item:nth-of-type(32) img {
-		content: url(https://i.imgur.com/12XwoHY.png);
-		animation: squeeze2 1s ease infinite;
-	}
+	animation: bounce 5s linear 2.2s forwards;
+}
 
-	/* lettuce */
+.gallery_item:nth-of-type(4) img {
+	content: url(https://i.imgur.com/nW7ZCpZ.png);
+}
 
-	.gallery_item:nth-of-type(33) {
-		display: block !important;
-		top: 520px;
-		left: unset;
-		right: 710px;
-	}
+/* black slorg plushie */
 
-	.gallery_item:nth-of-type(33) img {
-		content: url(https://i.imgur.com/MTh8MB0.png);
-	}
+.gallery_item:nth-of-type(5) {
+	display: block !important;
+	top: 600px;
+	left: unset;
+	right: 400px !important;
+	z-index: -1;
+}
 
-	/* dwarf tree */
+.gallery_item:nth-of-type(5) img {
+	content: url(https://i.imgur.com/UmWFrgS.png);
+}
 
-	.gallery_item:nth-of-type(34) {
-		display: block !important;
-		top: 360px;
-		left: 196px;
-	}
+/* snow slorg */
 
-	.gallery_item:nth-of-type(34) img {
-		content: url(https://i.imgur.com/Qb6icYc.png);
-	}
+.gallery_item:nth-of-type(6) {
+	display: block !important;
+	top: 450px;
+	animation: move-ltr 250s linear infinite;
+	z-index: 1;
+}
 
-	/* mixed flowers */
+.gallery_item:nth-of-type(6) img {
+	content: url(https://i.imgur.com/1fnVqwS.png);
+	animation: squeeze1 1.6s ease infinite;
+}
 
-	.gallery_item:nth-of-type(35) {
-		display: block !important;
-		top: 665px;
-		left: 496px;
-		z-index: -1;
-	}
+/* snow slorgball */
 
-	.gallery_item:nth-of-type(35) img {
-		content: url(https://i.imgur.com/1ipfMDv.png);
-	}
+.gallery_item:nth-of-type(7) {
+	display: block !important;
+	margin-top: 840px;
+	right: 550px !important;
+	left: unset;
+	animation: bounce 4s linear 2s forwards;
+}
 
-	/* rainbow morning flower */
+.gallery_item:nth-of-type(7) img {
+	content: url(https://i.imgur.com/IwpoeYq.png);
+	animation: rotate 4s linear 2s infinite;
+}
 
-	.gallery_item:nth-of-type(36) {
-		display: block !important;
-		top: 530px;
-		left: unset;
-		right: 290px;
-		z-index: 1;
-		animation: rotate-less 4s ease infinite;
-	}
+/* darigan slorg */
 
-	.gallery_item:nth-of-type(36) img {
-		content: url(https://i.imgur.com/6eQ6xBv.png);
-	}
+.gallery_item:nth-of-type(8) {
+	display: block !important;
+	top: 560px;
+	animation: move-rtl 70s linear infinite;
+}
 
-	/* lily of the valley */
+.gallery_item:nth-of-type(8) img {
+	content: url(https://i.imgur.com/u1Xyp6w.png);
+	animation: squeeze2 1.5s ease infinite;
+}
 
-	.gallery_item:nth-of-type(37) {
-		display: block !important;
-		top: 890px;
+/* faerie slorg */
+
+.gallery_item:nth-of-type(9) {
+	display: block !important;
+	top: 150px;
+	animation: fly 25s linear 3s infinite, bob 4s ease-in-out infinite;
+}
+
+.gallery_item:nth-of-type(9) img {
+	width: 100px !important;
+	height: 100px !important;
+	content: url(https://i.imgur.com/ahQZOlQ.png);
+	content: url(https://i.imgur.com/Es9g05e.gif);
+	animation: squeeze1 1s ease infinite;
+}
+
+/* starry slorg */
+
+.gallery_item:nth-of-type(10) {
+	display: block !important;
+	margin-top: 830px;
+	margin-left: 230px;
+	animation: move-rtl 84s linear infinite;
+}
+
+.gallery_item:nth-of-type(10) img {
+	content: url(https://i.imgur.com/96x3m6u.png);
+	animation: squeeze2 .8s ease infinite;
+}
+
+/* sketch slorg */
+
+.gallery_item:nth-of-type(11) {
+	display: block !important;
+	margin-top: 640px;
+	left: 0 !important;
+	animation: move-rtl 280s linear infinite;
+}
+
+.gallery_item:nth-of-type(11) img {
+	opacity: 0.85;
+	content: url(https://i.imgur.com/jurxSbH.png);
+	animation: squeeze2 1.5s ease infinite;
+}
+
+/* ghost slorg */
+
+.gallery_item:nth-of-type(12) {
+	display: block !important;
+	margin-top: 350px;
+	animation: ghost-jump 47s ease-in-out infinite, ghost-blink 13s ease infinite;
+}
+
+.gallery_item:nth-of-type(12) img {
+	opacity: 0.6;
+	content: url(https://i.imgur.com/3kLEKtn.png);
+
+}
+
+/* slorg */
+
+.gallery_item:nth-of-type(13) {
+	display: block !important;
+	margin-top: 685px;
+	animation: move-rtl 380s linear infinite;
+}
+
+.gallery_item:nth-of-type(13) img {
+	content: url(https://i.imgur.com/nr9H11S.png);
+	animation: squeeze2 1s ease infinite;
+}
+
+/* red slorg */
+
+.gallery_item:nth-of-type(14) {
+	display: block !important;
+	margin-top: 885px;
+	right: 100px;
+	left: unset;
+	animation: move-rtl 120s linear infinite;
+}
+
+.gallery_item:nth-of-type(14) img {
+	content: url(https://i.imgur.com/ygYEVMk.png);
+	animation: squeeze2 1.5s ease infinite;
+}
+
+/* brown slorg */
+
+.gallery_item:nth-of-type(15) {
+	display: block !important;
+	top: 800px;
+	left: 600px;
+	animation: move-rtl 210s linear infinite;
+}
+
+.gallery_item:nth-of-type(15) img {
+	content: url(https://i.imgur.com/XP4AJOL.png);
+	animation: squeeze1 0.5s ease infinite;
+}
+
+/* rainbow slorg */
+
+.gallery_item:nth-of-type(16) {
+	display: block !important;
+	margin-top: 865px;
+	margin-left: -530px;
+	right: unset;
+	left: unset;
+	animation: move-ltr 90s linear infinite;
+}
+
+.gallery_item:nth-of-type(16) img {
+	content: url(https://i.imgur.com/dIYRZfT.png);
+	animation: squeeze2 0.8s ease infinite;
+}
+
+/* island slorg */
+
+.gallery_item:nth-of-type(17) {
+	display: block !important;
+	margin-top: 930px;
+	margin-left: -1291px;
+	animation: move-ltr 95s linear infinite;
+}
+
+.gallery_item:nth-of-type(17) img {
+	content: url(https://i.imgur.com/mUBVJBP.png);
+	animation: squeeze2 0.8s ease infinite;
+}
+
+/* halloween slorg */
+
+.gallery_item:nth-of-type(18) {
+	display: block !important;
+	margin-top: 998px;
+	margin-left: -930px;
+	animation: move-ltr 170s linear infinite;
+}
+
+.gallery_item:nth-of-type(18) img {
+	content: url(https://i.imgur.com/jUWwg5R.png);
+	animation: squeeze1 1.4s ease infinite;
+}
+
+/* dung slorg */
+
+.gallery_item:nth-of-type(19) {
+	display: block !important;
+	margin-top: 968px;
+	animation: move-rtl 170s linear infinite;
+}
+
+.gallery_item:nth-of-type(19) img {
+	content: url(https://i.imgur.com/3QAuYS4.png);
+	animation: squeeze2 1.4s ease infinite;
+}
+
+/* spotted slorg */
+
+.gallery_item:nth-of-type(20) {
+	display: block !important;
+	margin-top: 774px;
+	margin-left: 530px;
+	animation: move-ltr 170s linear infinite;
+}
+
+.gallery_item:nth-of-type(20) img {
+	content: url(https://i.imgur.com/hLPRTa1.png);
+	animation: squeeze2 1.2s ease infinite;
+}
+
+/* island slorg usuki set */
+
+.gallery_item:nth-of-type(21) {
+	z-index: -1;
+	display: block !important;
+	margin-top: 703px;
+	left: 160px;
+}
+
+.gallery_item:nth-of-type(21) img {
+	content: url(https://i.imgur.com/bOtqC7p.png);
+}
+
+/* slorg habitat */
+
+.gallery_item:nth-of-type(22) {
+	display: block !important;
+	margin: 330px auto 0;
+	right: 0;
+	left: 450px;
+}
+
+.gallery_item:nth-of-type(22) img {
+	content: url(https://i.imgur.com/iwLYmla.png);
+}
+
+/* rainbow slorg plushie */
+
+.gallery_item:nth-of-type(23) {
+	display: block !important;
+	margin-top: 670px;
+	left: 50px !important;
+	z-index: -1;
+}
+
+.gallery_item:nth-of-type(23) img {
+	transform: rotate(-15deg);
+	content: url(https://i.imgur.com/M6KnhwN.png);
+}
+
+/* slorg slime */
+
+.gallery_item:nth-of-type(24) {
+	display: block !important;
+	top: 500px;
+	left: -40px !important;
+}
+
+.gallery_item:nth-of-type(24) img {
+	content: url(https://i.imgur.com/E9OFPsx.png);
+}
+
+/* slorg feeder */
+
+.gallery_item:nth-of-type(25) {
+	display: block !important;
+	top: 550px;
+	left: unset;
+	right: 780px;
+	z-index: 1;
+}
+
+.gallery_item:nth-of-type(25) img {
+	content: url(https://i.imgur.com/yQdHQIM.png);
+}
+
+/* slorg bath tub*/
+
+.gallery_item:nth-of-type(26) {
+	display: block !important;
+	top: 410px;
+	left: 260px;
+}
+
+.gallery_item:nth-of-type(26) img {
+	content: url(https://i.imgur.com/NSMIyA5.png);
+	transform: scaleX(-1);
+}
+
+/* rainbow slorg squeaky toy */
+
+.gallery_item:nth-of-type(27) {
+	display: block !important;
+	top: 1011px;
+	left: 460px;
+}
+
+.gallery_item:nth-of-type(27) img {
+	content: url(https://i.imgur.com/jpzJzoD.png);
+	transform: scaleX(-1) scaleY(-0.9) rotate(40deg);
+	filter: brightness(1.1);
+}
+
+/* the evil slorg */
+
+.gallery_item:nth-of-type(28) {
+	display: block !important;
+	top: 711px;
+	left: unset;
+	right: -40px;
+}
+
+.gallery_item:nth-of-type(28) img {
+	content: url(https://i.imgur.com/caMxnLk.png);
+}
+
+/* black slorg */
+
+.gallery_item:nth-of-type(29) {
+	display: block !important;
+	margin-top: 698px;
+	left: 500px;
+	animation: move-rtl 123s ease-in-out infinite;
+}
+
+.gallery_item:nth-of-type(29) img {
+	content: url(https://i.imgur.com/iZRr3kq.png);
+	animation: squeeze1 1s ease infinite;
+}
+
+/* spooky slime */
+
+.gallery_item:nth-of-type(30) {
+	display: block !important;
+	margin-top: 98px;
+	animation: dash 9s ease-in-out infinite;
+}
+
+.gallery_item:nth-of-type(30) img {
+	content: url(https://i.imgur.com/SbvYk82.png);
+}
+
+/* strawberry slorg */
+
+.gallery_item:nth-of-type(31) {
+	display: block !important;
+	margin-top: 988px;
+	margin-left: 320px;
+	animation: move-rtl 223s linear infinite;
+}
+
+.gallery_item:nth-of-type(31) img {
+	content: url(https://i.imgur.com/PA1ypsU.png);
+	animation: squeeze1 1s ease infinite;
+}
+
+/* blue slorg */
+
+.gallery_item:nth-of-type(32) {
+	display: block !important;
+	margin-top: 861px;
+	animation: move-ltr 118s linear infinite;
+}
+
+.gallery_item:nth-of-type(32) img {
+	content: url(https://i.imgur.com/12XwoHY.png);
+	animation: squeeze2 1s ease infinite;
+}
+
+/* lettuce */
+
+.gallery_item:nth-of-type(33) {
+	display: block !important;
+	top: 520px;
+	left: unset;
+	right: 710px;
+}
+
+.gallery_item:nth-of-type(33) img {
+	content: url(https://i.imgur.com/MTh8MB0.png);
+}
+
+/* dwarf tree */
+
+.gallery_item:nth-of-type(34) {
+	display: block !important;
+	top: 360px;
+	left: 196px;
+}
+
+.gallery_item:nth-of-type(34) img {
+	content: url(https://i.imgur.com/Qb6icYc.png);
+}
+
+/* mixed flowers */
+
+.gallery_item:nth-of-type(35) {
+	display: block !important;
+	top: 665px;
+	left: 496px;
+	z-index: -1;
+}
+
+.gallery_item:nth-of-type(35) img {
+	content: url(https://i.imgur.com/1ipfMDv.png);
+}
+
+/* rainbow morning flower */
+
+.gallery_item:nth-of-type(36) {
+	display: block !important;
+	top: 530px;
+	left: unset;
+	right: 290px;
+	z-index: 1;
+	animation: rotate-less 4s ease infinite;
+}
+
+.gallery_item:nth-of-type(36) img {
+	content: url(https://i.imgur.com/6eQ6xBv.png);
+}
+
+/* lily of the valley */
+
+.gallery_item:nth-of-type(37) {
+	display: block !important;
+	top: 890px;
+	left: 20px;
+	z-index: -1;
+	animation: rotate-less 6s ease infinite;
+}
+
+.gallery_item:nth-of-type(37) img {
+	content: url(https://i.imgur.com/ZzoFqlU.png);
+}
+
+/* =================== MEDIA QUERIES =================== */
+
+@media only screen and (max-width: 868px) {
+
+	.slorg-ball {
 		left: 20px;
-		z-index: -1;
-		animation: rotate-less 6s ease infinite;
+		bottom: 100px;
+		transform: scale(0.8) !important;
 	}
 
-	.gallery_item:nth-of-type(37) img {
-		content: url(https://i.imgur.com/ZzoFqlU.png);
+	#title {
+		height: unset;
 	}
 
-	/* =================== MEDIA QUERIES =================== */
+	#foreground-items {
+		bottom: -10px;
+		right: -25px;
+		transform: scale(0.8) !important;
+	}
 
-	@media only screen and (max-width: 868px) {
+	#page_content::before {
+		transform: scale(0.5) !important;
+		left: 0 !important;
+		bottom: 25px;
+		transform-origin: left bottom;
+	}
 
-		.slorg-ball {
-			left: 20px;
-			bottom: 100px;
-			transform: scale(0.8) !important;
+	#container::before {
+		transform: scale(0.5) !important;
+		left: 0 !important;
+		transform-origin: left bottom;
+	}
+
+	#container::after {
+		transform: scale(0.5) !important;
+		right: 0 !important;
+		transform-origin: right bottom;
+	}
+
+	#page_content {
+		padding-bottom: 0;
+	}
+
+	#gallery_items {
+		transform: scale(0.8) !important;
+		margin-top: -240px !important;
+	}
+
+	@media only screen and (max-width: 568px) {
+
+		#nameboard {
+			width: 100%;
+			text-align: center;
 		}
 
-		#title {
-			height: unset;
-		}
-
-		#foreground-items {
-			bottom: -10px;
-			right: -25px;
-			transform: scale(0.8) !important;
-		}
-
-		#page_content::before {
-			transform: scale(0.5) !important;
-			left: 0 !important;
-			bottom: 25px;
-			transform-origin: left bottom;
-		}
-
-		#container::before {
-			transform: scale(0.5) !important;
-			left: 0 !important;
-			transform-origin: left bottom;
-		}
-
-		#container::after {
-			transform: scale(0.5) !important;
-			right: 0 !important;
-			transform-origin: right bottom;
-		}
-
-		#page_content {
-			padding-bottom: 0;
+		#nameboard img {
+			height: 180px;
+			width: 80%;
 		}
 
 		#gallery_items {
-			transform: scale(0.8) !important;
-			margin-top: -240px !important;
+			transform: scale(0.7) !important;
+			margin-top: -260px !important;
+		}
+	}
+
+	@media only screen and (orientation: portrait) {
+
+
+		#title {
+			height: fit-content !important;
 		}
 
-		@media only screen and (max-width: 568px) {
-
-			#nameboard {
-				width: 100%;
-				text-align: center;
-			}
-
-			#nameboard img {
-				height: 180px;
-				width: 80%;
-			}
-
-			#gallery_items {
-				transform: scale(0.7) !important;
-				margin-top: -260px !important;
-			}
+		#page_content {
+			padding-top: 10px !important;
+			padding-bottom: 0 !important;
 		}
-     
-        @media only screen and (orientation: portrait) {
-    
-            
-            #title {
-                height: fit-content!important;
-            }
-            
-		    #page_content {
-                padding-top:10px!important;
-                padding-bottom: 0!important;
-		    }
-            
-	    }
-        
-    }
+
+	}
+
+}
