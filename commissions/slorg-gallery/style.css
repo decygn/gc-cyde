@@ -607,7 +607,7 @@ nav a:nth-child(3) {
 
 	60% {
 		transform: scaleX(-1);
-		left: -180px;
+		left: -250px;
 		top: 500px;
 	}
 
@@ -1217,8 +1217,7 @@ nav a:nth-child(3) {
 			object-fit: cover;
 		}
 
-		#nameboard {
-		}
+		#nameboard {}
 
 		@keyframes nameboard-reveal {
 			0% {
