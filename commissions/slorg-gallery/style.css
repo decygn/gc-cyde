@@ -1206,7 +1206,7 @@ nav a:nth-child(3) {
 
 		#page_content {
 			padding-bottom: 0 !important;
-			min-height: calc(100vh - 200px) !important;
+			min-height: calc(100vh - 260px) !important;
 		}
 
 		#title {
@@ -1217,7 +1217,24 @@ nav a:nth-child(3) {
 			object-fit: cover;
 		}
 
-		#nameboard {}
+		#nameboard {
+			margin-top: -100px;
+		}
+
+		#galleryInfo {
+			margin-top: -50px !important;
+		}
+
+		@keyframes galleryinfo-reveal {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
 
 		@keyframes nameboard-reveal {
 			0% {
