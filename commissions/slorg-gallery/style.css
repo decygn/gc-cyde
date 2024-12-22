@@ -1217,6 +1217,21 @@ nav a:nth-child(3) {
 			object-fit: cover;
 		}
 
+		#nameboard {
+			margin-top: -100px !important;
+		}
+
+		@keyframes nameboard-reveal {
+			0% {
+				opacity: 0;
+				margin-top: -130px;
+			}
+
+			100% {
+				opacity: 1;
+				margin-top: -100px;
+			}
+		}
 	}
 
 }
