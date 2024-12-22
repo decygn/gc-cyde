@@ -1138,7 +1138,7 @@ nav a:nth-child(3) {
 
 /* =================== MEDIA QUERIES =================== */
 
-@media only screen and (max-width: 868px) {
+@media only screen and (max-width: 968px) {
 
 	.slorg-ball {
 		left: 20px;
