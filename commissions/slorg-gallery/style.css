@@ -1147,7 +1147,7 @@ nav a:nth-child(3) {
 	}
 
 	#title {
-		height: unset;
+		height: unset !important;
 	}
 
 	#foreground-items {
@@ -1203,11 +1203,6 @@ nav a:nth-child(3) {
 	}
 
 	@media only screen and (orientation: portrait) {
-
-
-		#title {
-			height: fit-content !important;
-		}
 
 		#page_content {
 			padding-top: 10px !important;
