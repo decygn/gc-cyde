@@ -670,7 +670,7 @@ nav a:nth-child(3) {
 	display: block !important;
 	top: 640px;
 	left: unset;
-	right: 360px;
+	right: 340px;
 	z-index: 1;
 	animation: bounce 1.8s ease-in forwards;
 
@@ -1251,7 +1251,14 @@ nav a:nth-child(3) {
 		}
 
 		#galleryInfo {
-			margin-top: -10px !important;
+			margin-top: -8px !important;
+		}
+
+		/* ================ ITEM POSITIONS ================= */
+
+		/* the evil slorg */
+		.gallery_item:nth-of-type(28) {
+			top: 411px !important;
 		}
 
 	}
