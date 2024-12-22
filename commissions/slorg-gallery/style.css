@@ -1205,7 +1205,6 @@ nav a:nth-child(3) {
 	@media only screen and (orientation: portrait) {
 
 		#page_content {
-			padding-top: 10px !important;
 			padding-bottom: 0 !important;
 		}
 
