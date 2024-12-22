@@ -1209,6 +1209,10 @@ nav a:nth-child(3) {
 			padding-bottom: 0 !important;
 		}
 
+		#title {
+			height: fit-content !important;
+		}
+
 	}
 
 }
