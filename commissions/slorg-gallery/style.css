@@ -63,7 +63,6 @@ a:hover {
 
 #page_content {
 	top: 0 !important;
-	padding-top: 300px;
 	padding-bottom: 500px;
 	position: relative;
 	width: 100% !important;
@@ -73,6 +72,7 @@ a:hover {
 #gallery_items {
 	width: 100% !important;
 	height: 100% !important;
+	padding-top: 300px;
 	display: block !important;
 	position: relative !important;
 	opacity: 0;
