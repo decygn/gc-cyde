@@ -672,9 +672,6 @@ nav a:nth-child(3) {
 	left: unset;
 	right: 340px;
 	z-index: 1;
-	animation: bounce 1.8s ease-in forwards;
-
-
 	animation: bounce 5s linear 2.2s forwards;
 }
 
@@ -1255,6 +1252,13 @@ nav a:nth-child(3) {
 		}
 
 		/* ================ ITEM POSITIONS ================= */
+
+		/* bouncy slorg ball */
+
+		.gallery_item:nth-of-type(4) {
+			top: 650px;
+			right: 280px;
+		}
 
 		/* snow slorgball */
 
