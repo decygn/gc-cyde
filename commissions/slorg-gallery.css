@@ -2,7 +2,7 @@
 
     html, 
     body {
-        overflow-x: hidden !important;
+        overflow-x: hidden !important;outline:1px solid red;
     }
     
 	#sb_side,
