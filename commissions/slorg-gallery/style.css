@@ -1099,8 +1099,8 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(35) {
 	display: block !important;
-	top: 665px;
-	right: 297px;
+	top: 425px;
+	right: 197px;
 	left: unset;
 	z-index: -1;
 }
@@ -1256,9 +1256,22 @@ nav a:nth-child(3) {
 
 		/* ================ ITEM POSITIONS ================= */
 
+		/* snow slorgball */
+
+		.gallery_item:nth-of-type(7) {
+			margin-top: 740px;
+			right: 350px !important;
+		}
+
 		/* the evil slorg */
 		.gallery_item:nth-of-type(28) {
-			top: 411px !important;
+			top: 441px !important;
+		}
+
+		/* lily of the valley */
+
+		.gallery_item:nth-of-type(37) {
+			top: 383px !important;
 		}
 
 	}
