@@ -966,7 +966,7 @@ nav a:nth-child(3) {
 	top: 550px;
 	left: unset;
 	right: 780px;
-	z-index: -1;
+	z-index: -2;
 }
 
 .gallery_item:nth-of-type(25) img {
@@ -979,7 +979,7 @@ nav a:nth-child(3) {
 	display: block !important;
 	top: 410px;
 	left: 260px;
-	z-index: 1;
+	z-index: -2;
 }
 
 .gallery_item:nth-of-type(26) img {
@@ -1096,8 +1096,8 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(35) {
 	display: block !important;
-	top: 425px;
-	right: 197px;
+	top: 4725px;
+	right: 147px;
 	left: unset;
 	z-index: -1;
 }
@@ -1125,7 +1125,7 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(37) {
 	display: block !important;
-	top: 383px;
+	top: 611px;
 	left: 20px;
 	z-index: -1;
 	animation: rotate-less 6s ease infinite;
@@ -1270,6 +1270,13 @@ nav a:nth-child(3) {
 		/* the evil slorg */
 		.gallery_item:nth-of-type(28) {
 			top: 441px !important;
+		}
+
+		/* mixed flowers */
+
+		.gallery_item:nth-of-type(35) {
+			top: 425px;
+			right: 197px;
 		}
 
 		/* lily of the valley */
