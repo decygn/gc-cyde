@@ -56,13 +56,13 @@ a:hover {
 
 #container {
 	display: block;
-	top: 0;
+	top: 0 !important;
 	min-width: 0 !important;
 	width: 100% !important;
 }
 
 #page_content {
-	top: 0;
+	top: 0 !important;
 	padding-top: 300px;
 	padding-bottom: 500px;
 	position: relative;
