@@ -1196,11 +1196,25 @@ nav a:nth-child(3) {
 	top: 351px;
 	left: 400px;
 	z-index: -1;
-	animation: rotate-less 6s ease infinite;
 }
 
 .gallery_item:nth-of-type(42) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_kacheek_topiary.png);
+}
+
+/* pebeanjay flowers */
+
+.gallery_item:nth-of-type(43) {
+	display: block !important;
+	top: 670px;
+	left: unset;
+	right: -50px;
+	z-index: -1;
+	animation: rotate-less 6s ease infinite;
+}
+
+.gallery_item:nth-of-type(43) img {
+	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_cyclamen.png);
 }
 
 /* =================== MEDIA QUERIES =================== */
