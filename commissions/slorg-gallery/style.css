@@ -1148,6 +1148,19 @@ nav a:nth-child(3) {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/ga_rosetree.png);
 }
 
+/* yellow eesa tree */
+
+.gallery_item:nth-of-type(39) {
+	display: block !important;
+	top: 411px;
+	left: 420px;
+	z-index: -1;
+}
+
+.gallery_item:nth-of-type(39) img {
+	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/ga_yelloweesatree.png);
+}
+
 /* =================== MEDIA QUERIES =================== */
 
 @media only screen and (max-width: 968px) {
