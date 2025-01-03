@@ -1139,13 +1139,12 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(38) {
 	display: block !important;
-	top: 611px;
-	left: 20px;
+	top: 411px;
+	left: 420px;
 	z-index: -1;
-	animation: rotate-less 6s ease infinite;
 }
 
-.gallery_item:nth-of-type(37) img {
+.gallery_item:nth-of-type(38) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/ga_rosetree.png);
 }
 
