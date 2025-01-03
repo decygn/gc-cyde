@@ -1152,8 +1152,9 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(39) {
 	display: block !important;
-	top: 411px;
-	left: 420px;
+	top: 431px;
+	right: 170px;
+	left: unset;
 	z-index: -1;
 }
 
@@ -1165,22 +1166,24 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(40) {
 	display: block !important;
-	top: 411px;
-	left: 420px;
+	top: 761px;
+	left: 590px;
 	z-index: -1;
 }
 
 .gallery_item:nth-of-type(40) img {
-	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_summerbush2.png);
+	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_summerbush_2.png);
 }
 
 /* pink cyclamen */
 
 .gallery_item:nth-of-type(41) {
 	display: block !important;
-	top: 411px;
-	left: 420px;
+	top: 351px;
+	right: 260px;
+	left: unset;
 	z-index: -1;
+	animation: rotate-less 6s ease infinite;
 }
 
 .gallery_item:nth-of-type(41) img {
