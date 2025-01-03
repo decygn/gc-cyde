@@ -1193,8 +1193,8 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(42) {
 	display: block !important;
-	top: 371px;
-	left: 10px;
+	top: 351px;
+	left: 400px;
 	z-index: -1;
 	animation: rotate-less 6s ease infinite;
 }
