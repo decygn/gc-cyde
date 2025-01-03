@@ -1221,9 +1221,9 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(44) {
 	display: block !important;
-	top: 495px;
+	top: 485px;
 	left: unset;
-	right: -80px;
+	right: -110px;
 	z-index: -1;
 	animation: rotate-less 6s ease infinite;
 }
@@ -1237,7 +1237,7 @@ nav a:nth-child(3) {
 .gallery_item:nth-of-type(45) {
 	display: block !important;
 	top: 308px;
-	right: 238px;
+	right: 208px;
 	left: unset;
 	z-index: -1;
 }
