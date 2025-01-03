@@ -1179,7 +1179,7 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(41) {
 	display: block !important;
-	top: 371px;
+	top: 791px;
 	left: 10px;
 	z-index: -1;
 	animation: rotate-less 6s ease infinite;
@@ -1193,8 +1193,8 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(42) {
 	display: block !important;
-	top: 351px;
-	left: 400px;
+	top: 341px;
+	left: 780px;
 	z-index: -1;
 }
 
@@ -1206,9 +1206,9 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(43) {
 	display: block !important;
-	top: 670px;
+	top: 980px;
 	left: unset;
-	right: -50px;
+	right: -10px;
 	z-index: -1;
 	animation: rotate-less 6s ease infinite;
 }
@@ -1221,9 +1221,9 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(44) {
 	display: block !important;
-	top: 485px;
+	top: 525px;
 	left: unset;
-	right: -110px;
+	right: 360px;
 	z-index: 1;
 	animation: rotate-less 6s ease infinite;
 }
@@ -1236,8 +1236,8 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(45) {
 	display: block !important;
-	top: 308px;
-	right: 208px;
+	top: 435px;
+	right: 808px;
 	left: unset;
 	z-index: -1;
 }
@@ -1423,6 +1423,40 @@ nav a:nth-child(3) {
 			top: 383px !important;
 		}
 
+		/* pink cyclamen */
+
+		.gallery_item:nth-of-type(41) {
+			top: 371px;
+		}
+
+		/* kacheek tree sculpture */
+
+		.gallery_item:nth-of-type(42) {
+			top: 351px;
+			left: 400px;
+		}
+
+		/* pebeanjay flowers */
+
+		.gallery_item:nth-of-type(43) {
+			top: 670px;
+			left: unset;
+			right: -50px;
+		}
+
+		/* gardenias */
+
+		.gallery_item:nth-of-type(44) {
+			top: 485px;
+			right: -110px;
+		}
+
+		/* cobblestone bridge */
+
+		.gallery_item:nth-of-type(45) {
+			top: 308px;
+			right: 208px;
+		}
 	}
 
 }
