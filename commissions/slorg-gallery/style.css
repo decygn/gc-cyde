@@ -1264,8 +1264,8 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(47) {
 	display: block !important;
-	top: 510px;
-	left: 240px;
+	top: 890px;
+	left: 820px;
 	z-index: -1;
 }
 
@@ -1427,6 +1427,13 @@ nav a:nth-child(3) {
 
 		.gallery_item:nth-of-type(41) {
 			top: 371px;
+		}
+
+		/* pink pteri fountain */
+
+		.gallery_item:nth-of-type(47) {
+			top: 510px;
+			left: 240px;
 		}
 
 		/* kacheek tree sculpture */
