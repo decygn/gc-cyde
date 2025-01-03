@@ -1221,9 +1221,9 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(44) {
 	display: block !important;
-	top: 570px;
+	top: 495px;
 	left: unset;
-	right: -10px;
+	right: -80px;
 	z-index: -1;
 	animation: rotate-less 6s ease infinite;
 }
@@ -1236,8 +1236,9 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(45) {
 	display: block !important;
-	top: 251px;
-	left: 400px;
+	top: 308px;
+	right: 238px;
+	left: unset;
 	z-index: -1;
 }
 
@@ -1249,10 +1250,9 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(46) {
 	display: block !important;
-	top: 570px;
-	left: unset;
-	right: -10px;
-	z-index: -1;
+	top: 590px;
+	left: -130px;
+	z-index: 1;
 	animation: rotate-less 6s ease infinite;
 }
 
@@ -1264,8 +1264,8 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(47) {
 	display: block !important;
-	top: 251px;
-	left: 300px;
+	top: 510px;
+	left: 240px;
 	z-index: -1;
 }
 
