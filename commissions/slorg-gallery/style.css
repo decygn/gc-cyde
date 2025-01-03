@@ -1189,6 +1189,20 @@ nav a:nth-child(3) {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_cyclamen.png);
 }
 
+/* kacheek tree sculpture */
+
+.gallery_item:nth-of-type(42) {
+	display: block !important;
+	top: 371px;
+	left: 10px;
+	z-index: -1;
+	animation: rotate-less 6s ease infinite;
+}
+
+.gallery_item:nth-of-type(42) img {
+	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_kacheek_topiary.png);
+}
+
 /* =================== MEDIA QUERIES =================== */
 
 @media only screen and (max-width: 968px) {
