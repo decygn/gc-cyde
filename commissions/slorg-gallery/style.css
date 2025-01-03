@@ -1161,6 +1161,32 @@ nav a:nth-child(3) {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/ga_yelloweesatree.png);
 }
 
+/* aurora lily */
+
+.gallery_item:nth-of-type(40) {
+	display: block !important;
+	top: 411px;
+	left: 420px;
+	z-index: -1;
+}
+
+.gallery_item:nth-of-type(40) img {
+	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_summerbush2.png);
+}
+
+/* pink cyclamen */
+
+.gallery_item:nth-of-type(41) {
+	display: block !important;
+	top: 411px;
+	left: 420px;
+	z-index: -1;
+}
+
+.gallery_item:nth-of-type(41) img {
+	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_cyclamen.png);
+}
+
 /* =================== MEDIA QUERIES =================== */
 
 @media only screen and (max-width: 968px) {
