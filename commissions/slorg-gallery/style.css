@@ -1153,7 +1153,7 @@ nav a:nth-child(3) {
 .gallery_item:nth-of-type(39) {
 	display: block !important;
 	top: 571px;
-	right: 190px;
+	right: 40px;
 	left: unset;
 	z-index: -1;
 }
@@ -1179,9 +1179,8 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(41) {
 	display: block !important;
-	top: 1031px;
-	right: 260px;
-	left: unset;
+	top: 371px;
+	left: 10px;
 	z-index: -1;
 	animation: rotate-less 6s ease infinite;
 }
