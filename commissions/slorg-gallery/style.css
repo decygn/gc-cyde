@@ -1135,6 +1135,20 @@ nav a:nth-child(3) {
 	content: url(https://i.imgur.com/ZzoFqlU.png);
 }
 
+/* rose tree */
+
+.gallery_item:nth-of-type(38) {
+	display: block !important;
+	top: 611px;
+	left: 20px;
+	z-index: -1;
+	animation: rotate-less 6s ease infinite;
+}
+
+.gallery_item:nth-of-type(37) img {
+	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/ga_rosetree.png);
+}
+
 /* =================== MEDIA QUERIES =================== */
 
 @media only screen and (max-width: 968px) {
