@@ -625,15 +625,17 @@ nav a:nth-child(3) {
 
 .gallery_item:nth-of-type(1) {
 	display: block !important;
-	top: 600px;
-	left: 540px;
-	animation: move-ltr 280s linear infinite;
+	top: 760px;
+	left: 700px;
 }
 
 .gallery_item:nth-of-type(1) img {
 	content: url(https://i.imgur.com/ZHmjflJ.png);
 	animation: squeeze1 1s ease infinite;
+	width: 140px !important;
+	height: 140px !important;
 }
+
 
 /* jelly slorg */
 
