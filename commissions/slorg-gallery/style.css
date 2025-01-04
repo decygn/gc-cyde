@@ -623,15 +623,14 @@ nav a:nth-child(3) {
 
 /* gold slorg */
 
-.gallery_item:has([src*="slorg_gold"]) {
+.gallery_item:nth-of-type(1) {
 	display: block !important;
 	top: 600px;
 	left: 540px;
-	outline: 1px solid red;
 	animation: move-ltr 280s linear infinite;
 }
 
-.gallery_item img[src*="slorg_gold"] {
+.gallery_item:nth-of-type(1) {
 	content: url(https://i.imgur.com/ZHmjflJ.png);
 	animation: squeeze1 1s ease infinite;
 }
@@ -1263,26 +1262,15 @@ nav a:nth-child(3) {
 
 /* pink pteri fountain */
 
-.gallery_item:nth-of-type(47) {
+.gallery_item:has([src*="pteri_fountain"]) {
 	display: block !important;
 	top: 890px;
 	left: 820px;
 	z-index: -1;
 }
 
-.gallery_item:nth-of-type(47) img {
+.gallery_item:has([src*="pteri_fountain"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_pteri_fountain.png);
-}
-
-.gallery_item:has([src*="slorg_gold"]) {
-	display: block !important;
-	top: 600px;
-	animation: move-ltr 280s linear infinite;
-}
-
-.gallery_item img[src*="slorg_gold"] {
-	content: url(https://i.imgur.com/ZHmjflJ.png);
-	animation: squeeze1 1s ease infinite;
 }
 
 /* =================== MEDIA QUERIES =================== */
@@ -1443,7 +1431,7 @@ nav a:nth-child(3) {
 
 		/* pink pteri fountain */
 
-		.gallery_item:nth-of-type(47) {
+		.gallery_item:has([src*="pteri_fountain"]) {
 			top: 510px;
 			left: 240px;
 		}
