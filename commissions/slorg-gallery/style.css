@@ -623,14 +623,14 @@ nav a:nth-child(3) {
 
 /* gold slorg */
 
-.gallery_item:nth-of-type(1) {
+.gallery_item img[src*="gold_slorg"] {
 	display: block !important;
 	top: 600px;
 	left: 540px;
 	animation: move-ltr 280s linear infinite;
 }
 
-.gallery_item:nth-of-type(1) img {
+.gallery_item img[src*="gold_slorg"] {
 	content: url(https://i.imgur.com/ZHmjflJ.png);
 	animation: squeeze1 1s ease infinite;
 }
