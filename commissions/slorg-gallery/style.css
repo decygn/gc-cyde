@@ -1274,6 +1274,19 @@ nav a:nth-child(3) {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_pteri_fountain.png);
 }
 
+.gallery_item:has([src*="slorg_gold"]) {
+	display: block !important;
+	top: 600px;
+	left: 540px;
+	outline: 1px solid red;
+	animation: move-ltr 280s linear infinite;
+}
+
+.gallery_item img[src*="slorg_gold"] {
+	content: url(https://i.imgur.com/ZHmjflJ.png);
+	animation: squeeze1 1s ease infinite;
+}
+
 /* =================== MEDIA QUERIES =================== */
 
 @media only screen and (max-width: 968px) {
