@@ -47,7 +47,7 @@ strong {
 #container::after {
     content: "";
     background: url(https://i.imgur.com/FEObKQK.gif);
-    background-size: 400px;
+    background-size: 500px;
     background-repeat: repeat;
     position: fixed;
     mix-blend-mode: screen;
@@ -168,7 +168,7 @@ nav a {
     left: 0;
     right: 0;
     height: 150px;
-    margin-left: -20px;
+    margin-left: -10px;
     border-radius: 50px;
     position: absolute;
     background: #fff;
