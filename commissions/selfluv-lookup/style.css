@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,200..800;1,200..800&display=swap");
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+body {
+    background: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: EB Garamond;
+    color: #777;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.1px
+}
+
+a {
+    color: #3b528a;
+    transition: 0.3s all ease
+}
+
+a:hover {
+    color: #96bcd2
+}
+
+strong {
+    font-weight: 600 !important
+}
+
+#container::before {
+    content: "";
+    background: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/top-sparkle.png);
+    background-repeat: repeat;
+    height: 200px;
+    background-position: bottom;
+    position: fixed;
+    width: 100%;
+    top: 45px;
+    mix-blend-mode: screen;
+    z-index: 999
+}
+
+#container::after {
+    content: "";
+    background: url(https://i.imgur.com/FEObKQK.gif);
+    background-size: 400px;
+    background-repeat: repeat;
+    position: fixed;
+    mix-blend-mode: screen;
+    top: 0 !important;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    pointer-events: none
+}
+
+.re-section {
+    padding-top: 200px !important
+}
+
+.re_shh {
+    padding: 5px !important;
+    margin-bottom: 5px;
+    background: #3b528a;
+    color: #fff
+}
+
+.re_text {
+    margin-left: 10px;
+    line-height: 1.3
+}
+
+.random_event_image {
+    border: 0
+}
+
+#sb_top,
+#sb_side,
+#aio_sidebar,
+#page_banner,
+hr {
+    display: none
+}
+
+#page_event,
+#page_content,
+#page_footer {
+    margin: 0 auto
+}
+
+#page_content {
+    width: fit-content;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: 900px
+}
+
+#container {
+    display: block;
+    margin: 0 auto;
+    width: auto
+}
+
+nav {
+    display: flex;
+    top: 0;
+    position: fixed;
+    background: #eb9e96;
+    background: #213464;
+    border-top: 5px solid #F7DAD7;
+    border-top: 5px solid #eb9e96;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    gap: 40px;
+    justify-content: center;
+    z-index: 9999999999999999999999999 !important
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px
+}
+
+#userLookupDesc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 111;
+    width: 100%
+}
+
+#title {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -50%
+}
+
+#title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: -500px;
+    z-index: 111;
+    min-width: 700px;
+    max-width: 1365px
+}
+
+#description {
+    margin-top: -300px;
+    width: 600px;
+    padding: 30px 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    margin-left: -20px;
+    border-radius: 50px;
+    position: absolute;
+    background: #fff;
+    line-height: 1.8;
+    border: 15px solid #F7DAD7;
+    outline: 5px solid #eb9e96
+}
+
+#userLookupContent {
+    width: 600px;
+    padding: 50px;
+    border-radius: 50px;
+    background: #fff;
+    line-height: 1.8;
+    position: relative;
+    border: 15px solid #F7DAD7;
+    outline: 5px solid #eb9e96
+}
+
+#description::after,
+#page_footer::after,
+#userLookupContent::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    z-index: 11;
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+.ul--header {
+    display: none
+}
+
+#userLookupText {
+    font-style: italic
+}
+
+.ul--infolabel {
+    color: #eb9e96;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+    border-bottom: 1px dashed #96bcd2;
+    font-style: normal;
+    margin-right: 20px
+}
+
+.ul--gendercolor {
+    color: #777;
+    font-weight: 400
+}
+
+.ul--infolabel::after {
+    content: "♡";
+    color: #ddd;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    position: absolute;
+    border-bottom: 0 !important
+}
+
+.guilds--list {
+    position: relative
+}
+
+.guilds--list ::marker {
+    content: "✦    ";
+    font-size: 10px;
+    color: #eb9e96;
+    font-style: normal
+}
+
+.guilds--list li {
+    margin-left: -10px
+}
+
+#userLookupShield {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/shield.png);
+    mix-blend-mode: multiply;
+    margin-left: 10px;
+    opacity: 0.95;
+    margin-top: -150px
+}
+
+#userLookupCollections {
+    margin-top: 200px;
+    margin-left: -70px;
+    flex-direction: row;
+    gap: 30px;
+    align-items: start
+}
+
+.smallfont {
+    margin-top: 10px;
+    line-height: 1.2;
+    font-size: 15px;
+    font-style: italic
+}
+
+.ul--collectionslabel {
+    display: block;
+    width: 60px;
+    text-align: center;
+    font-style: normal;
+    color: #eb9e96;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    margin-bottom: 5px
+}
+
+.ul--collectionslabel::after {
+    display: none
+}
+
+.ul__avatars img {
+    filter: hue-rotate(45deg) saturate(0.8)
+}
+
+.ul__stamps img {
+    content: url(https://grundoscafe.b-cdn.net/items/bvs_hypnotism.gif);
+    filter: hue-rotate(-30deg) saturate(0.6);
+    margin-bottom: 5px
+}
+
+a img,
+.ul__neofriend form {
+    transition: 0.3s all ease
+}
+
+a:hover img,
+.ul__neofriend form:hover {
+    opacity: 0.6
+}
+
+#userLookupLinks {
+    margin: 30px 0;
+    padding: 30px 0;
+    border-top: 1px dotted #eb9e96;
+    border-bottom: 1px dotted #eb9e96
+}
+
+#userLookupLinks .smallfont {
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    width: 80px;
+    text-align: center
+}
+
+.ul--tradesimg {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/link-blue.png);
+    width: 70px;
+    margin-top: -5px;
+    margin-bottom: -5px
+}
+
+.ul--auctionsimg {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/link-pink.png);
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.ul--wishlistimg {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/link-blue2.png);
+    margin-top: 5px;
+    margin-bottom: 7px;
+    width: 48px;
+    height: 48px
+}
+
+.ul--scoresimg {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/link-pink2.png);
+    margin-top: 5px;
+    margin-bottom: 6px
+}
+
+.ul--neomailimg {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/link-blue3.png);
+    margin-top: 3px;
+    margin-bottom: 5px;
+    width: 45px
+}
+
+.ul__neofriend form::before {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/link-pink3.png) !important;
+    position: absolute;
+    margin-bottom: 5px;
+    margin-top: -3px;
+    transform: scale(0.8)
+}
+
+.ul__neofriend input[type="image"] {
+    opacity: 0
+}
+
+.ul__neofriend .smallfont {
+    margin-top: 15px
+}
+
+.ul--sectionheader strong {
+    font-weight: 500 !important;
+    color: #3b528a
+}
+
+.ul--sectionheader {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 2px
+}
+
+.ul--sectionheader::before,
+.ul--sectionheader::after {
+    display: none
+}
+
+.ul--petsheader {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/pets-title.png);
+    margin: 30px auto 20px
+}
+
+#userLookupSiteTrophies::before {
+    content: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/trophies-title.png);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: block
+}
+
+#userLookupGameTrophies {
+    margin-top: 20px
+}
+
+#userPetList .med-image {
+    width: 120px
+}
+
+.ul__pet {
+    margin: 15px 9px
+}
+
+.ul__pet a {
+    font-weight: 500;
+    color: #777
+}
+
+.ul--petname {
+    margin-top: 10px
+}
+
+#userLookupGameTrophies img,
+#userLookupSiteTrophies img {
+    filter: hue-rotate(-30deg)
+}
+
+.ul--sitetrophyname,
+.ul--gametrophyname,
+a.gamelink {
+    font-size: 13px;
+    width: 90px;
+    line-height: 1.1;
+    font-weight: 500 !important;
+    margin-top: 10px
+}
+
+.ul--sitetrophycap {
+    font-size: 13px;
+    width: 90px;
+    line-height: 1.1;
+    font-weight: 500 !important
+}
+
+#siteTrophiesList,
+#gameTrophiesList {
+    gap: 10px
+}
+
+.ul__gametrophy {
+    margin-bottom: 20px
+}
+
+#userReportBlock .smallfont {
+    font-style: normal !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    transition: 0.3s all ease
+}
+
+.smallfont:hover {
+    color: #eb9e96
+}
+
+#page_footer .smallfont {
+    font-size: 12px;
+    font-style: normal !important
+}
+
+#page_footer .purple {
+    color: #eb9e96
+}
+
+#page_footer {
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    background: #fff;
+    line-height: 1.8;
+    position: relative;
+    border: 15px solid #F7DAD7;
+    outline: 5px solid #eb9e96
+}
