@@ -293,7 +293,10 @@ nav a {
 }
 
 .ul__avatars img {
-    filter: hue-rotate(45deg) saturate(0.8)
+    filter: hue-rotate(45deg) saturate(0.8);
+    width: 45px;
+    margin-top: 2px;
+    margin-bottom: 4px;
 }
 
 .ul__stamps img {
