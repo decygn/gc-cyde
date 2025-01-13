@@ -297,8 +297,8 @@ nav a {
 }
 
 .ul__stamps img {
-    content: url(https://grundoscafe.b-cdn.net/items/bvs_hypnotism.gif);
-    filter: hue-rotate(-30deg) saturate(0.6);
+    content: url(https://images.neopets.com/items/sta_faerie_castle.gif);
+    filter: hue-rotate(40deg) saturate(0.8);
     margin-bottom: 5px
 }
 
