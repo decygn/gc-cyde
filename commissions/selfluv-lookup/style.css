@@ -518,8 +518,6 @@ a.gamelink {
 
 }
 
-
-
 @media only screen and (max-width: 750px) {
 
     nav {
@@ -589,19 +587,19 @@ a.gamelink {
         margin: 30px auto;
         width: 85%;
     }
+}
 
-    @media screen and (pointer: coarse) {
-        nav {
-            gap: 30px;
-        }
-
-        nav a {
-            padding: 15px 0;
-        }
-
-        #container::before {
-            top: 75px;
-        }
-
+@media screen and (pointer: coarse) {
+    nav {
+        gap: 30px;
     }
+
+    nav a {
+        padding: 15px 0;
+    }
+
+    #container::before {
+        top: 75px;
+    }
+
 }
