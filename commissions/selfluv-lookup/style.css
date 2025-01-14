@@ -603,7 +603,7 @@ a.gamelink {
     }
 
     #container::before {
-        top: 75px;
+        display: none;
     }
 
 }
