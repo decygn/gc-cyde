@@ -107,7 +107,8 @@ hr {
 #container {
     display: block;
     margin: 0 auto;
-    width: auto
+    width: auto;
+    background-color: transparent;
 }
 
 nav {
