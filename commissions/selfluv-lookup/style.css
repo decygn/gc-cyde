@@ -10,6 +10,7 @@ body {
     background: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/background.png);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     font-family: EB Garamond;
     color: #777;
     font-size: 15px;
@@ -174,7 +175,8 @@ nav a {
     background: #fff;
     line-height: 1.8;
     border: 15px solid #F7DAD7;
-    outline: 5px solid #eb9e96
+    outline: 5px solid #eb9e96;
+    overflow: hidden;
 }
 
 #userLookupContent {
@@ -513,5 +515,81 @@ a.gamelink {
     #title img {
         width: 100%;
     }
+
+}
+
+
+
+@media only screen and (max-width: 750px) {
+
+    nav {
+        gap: 30px;
+    }
+
+    nav a {
+        padding: 15px 0;
+    }
+
+    #container::before {
+        top: 75px;
+    }
+
+    #title {
+        width: 80%;
+        margin-left: -5%;
+    }
+
+    #container {
+        min-width: unset;
+    }
+
+    #userLookupInfo {
+        gap: 0;
+        grid-template-columns: 2fr 50px 130px;
+    }
+
+    #userLookupCollections {
+        margin-left: -20px
+    }
+
+    #title img {
+        width: 600px !important;
+        max-width: 95vw !important;
+        min-width: unset;
+    }
+
+    #userLookupContent {
+        width: calc(100% - 50px);
+        margin: 0 auto;
+        padding: 45px;
+        box-sizing: border-box;
+        min-width: unset;
+    }
+
+    #userLookupLinks {
+        transform: scale(0.9);
+        margin-left: -20px;
+        padding-right: 20px !important;
+    }
+
+    #description {
+        width: calc(100% - 100px) !important;
+    }
+
+    #userPetList .med-image {
+        width: 100px;
+    }
+
+    #page_footer {
+        width: calc(100% - 80px);
+
+    }
+
+    #footer_content {
+        margin: 30px auto;
+        width: 85%;
+    }
+
+}
 
 }
