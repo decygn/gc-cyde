@@ -197,7 +197,7 @@ nav a {
 #description::after,
 #page_footer::after,
 #userLookupContent::after {
-    content: '';
+    content: ' ';
     width: 100%;
     height: 100%;
     mix-blend-mode: multiply;
