@@ -590,6 +590,18 @@ a.gamelink {
         width: 85%;
     }
 
-}
+    @media screen and (pointer: coarse) {
+        nav {
+            gap: 30px;
+        }
 
+        nav a {
+            padding: 15px 0;
+        }
+
+        #container::before {
+            top: 75px;
+        }
+
+    }
 }
