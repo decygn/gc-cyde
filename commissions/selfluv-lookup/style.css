@@ -43,7 +43,7 @@ strong {
     position: fixed;
     width: 100%;
     top: 45px;
-    mix-blend-mode: screen;
+    mix-blend-mode: screen !important;
     z-index: 999
 }
 
@@ -53,7 +53,7 @@ strong {
     background-size: 500px;
     background-repeat: repeat;
     position: fixed;
-    mix-blend-mode: screen;
+    mix-blend-mode: screen !important;
     top: 0 !important;
     left: 0;
     width: 100%;
