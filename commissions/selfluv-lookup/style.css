@@ -47,6 +47,8 @@ strong {
     height: 200px;
     background-position: bottom;
     position: fixed;
+    left: 0;
+    right: 0;
     width: 100%;
     mix-blend-mode: screen !important;
     top: 45px;
