@@ -34,8 +34,7 @@ strong {
     font-weight: 600 !important
 }
 
-#container::before {
-    content: "";
+#topsparkle {
     background: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/top-sparkle.png);
     background-repeat: repeat;
     height: 200px;
