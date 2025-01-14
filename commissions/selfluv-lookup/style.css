@@ -35,14 +35,19 @@ strong {
 }
 
 #topsparkle {
+    mix-blend-mode: screen !important;
+    z-index: 999
+}
+
+#topsparkle::before {
     background: url(https://decygn.github.io/gc-cyde/commissions/selfluv-lookup/img/top-sparkle.png);
     background-repeat: repeat;
     height: 200px;
     background-position: bottom;
     position: fixed;
     width: 100%;
-    top: 45px;
     mix-blend-mode: screen !important;
+    top: 45px;
     z-index: 999
 }
 
