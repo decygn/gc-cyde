@@ -3,7 +3,9 @@
 html,
 body {
     margin: 0 !important;
-    padding: 0 !important
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 body {
@@ -602,4 +604,10 @@ a.gamelink {
         top: 75px;
     }
 
+}
+
+@supports (-webkit-touch-callout: inherit) {
+    body {
+        background-attachment: scroll;
+    }
 }
