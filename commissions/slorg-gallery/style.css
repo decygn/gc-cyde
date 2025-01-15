@@ -796,21 +796,19 @@ nav a:nth-child(3) {
 }
 
 /* slorg */
-
-.gallery_item:nth-of-type(13) {
+.gallery_item:has([src*="hall_petpet1"]) {
 	display: block !important;
 	margin-top: 685px;
 	animation: move-rtl 380s linear infinite;
 }
 
-.gallery_item:nth-of-type(13) img {
+.gallery_item:has([src*="hall_petpet1"]) img {
 	content: url(https://i.imgur.com/nr9H11S.png);
 	animation: squeeze2 1s ease infinite;
 }
 
 /* red slorg */
-
-.gallery_item:nth-of-type(14) {
+.gallery_item:has([src*="slorg_red"]) {
 	display: block !important;
 	margin-top: 885px;
 	right: 100px;
@@ -818,28 +816,26 @@ nav a:nth-child(3) {
 	animation: move-rtl 120s linear infinite;
 }
 
-.gallery_item:nth-of-type(14) img {
+.gallery_item:has([src*="slorg_red"]) img {
 	content: url(https://i.imgur.com/ygYEVMk.png);
 	animation: squeeze2 1.5s ease infinite;
 }
 
 /* brown slorg */
-
-.gallery_item:nth-of-type(15) {
+.gallery_item:has([src*="slorg_brown"]) {
 	display: block !important;
 	top: 800px;
 	left: 600px;
 	animation: move-rtl 210s linear infinite;
 }
 
-.gallery_item:nth-of-type(15) img {
+.gallery_item:has([src*="slorg_brown"]) img {
 	content: url(https://i.imgur.com/XP4AJOL.png);
 	animation: squeeze1 0.5s ease infinite;
 }
 
 /* rainbow slorg */
-
-.gallery_item:nth-of-type(16) {
+.gallery_item:has([src*="slorg_rainbow"]) {
 	display: block !important;
 	margin-top: 865px;
 	margin-left: -530px;
@@ -848,21 +844,20 @@ nav a:nth-child(3) {
 	animation: move-ltr 90s linear infinite;
 }
 
-.gallery_item:nth-of-type(16) img {
+.gallery_item:has([src*="slorg_rainbow"]) img {
 	content: url(https://i.imgur.com/dIYRZfT.png);
 	animation: squeeze2 0.8s ease infinite;
 }
 
 /* island slorg */
-
-.gallery_item:nth-of-type(17) {
+.gallery_item:has([src*="slorg_island"]) {
 	display: block !important;
 	margin-top: 930px;
 	margin-left: -1291px;
 	animation: move-ltr 95s linear infinite;
 }
 
-.gallery_item:nth-of-type(17) img {
+.gallery_item:has([src*="slorg_island"]) img {
 	content: url(https://i.imgur.com/mUBVJBP.png);
 	animation: squeeze2 0.8s ease infinite;
 }
