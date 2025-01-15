@@ -840,14 +840,14 @@ nav a:nth-child(3) {
 
 /* island slorg */
 
-.gallery_item:has([src="slorg_island"]) {
+.gallery_item:has([src="https://grundoscafe.b-cdn.net/items/slorg_island.gif"]) {
 	display: block !important;
 	margin-top: 930px;
 	margin-left: -1291px;
 	animation: move-ltr 95s linear infinite;
 }
 
-.gallery_item:has([src="slorg_island"]) img {
+.gallery_item:has([src="https://grundoscafe.b-cdn.net/items/slorg_island.gif"]) img {
 	content: url(https://i.imgur.com/mUBVJBP.png);
 	animation: squeeze2 0.8s ease infinite;
 }
@@ -891,14 +891,14 @@ nav a:nth-child(3) {
 }
 
 /* island slorg usuki set */
-.gallery_item:has([src="usu_slorg_island"]) {
+.gallery_item:has([src*="usu_slorg_island"]) {
 	z-index: -1;
 	display: block !important;
 	margin-top: 703px;
 	left: 160px;
 }
 
-.gallery_item:has([src="usu_slorg_island"]) img {
+.gallery_item:has([src*="usu_slorg_island"]) img {
 	content: url(https://i.imgur.com/bOtqC7p.png);
 }
 
