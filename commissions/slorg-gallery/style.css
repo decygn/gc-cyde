@@ -623,13 +623,13 @@ nav a:nth-child(3) {
 
 /* gold slorg */
 
-.gallery_item:has([src*="gold_slorg"]) {
+.gallery_item:has([src*="slorg_gold"]) {
 	display: block !important;
 	top: 760px;
 	left: 700px;
 }
 
-.gallery_item:has([src*="gold_slorg"]) img {
+.gallery_item:has([src*="slorg_gold"]) img {
 	content: url(https://i.imgur.com/gaIocpX.png);
 	width: 140px !important;
 	height: 140px !important;
@@ -1249,7 +1249,7 @@ nav a:nth-child(3) {
 
 /* lilacs */
 
-.gallery_item:nth-of-type(46) {
+.gallery_item:has([src*="gar_lilacs"]) {
 	display: block !important;
 	top: 590px;
 	left: -130px;
@@ -1257,7 +1257,7 @@ nav a:nth-child(3) {
 	animation: rotate-less 6s ease infinite;
 }
 
-.gallery_item:nth-of-type(46) img {
+.gallery_item:has([src*="gar_lilacs"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_lilacs.png);
 }
 
