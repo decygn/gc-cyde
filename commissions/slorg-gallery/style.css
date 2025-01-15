@@ -1220,7 +1220,7 @@ nav a:nth-child(3) {
 
 /* gardenias */
 
-.gallery_item:nth-of-type(44) {
+.gallery_item:has([src*="plant_gardenias"]) {
 	display: block !important;
 	top: 525px;
 	left: unset;
@@ -1229,13 +1229,12 @@ nav a:nth-child(3) {
 	animation: rotate-less 6s ease infinite;
 }
 
-.gallery_item:nth-of-type(44) img {
+.gallery_item:has([src*="plant_gardenias"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/plant_gardenias.png);
 }
 
 /* cobblestone bridge */
-
-.gallery_item:nth-of-type(45) {
+.gallery_item:has([src*="ga_bridge2"]) {
 	display: block !important;
 	top: 435px;
 	right: 808px;
@@ -1243,7 +1242,7 @@ nav a:nth-child(3) {
 	z-index: -1;
 }
 
-.gallery_item:nth-of-type(45) img {
+.gallery_item:has([src*="ga_bridge2"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/ga_bridge2.png);
 }
 
