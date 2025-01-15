@@ -767,29 +767,27 @@ nav a:nth-child(3) {
 }
 
 /* sketch slorg */
-
-.gallery_item:nth-of-type(11) {
+.gallery_item:has([src*="slorg_sketch"]) {
 	display: block !important;
 	margin-top: 640px;
 	left: 0 !important;
 	animation: move-rtl 280s linear infinite;
 }
 
-.gallery_item:nth-of-type(11) img {
+.gallery_item:has([src*="slorg_sketch"]) img {
 	opacity: 0.85;
 	content: url(https://i.imgur.com/jurxSbH.png);
 	animation: squeeze2 1.5s ease infinite;
 }
 
 /* ghost slorg */
-
-.gallery_item:nth-of-type(12) {
+.gallery_item:has([src*="slorg_ghost"]) {
 	display: block !important;
 	margin-top: 350px;
 	animation: ghost-jump 47s ease-in-out infinite, ghost-blink 13s ease infinite;
 }
 
-.gallery_item:nth-of-type(12) img {
+.gallery_item:has([src*="slorg_ghost"]) img {
 	opacity: 0.6;
 	content: url(https://i.imgur.com/3kLEKtn.png);
 
@@ -850,6 +848,7 @@ nav a:nth-child(3) {
 }
 
 /* island slorg */
+
 .gallery_item:has([src*="slorg_island"]) {
 	display: block !important;
 	margin-top: 930px;
