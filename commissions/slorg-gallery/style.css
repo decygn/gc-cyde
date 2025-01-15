@@ -1191,21 +1191,19 @@ nav a:nth-child(3) {
 }
 
 /* kacheek tree sculpture */
-
-.gallery_item:nth-of-type(42) {
+.gallery_item:has([src*="gar_kacheek_topiary"]) {
 	display: block !important;
 	top: 341px;
 	left: 780px;
 	z-index: -1;
 }
 
-.gallery_item:nth-of-type(42) img {
+.gallery_item:has([src*="gar_kacheek_topiary"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_kacheek_topiary.png);
 }
 
 /* pebeanjay flowers */
-
-.gallery_item:nth-of-type(43) {
+.gallery_item:has([src*="pebeanjay"]) {
 	display: block !important;
 	top: 980px;
 	left: unset;
@@ -1214,7 +1212,7 @@ nav a:nth-child(3) {
 	animation: rotate-less 6s ease infinite;
 }
 
-.gallery_item:nth-of-type(43) img {
+.gallery_item:has([src*="pebeanjay"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/pebeanjay.png);
 }
 
