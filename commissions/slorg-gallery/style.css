@@ -1150,8 +1150,7 @@ nav a:nth-child(3) {
 }
 
 /* yellow eesa tree */
-
-.gallery_item:nth-of-type(39) {
+.gallery_item:has([src*="ga_yelloweesatree"]) {
 	display: block !important;
 	top: 571px;
 	right: 89px;
@@ -1159,26 +1158,24 @@ nav a:nth-child(3) {
 	z-index: -1;
 }
 
-.gallery_item:nth-of-type(39) img {
+.gallery_item:has([src*="ga_yelloweesatree"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/ga_yelloweesatree.png);
 }
 
 /* aurora lily */
-
-.gallery_item:nth-of-type(40) {
+.gallery_item:has([src*="gar_summerbush_2"]) {
 	display: block !important;
 	top: 701px;
 	left: 590px;
 	z-index: -1;
 }
 
-.gallery_item:nth-of-type(40) img {
+.gallery_item:has([src*="gar_summerbush_2"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_summerbush_2.png);
 }
 
 /* pink cyclamen */
-
-.gallery_item:nth-of-type(41) {
+.gallery_item:has([src*="gar_cyclamen"]) {
 	display: block !important;
 	top: 791px;
 	left: 10px;
@@ -1186,7 +1183,7 @@ nav a:nth-child(3) {
 	animation: rotate-less 6s ease infinite;
 }
 
-.gallery_item:nth-of-type(41) img {
+.gallery_item:has([src*="gar_cyclamen"]) img {
 	content: url(https://decygn.github.io/gc-cyde/commissions/slorg-gallery/img/items/gar_cyclamen.png);
 }
 
