@@ -637,22 +637,20 @@ nav a:nth-child(3) {
 
 
 /* jelly slorg */
-
-.gallery_item:nth-of-type(2) {
+.gallery_item:has([src*="slorg_jelly"]) {
 	display: block !important;
 	top: 540px;
 	left: 500px;
 	animation: move-rtl 50s linear infinite;
 }
 
-.gallery_item:nth-of-type(2) img {
+.gallery_item:has([src*="slorg_jelly"]) img {
 	content: url(https://i.imgur.com/QyUMZa0.png);
 	animation: squeeze2 0.3s ease infinite;
 }
 
 /* pirate slorg */
-
-.gallery_item:nth-of-type(3) {
+.gallery_item:has([src*="slorg_pirate"]) {
 	display: block !important;
 	top: 700px;
 	margin-right: 00px !important;
@@ -660,14 +658,13 @@ nav a:nth-child(3) {
 	animation: move-ltr 60s linear infinite;
 }
 
-.gallery_item:nth-of-type(3) img {
+.gallery_item:has([src*="slorg_pirate"]) img {
 	content: url(https://i.imgur.com/XyxAYeg.png);
 	animation: squeeze2 .5s ease infinite;
 }
 
 /* bouncy slorg ball */
-
-.gallery_item:nth-of-type(4) {
+.gallery_item:has([src*="toy_slorgball"]) {
 	display: block !important;
 	top: 640px;
 	left: unset;
@@ -676,13 +673,12 @@ nav a:nth-child(3) {
 	animation: bounce 5s linear 2.2s forwards;
 }
 
-.gallery_item:nth-of-type(4) img {
+.gallery_item:has([src*="toy_slorgball"]) img {
 	content: url(https://i.imgur.com/nW7ZCpZ.png);
 }
 
 /* black slorg plushie */
-
-.gallery_item:nth-of-type(5) {
+.gallery_item:has([src*="plu_slorg_shadowplushie"]) {
 	display: block !important;
 	top: 600px;
 	left: unset;
@@ -690,27 +686,25 @@ nav a:nth-child(3) {
 	z-index: -1;
 }
 
-.gallery_item:nth-of-type(5) img {
+.gallery_item:has([src*="plu_slorg_shadowplushie"]) img {
 	content: url(https://i.imgur.com/UmWFrgS.png);
 }
 
 /* snow slorg */
-
-.gallery_item:nth-of-type(6) {
+.gallery_item:has([src*="slorg_snow"]) {
 	display: block !important;
 	top: 450px;
 	animation: move-ltr 250s linear infinite;
 	z-index: 1;
 }
 
-.gallery_item:nth-of-type(6) img {
+.gallery_item:has([src*="slorg_snow"]) img {
 	content: url(https://i.imgur.com/1fnVqwS.png);
 	animation: squeeze1 1.6s ease infinite;
 }
 
 /* snow slorgball */
-
-.gallery_item:nth-of-type(7) {
+.gallery_item:has([src*="snow_slorgballer"]) {
 	display: block !important;
 	margin-top: 840px;
 	right: 550px !important;
@@ -718,20 +712,19 @@ nav a:nth-child(3) {
 	animation: bounce 4s linear 2s forwards;
 }
 
-.gallery_item:nth-of-type(7) img {
+.gallery_item:has([src*="snow_slorgballer"]) img {
 	content: url(https://i.imgur.com/IwpoeYq.png);
 	animation: rotate 4s linear 2s infinite;
 }
 
 /* darigan slorg */
-
-.gallery_item:nth-of-type(8) {
+.gallery_item:has([src*="slorg_darigan"]) {
 	display: block !important;
 	top: 560px;
 	animation: move-rtl 70s linear infinite;
 }
 
-.gallery_item:nth-of-type(8) img {
+.gallery_item:has([src*="slorg_darigan"]) img {
 	content: url(https://i.imgur.com/u1Xyp6w.png);
 	animation: squeeze2 1.5s ease infinite;
 }
