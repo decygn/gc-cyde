@@ -935,34 +935,31 @@ nav a:nth-child(3) {
 }
 
 /* rainbow slorg plushie */
-
-.gallery_item:nth-of-type(23) {
+.gallery_item:has([src*="toy_slorg_rainbowplushie"]) {
 	display: block !important;
 	margin-top: 670px;
 	left: 50px !important;
 	z-index: -1;
 }
 
-.gallery_item:nth-of-type(23) img {
+.gallery_item:has([src*="toy_slorg_rainbowplushie"]) img {
 	transform: rotate(-15deg);
 	content: url(https://i.imgur.com/M6KnhwN.png);
 }
 
 /* slorg slime */
-
-.gallery_item:nth-of-type(24) {
+.gallery_item:has([src*="pot_spooky_gross"]) {
 	display: block !important;
 	top: 500px;
 	left: -40px !important;
 }
 
-.gallery_item:nth-of-type(24) img {
+.gallery_item:has([src*="pot_spooky_gross"]) img {
 	content: url(https://i.imgur.com/E9OFPsx.png);
 }
 
 /* slorg feeder */
-
-.gallery_item:nth-of-type(25) {
+.gallery_item:has([src*="pps_slorg_feeder"]) {
 	display: block !important;
 	top: 550px;
 	left: unset;
@@ -970,61 +967,57 @@ nav a:nth-child(3) {
 	z-index: -2;
 }
 
-.gallery_item:nth-of-type(25) img {
+.gallery_item:has([src*="pps_slorg_feeder"]) img {
 	content: url(https://i.imgur.com/yQdHQIM.png);
 }
 
 /* slorg bath tub*/
-
-.gallery_item:nth-of-type(26) {
+.gallery_item:has([src*="pps_slorg_bathtub"]) {
 	display: block !important;
 	top: 410px;
 	left: 260px;
 	z-index: -2;
 }
 
-.gallery_item:nth-of-type(26) img {
+.gallery_item:has([src*="pps_slorg_bathtub"]) img {
 	content: url(https://i.imgur.com/NSMIyA5.png);
 	transform: scaleX(-1);
 }
 
 /* rainbow slorg squeaky toy */
-
-.gallery_item:nth-of-type(27) {
+.gallery_item:has([src*="pps_slorg_squeaktoy_rainbow"]) {
 	display: block !important;
 	top: 1011px;
 	left: 460px;
 }
 
-.gallery_item:nth-of-type(27) img {
+.gallery_item:has([src*="pps_slorg_squeaktoy_rainbow"])img {
 	content: url(https://i.imgur.com/jpzJzoD.png);
 	transform: scaleX(-1) scaleY(-0.9) rotate(40deg);
 	filter: brightness(1.1);
 }
 
 /* the evil slorg */
-
-.gallery_item:nth-of-type(28) {
+.gallery_item:has([src*="boo_slorg"]) {
 	display: block !important;
 	top: 711px;
 	left: unset;
 	right: -40px;
 }
 
-.gallery_item:nth-of-type(28) img {
+.gallery_item:has([src*="boo_slorg"]) img {
 	content: url(https://i.imgur.com/caMxnLk.png);
 }
 
 /* black slorg */
-
-.gallery_item:nth-of-type(29) {
+.gallery_item:has([src*="slorg_black"]) {
 	display: block !important;
 	margin-top: 698px;
 	left: 500px;
 	animation: move-rtl 123s ease-in-out infinite;
 }
 
-.gallery_item:nth-of-type(29) img {
+.gallery_item:has([src*="slorg_black"]) img {
 	content: url(https://i.imgur.com/iZRr3kq.png);
 	animation: squeeze1 1s ease infinite;
 }
