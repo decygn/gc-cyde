@@ -922,19 +922,19 @@ nav a:nth-child(3) {
 }
 
 /* slorg habitat */
-
-.gallery_item:nth-of-type(22) {
+.gallery_item:has([src*="pps_slorg_habitat"]) {
 	display: block !important;
 	margin: 330px auto 0;
 	right: 0;
 	left: 450px;
 }
 
-.gallery_item:nth-of-type(22) img {
+.gallery_item:has([src*="pps_slorg_habitat"]) img {
 	content: url(https://i.imgur.com/iwLYmla.png);
 }
 
 /* rainbow slorg plushie */
+
 .gallery_item:has([src*="toy_slorg_rainbowplushie"]) {
 	display: block !important;
 	margin-top: 670px;
@@ -991,7 +991,7 @@ nav a:nth-child(3) {
 	left: 460px;
 }
 
-.gallery_item:has([src*="pps_slorg_squeaktoy_rainbow"])img {
+.gallery_item:has([src*="pps_slorg_squeaktoy_rainbow"]) img {
 	content: url(https://i.imgur.com/jpzJzoD.png);
 	transform: scaleX(-1) scaleY(-0.9) rotate(40deg);
 	filter: brightness(1.1);
