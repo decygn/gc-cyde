@@ -19,8 +19,14 @@ body {
 #floral-border {
     width: 100%;
     height: auto;
-    
+    z-index: 99999999999;
+    position: fixed;
 }
+
+#floral-border img {
+    width: 100%;
+}
+
 #gallery {
     display: Flex;
     flex-direction: row-reverse;
