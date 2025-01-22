@@ -1,4 +1,4 @@
-@import url('l');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('');
 
 html,
@@ -10,16 +10,11 @@ body {
 }
 
 body {
-    font-family: ;
-    font-weight: 300;
+    font-family: Jost;
+    font-weight: 400;
     font-size: 1.2em;
+    color: #888;
 }
-
-.description_text {
-    display: none;
-}
-
-/* BYE BYE */
 
 #gallery {
     display: Flex;
@@ -32,7 +27,6 @@ body {
 
 #thumbnails {
     width: 400px;
-    overflow-x: ;
     overflow-y: scroll;
     height: 900px;
     display: flex;
