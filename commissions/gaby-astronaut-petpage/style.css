@@ -16,6 +16,11 @@ body {
     color: #888;
 }
 
+#floral-border {
+    width: 100%;
+    height: auto;
+    
+}
 #gallery {
     display: Flex;
     flex-direction: row-reverse;
