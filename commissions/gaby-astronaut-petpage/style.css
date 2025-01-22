@@ -28,14 +28,29 @@ body {
 }
 
 #fixed-nav {
-    top: 50px;
-    left: 30px;
+    top: 40px;
+    text-align: center;
+    left: 10px;
+    width: 225px;
     position: fixed;
+    transform: scale(0.9);
 }
 
 nav {
+    margin-top: -20px;
+    width: 225px;
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 11px;
 }
+
+nav a {
+    margin-left: -8px;
+    margin-bottom: -15px;
+    display: block;
+}
+
+nav a img {}
 
 #gallery {
     display: Flex;
