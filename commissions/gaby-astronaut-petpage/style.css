@@ -95,8 +95,10 @@ nav a:nth-of-type(4):hover::after {
     opacity: 1;
 }
 
-header {
-    background: url(https://decygn.github.io/gc-cyde/commissions/gaby-astronaut-petpage/img/header-background.png);
+header {}
+
+#header-background img {
+    width: 100%;
 }
 
 #gallery {
