@@ -32,6 +32,7 @@ a {
 }
 
 #fixed-nav {
+    z-index: 99999999999;
     top: 40px;
     text-align: center;
     left: 10px;
@@ -95,7 +96,48 @@ nav a:nth-of-type(4):hover::after {
     opacity: 1;
 }
 
-header {}
+
+#header-wrapper {
+    max-width: 85vw;
+    z-index: 1;
+    top: 150px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 100vh;
+    position: absolute;
+}
+
+#header-art {
+    position: absolute;
+}
+
+#header-sparkle {
+    height: 800px;
+    left: -150px;
+    position: absolute;
+    mix-blend-mode: lighten;
+    width: 800px;
+}
+
+#header-art {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+}
+
+#header-title {
+    right: 0;
+    float: right;
+    position: relative;
+}
+
+#header-background {
+    z-index: -9999;
+}
 
 #header-background img {
     width: 100%;
