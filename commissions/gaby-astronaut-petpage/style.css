@@ -172,7 +172,17 @@ section {
     padding: 100px 0;
 }
 
+#about-wrapper {
+    height: 496px;
+    width: 1176px;
+    background: url(https://decygn.github.io/gc-cyde/commissions/gaby-astronaut-petpage/img/about-description-background.png);
+}
 
+#about-description {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
 
 
 
