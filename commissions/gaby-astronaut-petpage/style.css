@@ -101,13 +101,27 @@ header {
     max-width: 100%;
 }
 
-#header-wrapper {
+#header-wrapper-desktop {
     width: 85vw;
     margin: 0 auto;
     left: 0;
     right: 0;
     margin-top: 150px;
     position: absolute;
+}
+
+#header-wrapper-mobile {
+    display: none;
+    width: 85vw;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: 150px;
+    position: absolute;
+}
+
+#header-wrapper-mobile img {
+    width: 100%;
 }
 
 .header-background {
@@ -232,7 +246,41 @@ header {
 @media (orientation: portrait) and (max-width: 1080px) {}
 
 @media only screen and (max-width: 1820px) {
-    #header-wrapper img {
-        transform: scale(0.8) !important;
+    #header-wrapper-desktop {
+        display: none;
+    }
+
+    #header-wrapper-mobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    #fixed-nav {
+        top: 0;
+        width: 100%;
+    }
+
+    #gaby-icon img {
+        width: 120px;
+    }
+
+    nav {
+        left: 0;
+        width: 100%;
+        padding-left: 0;
+        margin-top: -100px;
+        justify-content: center;
+    }
+
+    nav a:nth-of-type(2) {
+        margin-right: 130px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+
+    #header-wrapper-mobile {
+        margin-top: 120px;
     }
 }
