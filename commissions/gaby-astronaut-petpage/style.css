@@ -255,9 +255,11 @@ section {
     margin-left: -27px;
 }
 
-/* ====================== HEADER ====================== */
+/* ====================== GALLERY ====================== */
 
-#gallery {
+#gallery {}
+
+#gallery-wrapper {
     display: Flex;
     flex-direction: row-reverse;
     width: 1000px;
