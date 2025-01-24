@@ -108,6 +108,7 @@ header {
 
 #header-wrapper-desktop {
     width: 85vw;
+    max-width: 1550px;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -184,7 +185,7 @@ section {
 
 #about-description {
     color: #fff;
-    text-shadow: 0 0 3px #555;
+    text-shadow: 0 0 3px #666;
     width: 550px;
     margin: 0 auto;
     position: absolute;
@@ -197,7 +198,7 @@ section {
     transform: translateX(-230px);
 }
 
-img.about-description-background {
+.about-description-background {
     max-width: 90vw;
     margin: 0 auto;
     display: block;
@@ -208,7 +209,10 @@ img.about-description-background {
     font-weight: 500;
 }
 
-
+.about-description-background-mobile,
+.about-art-mobile {
+    display: none;
+}
 
 
 #gallery {
@@ -294,16 +298,44 @@ img.about-description-background {
 }
 
 @media only screen and (max-width: 1310px) {
-    #about-description {
-        font-size: 16px;
-        width: 45%;
-        margin-top: 140px;
-        transform: translateX(-200px);
-    }
-
     header {
         margin-bottom: -50px;
     }
+
+    #about-wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+    }
+
+    .about-description-background {
+        display: none;
+    }
+
+    .about-art-mobile {
+        z-index: 1;
+        display: block;
+        width: 90%;
+        max-width: 590px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #about-description {
+        border-image: url(https://decygn.github.io/gc-cyde/commissions/gaby-astronaut-petpage/img/about-description-background-mobile.png);
+        border-image-slice: 56 54 71 58 fill;
+        border-image-width: 40px 40px 40px 40px;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+        position: relative;
+        margin: 0 auto;
+        transform: translate(0);
+        padding: 45px 40px 35px 40px;
+        width: auto;
+        max-width: 78vw;
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (max-width: 1040px) {
