@@ -100,6 +100,8 @@ nav a:nth-of-type(4):hover::after {
     opacity: 1;
 }
 
+/* ====================== HEADER ====================== */
+
 header {
     width: 100%;
     max-width: 100%;
@@ -178,6 +180,8 @@ section {
     padding: 100px 0;
 }
 
+/* ====================== ABOUT ====================== */
+
 #about-wrapper {
     margin: 0 auto;
     width: 100%;
@@ -214,6 +218,44 @@ section {
     display: none;
 }
 
+#about-traits h2 {
+    color: #b5a7d9;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+#about-traits {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.traits-section {
+    width: 280px;
+}
+
+.traits-section ul {
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+.traits-section ul li {
+    padding: 0;
+}
+
+.traits-section ul li::before {
+    content: url(https://decygn.github.io/gc-cyde/commissions/gaby-astronaut-petpage/img/trait-bullet.png);
+    margin-top: 4px;
+    position: absolute;
+    margin-left: -27px;
+}
+
+/* ====================== HEADER ====================== */
 
 #gallery {
     display: Flex;
@@ -336,6 +378,21 @@ section {
         font-size: 16px;
     }
 
+    #about-traits,
+    .traits-section {
+        width: 350px;
+        flex-direction: column;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding-left: 5px;
+        gap: 0;
+    }
+
+    .traits-section {
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 1040px) {
