@@ -261,7 +261,9 @@ section {
 /* ====================== GALLERY ====================== */
 
 #gallery {
+    padding-top: 150px;
     background: url(https://decygn.github.io/gc-cyde/commissions/gaby-astronaut-petpage/img/section-background.jpg);
+    background-size: cover;
 }
 
 #gallery-wrapper {
@@ -269,10 +271,10 @@ section {
     flex-direction: row-reverse;
     width: 1100px;
     height: 800px;
-    margin: 0 auto;
+    margin: 20px auto 150px;
 }
 
-#thumbnails {
+#thumbnails-wrapper {
     width: 400px;
     overflow-y: scroll;
     height: 800px;
@@ -288,6 +290,7 @@ section {
     flex-wrap: wrap;
     flex: 1 0 150px;
     justify-content: space-between;
+    position: relative;
 }
 
 #thumbnails img {
@@ -315,12 +318,12 @@ section {
     border-radius: 10px;
 }
 
-#thumbnails::-webkit-scrollbar {
+#thumbnails-wrapper::-webkit-scrollbar {
     width: 10px;
     border-radius: 30px;
 }
 
-#thumbnails::-webkit-scrollbar-thumb {
+#thumbnails-wrapper::-webkit-scrollbar-thumb {
     background: #b5a7d9;
     border: 3px solid #fff;
     border-radius: 30px;
@@ -397,13 +400,22 @@ section {
     color: #888 !important;
 }
 
-/* PAGES */
 .section {
     background: #fff;
     height: 800px;
     width: 100%;
 }
 
+/* ====================== MOODBOARD ====================== */
+
+#moodboard {
+    margin: 0 auto;
+    padding: 250px 0;
+}
+
+#moodboard img {
+    max-width: 90vw;
+}
 
 @media (orientation: portrait) and (max-width: 1080px) {}
 
@@ -473,6 +485,23 @@ section {
     }
 }
 
+
+@media only screen and (max-width: 1140px) {
+
+    #gallery-wrapper {
+        width: 1000px;
+        margin: 20px auto 150px;
+    }
+
+    #thumbnails-wrapper {
+        width: auto;
+    }
+
+    #thumbnails .preview {
+        width: calc(50% - 25px);
+    }
+}
+
 @media only screen and (max-width: 1040px) {
     #fixed-nav {
         top: 0;
@@ -499,9 +528,61 @@ section {
         transform: scale(0.7);
         margin-bottom: -20px;
     }
+
+
+    #gallery-wrapper {
+        width: 92vw;
+
+        margin: 20px auto 150px;
+    }
+
+    #large-preview-container,
+    #thumbnails-wrapper {
+        border: 0;
+        border-radius: 10px;
+        outline: 3px solid #fff;
+    }
+
+    #thumbnails-wrapper {
+        width: 250px;
+    }
+
+
+    #thumbnails .preview {
+        width: calc(50% - 25px);
+        margin-bottom: 0;
+    }
+
+    #large-preview-container {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    #header-wrapper-mobile {
+        margin-top: 120px;
+    }
+
+    #gallery {
+        padding-top: 50px;
+    }
+
+    #thumbnails-wrapper {
+        width: 150px;
+    }
+
+    #thumbnails .preview {
+        width: calc(100% - 15px);
+    }
+
 }
 
 @media only screen and (max-width: 730px) {
+    section h1 img {
+        transform: scale(0.55);
+        margin-bottom: -20px;
+    }
 
     #header-wrapper-mobile {
         margin-top: 120px;
