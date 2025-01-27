@@ -484,6 +484,12 @@ h2 {
     font-weight: 400;
 }
 
+footer {
+    background: url(https://decygn.github.io/gc-cyde/commissions/gaby-astronaut-petpage/img/footer-background.jpg);
+    min-height: fit-content;
+    max-height: 60vh;
+}
+
 @media (orientation: portrait) and (max-width: 1080px) {}
 
 @media only screen and (max-width: 1820px) {
