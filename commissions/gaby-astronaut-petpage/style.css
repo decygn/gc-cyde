@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('');
 
 html,
 body {
@@ -24,6 +23,10 @@ a {
     transition: .3s all ease;
     color: #b5a7d9;
     text-decoration: none;
+}
+
+#gc_banner {
+    display: none;
 }
 
 #floral-border {
@@ -289,7 +292,6 @@ h2 {
     margin-left: 20px;
     flex-wrap: wrap;
     flex: 1 0 150px;
-    justify-content: space-between;
     position: relative;
 }
 
@@ -392,12 +394,21 @@ h2 {
     color: #ffaef5;
 }
 
+.gallery-art-description a:hover {
+    color: #8676ae;
+}
+
+
 .full-image {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 0.3px;
     font-weight: 500;
     color: #888 !important;
+}
+
+.full-image:hover {
+    color: #ccc !important;
 }
 
 .section {
@@ -418,6 +429,7 @@ h2 {
 }
 
 /* ====================== TOYBOX ====================== */
+
 #toybox {
     margin: 0 auto;
     padding: 150px 0 200px;
@@ -484,11 +496,30 @@ h2 {
     font-weight: 400;
 }
 
+.credit .artist a:hover {
+    color: #b5a7d9;
+}
+
 footer {
     background: url(https://decygn.github.io/gc-cyde/commissions/gaby-astronaut-petpage/img/footer-background.jpg);
-    min-height: fit-content;
-    max-height: 60vh;
+    height: 850px;
+    padding-top: 100px;
+    margin-top: -250px;
 }
+
+#footer-wrapper {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer-art {
+    animation: float 4s ease-in-out infinite;
+}
+
 
 @media (orientation: portrait) and (max-width: 1080px) {}
 
@@ -602,7 +633,6 @@ footer {
         margin-bottom: -20px;
     }
 
-
     #gallery-wrapper {
         width: 92vw;
 
@@ -629,6 +659,10 @@ footer {
     #large-preview-container {
         width: auto;
     }
+
+    .footer-title img {
+        width: 90vw;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -651,6 +685,17 @@ footer {
 
     #moodboard img {
         max-width: 90%;
+    }
+
+    #credits {
+        gap: 50px;
+    }
+
+    .credit {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        justify-content: center;
     }
 }
 
