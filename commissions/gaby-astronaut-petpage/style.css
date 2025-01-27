@@ -221,7 +221,7 @@ section {
     display: none;
 }
 
-#about-traits h2 {
+h2 {
     color: #b5a7d9;
     text-transform: uppercase;
     font-weight: 600;
@@ -417,6 +417,73 @@ section {
     max-width: 90vw;
 }
 
+/* ====================== TOYBOX ====================== */
+#toybox {
+    margin: 0 auto;
+    padding: 150px 0 200px;
+    position: relative;
+    background: url(https://decygn.github.io/gc-cyde/commissions/gaby-astronaut-petpage/img/section-background.jpg);
+    background-size: cover;
+}
+
+
+#toybox-wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#toybox-wrapper img {
+    height: auto;
+    max-width: 100px;
+}
+
+/* ====================== SITELY ====================== */
+
+#sitely-wrapper {
+    margin: 80px 0;
+}
+
+#sitely h2 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#linkback textarea {
+    font-size: 10px;
+    width: 100px;
+    background: #fef5fb;
+    color: #999;
+    border: 0;
+    height: 26px;
+}
+
+#credits {
+    display: flex;
+    gap: 100px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.credit {
+    margin-top: 40px;
+}
+
+.item {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.credit .artist a {
+    text-transform: capitalize;
+    letter-spacing: -0.5px;
+    color: #ffaedc;
+    font-size: 26px;
+    font-weight: 400;
+}
+
 @media (orientation: portrait) and (max-width: 1080px) {}
 
 @media only screen and (max-width: 1820px) {
@@ -576,9 +643,13 @@ section {
         width: calc(100% - 15px);
     }
 
+    #moodboard img {
+        max-width: 90%;
+    }
 }
 
 @media only screen and (max-width: 730px) {
+
     section h1 img {
         transform: scale(0.55);
         margin-bottom: -20px;
@@ -586,5 +657,23 @@ section {
 
     #header-wrapper-mobile {
         margin-top: 120px;
+    }
+
+    #moodboard {
+        padding: 150px 0;
+    }
+
+
+    #toybox {
+        padding: 50px 0 100px;
+    }
+
+    #toybox-wrapper {
+        width: 80vw;
+        margin-top: -30px;
+    }
+
+    #toybox-wrapper img {
+        max-width: 76px;
     }
 }
