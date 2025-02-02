@@ -601,6 +601,26 @@ img[src*="chia_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_chia.png);
 }
 
+img[src*="krawk_shadow"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/shadow_krawk.png);
+}
+
+img[src*="zafara_edgy"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/edgy_zafara.png);
+}
+
+img[src*="chia_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_chia.png);
+}
+
+img[src*="chia_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_chia.png);
+}
+
+img[src*="chia_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_chia.png);
+}
+
 /* ====================== END OF PET OVERLAYS ======================= */
 .ul--sitetrophiesheader {
     padding-top: 35px
