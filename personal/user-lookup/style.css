@@ -1,0 +1,978 @@
+@import url(https://fonts.cdnfonts.com/css/akira-expanded);
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400..700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap);
+@import url(https://fonts.cdnfonts.com/css/stretch-pro);
+
+html,
+body {
+    height: 100vh
+}
+
+body {
+    font-family: JetBrains Mono
+}
+
+h1,
+h2,
+h3 {
+    font-family: Akira Expanded
+}
+
+a {
+    transition: 0.3s all ease
+}
+
+#sb_top,
+#sb_side,
+#page_banner,
+#userLookupShield,
+hr,
+.ul--header {
+    display: none
+}
+
+#page_event,
+#page_content,
+#page_footer {
+    margin: 0 auto
+}
+
+#page_event {
+    min-height: 0
+}
+
+.re>div {
+    padding: 0;
+    font-size: 11px
+}
+
+div.shh {
+    background: #000;
+    margin-top: 120px;
+    color: #fff;
+    padding: 5px 0;
+    margin-bottom: 6px;
+    font-size: 11px
+}
+
+div.re_text {
+    margin-left: 10px;
+    font-size: 11px
+}
+
+.random_event_image {
+    border: 0
+}
+
+#container {
+    width: 100%;
+    display: block;
+    min-width: unset
+}
+
+#page_content {
+    width: auto
+}
+
+#userLookupContent {
+    gap: 0;
+    margin: 0;
+    min-width: unset
+}
+
+#topbar {
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    mix-blend-mode: difference;
+    position: fixed
+}
+
+#logo {
+    font-family: Akira Expanded;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 23px
+}
+
+#logo img {
+    width: 80px;
+    filter: invert(1)
+}
+
+nav {
+    gap: 50px;
+    display: flex
+}
+
+nav a {
+    color: #fff;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+    font-family: Stretch Pro;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1 !important;
+    position: relative
+}
+
+nav a::before {
+    content: "★";
+    transform: rotate(40deg);
+    margin-top: -10px;
+    margin-left: -13px;
+    position: absolute;
+    color: #063CD2;
+    opacity: 0;
+    transition: 0.3s all ease
+}
+
+nav a::after {
+    content: "";
+    border: 2px solid #063CD2;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: 100%;
+    transform: scaley(0.4) skew(-40deg) rotate(-10deg);
+    display: block;
+    top: 0;
+    margin-top: -17px;
+    margin-left: -7px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    color: #063CD2;
+    transition: 0.3s all ease
+}
+
+nav a:hover {
+    color: #fff
+}
+
+nav a:hover::before,
+nav a:hover::after {
+    opacity: 1
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+header::after {
+    content: "";
+    display: block;
+    width: 50vw;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    background: #f9f9f9;
+    right: 0
+}
+
+#header-image {
+    margin-top: -130px
+}
+
+#header-image img {
+    width: 90vw;
+    max-width: 1500px;
+    max-height: 70vh;
+    display: block
+}
+
+.description {
+    display: block;
+    line-height: 1.6;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: -0.5px;
+    margin-bottom: 50px
+}
+
+.description b {
+    font-family: Stretch Pro;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    font-style: normal
+}
+
+#userLookupInfo::before {
+    background: url(https://decygn.github.io/gc-cyde/personal/dexa-lookup/img/noise.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99999999999 !important;
+    display: block;
+    top: 0;
+    left: 0;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    content: ""
+}
+
+#userLookupInfo {
+    color: #fff;
+    overflow: hidden;
+    padding: 130px 0;
+    margin: 0;
+    position: relative;
+    background: #000;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 600px
+}
+
+#userLookupInfo::after {
+    content: url(https://i.imgur.com/rinIOco.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scaley(1.07)
+}
+
+.ul__stamps {
+    margin-top: 5px
+}
+
+.ul__stamps img {
+    opacity: 0;
+    position: absolute;
+    width: 80px;
+    margin-top: -129px;
+    height: 50px;
+    margin-left: 210px
+}
+
+#userLookupText {
+    margin: 0 auto;
+    font-size: 13px;
+    margin-top: 20px;
+    column-count: 2;
+    letter-spacing: -0.4px;
+    gap: 50px;
+    font-style: italic;
+    line-height: 1.7
+}
+
+#userLookupText a {
+    color: #999;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 1px dashed #555
+}
+
+#userLookupText a:hover {
+    color: #ffbd27;
+    border-bottom: 1px dashed #ffbd27
+}
+
+.ul--gendercolor {
+    color: #fff !important;
+    font-weight: 400 !important
+}
+
+.ul--infolabel b,
+.ul--infolabel stronger .ul--infolabel .strong {
+    font-weight: 400 !important
+}
+
+.ul--infolabel {
+    font-style: normal;
+    font-size: 10px;
+    font-family: Stretch Pro;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    border-radius: 1px;
+    padding-bottom: 3px;
+    margin-right: 25px
+}
+
+.ul--headerlabel::after,
+.ul--infolabel::after {
+    content: "✦";
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px
+}
+
+.ul--country::after {
+    content: "(Originally SG)";
+    display: inline-block;
+    margin-left: 5px
+}
+
+.ul--startdate::after {
+    content: "(3 months)";
+    display: inline-block;
+    margin-left: 5px
+}
+
+.ul--galleries {
+    display: none
+}
+
+.ul--guilds .ul--infolabel::after {
+    display: none
+}
+
+.guilds--list {
+    list-style: none;
+    padding: 0
+}
+
+.ul--guilds {
+    line-height: 1.9
+}
+
+.guilds--list li::before {
+    content: "✦";
+    font-style: normal;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 7px
+}
+
+#userLookupCollections {
+    text-transform: uppercase;
+    display: flex;
+    font-family: Stretch Pro
+}
+
+.ul--collectionslabel::after {
+    display: none
+}
+
+.ul--avatarstext {
+    margin-left: -165px;
+    margin-top: -110px;
+    width: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    color: #fff;
+    padding: 1px 7px;
+    font-size: 30px;
+    border: 1px solid #fff
+}
+
+.ul--avatarstext strong,
+.ul--stampstext strong {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: JetBrains Mono;
+    border-top: 1px solid #fff;
+    color: #000;
+    background: #fff;
+    margin-top: 4px;
+    padding: 3px 0 2px;
+    margin-bottom: -1px;
+    margin-left: -8px;
+    margin-right: -8px
+}
+
+.ul--stampstext strong {
+    margin-bottom: -2px;
+    margin-left: -14px;
+    margin-right: -14px
+}
+
+.ul--stampstext {
+    margin-left: 500px;
+    margin-top: -120px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 30px;
+    padding: 2px 14px;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column-reverse
+}
+
+#userLookupCollections::before {
+    content: url(https://i.imgur.com/tH5yju6.png);
+    font-family: Stretch Pro;
+    font-size: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px
+}
+
+.ul__avatars {
+    height: 138px;
+    width: 282px;
+    background: url(https://i.imgur.com/XtwcCNl.png)
+}
+
+.ul--avatarsimg {
+    margin-left: 17px;
+    filter: saturate(0);
+    margin-top: 46px;
+    margin-bottom: 50px
+}
+
+#userLookupLinks {
+    margin: 0;
+    filter: saturate(0) !important;
+    justify-content: center;
+    overflow: hidden
+}
+
+#userLookupLinks .ul__link {
+    background: #000;
+    color: #fff;
+    width: 16.6%;
+    display: flex;
+    line-height: 1.1;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px 45px;
+    font-weight: 600;
+    font-size: 9px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+#userLookupLinks img,
+#userLookupLinks input[type=image] {
+    filter: invert(1) !important;
+    transform: scale(0.7)
+}
+
+.ul--linktext {
+    font-size: 10px;
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Stretch Pro;
+    font-weight: 400
+}
+
+#userLookupLinks .ul__link:nth-of-type(6) {
+    background: #e0e0e0
+}
+
+#userLookupLinks .ul__link:nth-of-type(5) {
+    background: #ccc
+}
+
+#userLookupLinks .ul__link:nth-of-type(4) {
+    background: #bababa
+}
+
+#userLookupLinks .ul__link:nth-of-type(3) {
+    background: #989898
+}
+
+#userLookupLinks .ul__link:nth-of-type(2) {
+    background: #6F6F6F
+}
+
+#userLookupLinks .ul__link:nth-of-type(1) {
+    background: #222
+}
+
+.ul--sectionheader {
+    margin-top: 50px;
+    font-family: akira expanded;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    text-align: center !important;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: -1px
+}
+
+.ul--sectionheader::before,
+.ul--sectionheader::after {
+    display: none
+}
+
+#userLookupPets {
+    width: 70%;
+    padding: 150px 0 160px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center
+}
+
+.ul--petsheader strong {
+    display: none
+}
+
+.ul--petsheader::after {
+    content: url(https://i.imgur.com/dz4Lzqn.png);
+    display: block
+}
+
+#userPetList {
+    padding-top: 50px;
+    mix-blend-mode: multiply
+}
+
+#userPetList .med-image {
+    width: 150px !important
+}
+
+.ul__pet {
+    margin: 20px
+}
+
+.ul__pet img {
+    mix-blend-mode: multiply;
+    transition: all 0.3s ease
+}
+
+#siteTrophiesList img,
+#gameTrophiesList img {
+    transform: scale(0.8);
+    filter: hue-rotate(-10deg) saturate(0.85)
+}
+
+a.ul--petname {
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: Stretch Pro;
+    letter-spacing: 0.5px;
+    color: #000 !important
+}
+
+.ul--sitetrophiesheader {
+    padding-top: 35px
+}
+
+.ul--sitetrophiesheader strong,
+.ul--gametrophiesheader strong {
+    display: none
+}
+
+.ul--sitetrophiesheader::before {
+    content: url(https://i.imgur.com/6CfjRn9.png);
+    display: block;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 80px;
+    letter-spacing: -1px
+}
+
+#siteTrophiesList::before,
+#userLookupGameTrophies::before {
+    content: "[ games ]";
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: inline-block !important;
+    font-family: Stretch Pro;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    padding: 6px 10px
+}
+
+#siteTrophiesList::before {
+    margin-top: -20px;
+    content: "[ site ]"
+}
+
+#userLookupSiteTrophies {
+    padding-top: 90px;
+    position: relative
+}
+
+#gameTrophiesList {
+    line-height: 1.2;
+    margin: 0 auto;
+    padding-top: 30px;
+    max-width: 60%;
+    text-transform: none !important
+}
+
+#userLookupSiteTrophies::after {
+    width: 100%;
+    background: #f9f9f9;
+    height: 100%;
+    display: block;
+    position: absolute;
+    mix-blend-mode: multiply;
+    content: "";
+    top: 0;
+    pointer-events: none
+}
+
+#userLookupGameTrophies {
+    position: relative;
+    padding-bottom: 150px;
+    padding-top: 30px
+}
+
+#userLookupGameTrophies::after {
+    width: 100%;
+    background: #f9f9f9;
+    height: 100%;
+    display: block;
+    position: absolute;
+    mix-blend-mode: multiply;
+    content: "";
+    pointer-events: none;
+    top: 0
+}
+
+.ul--sitetrophyname,
+.ul--gametrophyname,
+.ul--sitetrophycap,
+.ul--sitetrophyname a,
+.ul--gametrophyname a,
+.ul--sitetrophycap a {
+    font-size: 11px;
+    color: #000;
+    font-weight: 400 !important;
+    letter-spacing: -0.2px
+}
+
+.ul__sitetrophy,
+.ul__gametrophy {
+    margin: 5px 10px
+}
+
+.ul__sitetrophy {
+    margin-top: 30px
+}
+
+.ul--sitetrophyname {
+    width: 90px;
+    line-height: 1.2
+}
+
+.ul--gametrophyname {
+    width: 90px
+}
+
+.ul__game41 {
+    order: -100
+}
+
+.ul__game70 {
+    order: -99
+}
+
+.ul__game74 {
+    order: -98
+}
+
+.ul__game39 {
+    order: -97
+}
+
+.ul__game53 {
+    order: -95
+}
+
+.ul__game58 {
+    order: -94
+}
+
+.ul__game80 {
+    order: -93
+}
+
+.ul__game20 {
+    order: -92
+}
+
+.ul__game63 {
+    order: -91
+}
+
+.ul__game10 {
+    order: -89
+}
+
+.ul__game21 {
+    order: -88
+}
+
+.ul__game19 {
+    order: -87
+}
+
+.ul__game34 {
+    order: -86
+}
+
+.ul__game66 {
+    order: -85
+}
+
+.ul__game25 {
+    order: -84
+}
+
+#userReportBlock {
+    background: #f9f9f9;
+    margin: 0;
+    padding-bottom: 50px
+}
+
+.ul--button {
+    text-transform: uppercase;
+    color: #999
+}
+
+.ul--button:hover {
+    color: #000
+}
+
+#page_footer::before {
+    background: url(https://decygn.github.io/gc-cyde/personal/dexa-lookup/img/noise.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99999999999 !important;
+    display: block;
+    top: 0;
+    left: 0;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    content: ""
+}
+
+#page_footer {
+    width: 100%;
+    position: relative;
+    background: #000;
+    color: #fff;
+    margin: 0;
+    height: auto;
+    padding: 50px 0 40px
+}
+
+#page_footer a {
+    color: #fff
+}
+
+#page_footer a:hover {
+    color: #ffbd27
+}
+
+#footer_content::before {
+    font-family: Stretch Pro;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+    content: "CSS BY CYDE";
+    border: 3px solid #fff;
+    font-size: 14px;
+    padding: 15px 30px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    margin-top: -90px;
+    width: fit-content;
+    right: 0
+}
+
+#footer_content {
+    max-width: 640px;
+    font-size: 11px;
+    line-height: 1.6;
+    margin-top: 140px;
+    position: relative;
+    color: #aaa;
+    text-wrap: balance
+}
+
+.purple {
+    color: #ffbd27
+}
+
+@media only screen and (max-width: 1560px) {
+    #userLookupInfo {
+        padding-right: 500px
+    }
+
+    #userLookupInfo::after {
+        right: -100px
+    }
+}
+
+@media only screen and (max-width: 1460px) {
+    #userLookupInfo {
+        padding-right: 400px
+    }
+
+    #userLookupInfo::after {
+        right: -200px
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    #userLookupInfo {
+        padding-right: 300px
+    }
+
+    #userLookupInfo::after {
+        right: -300px
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    #userLookupInfo {
+        padding-right: 200px
+    }
+
+    #userLookupInfo::after {
+        right: -400px
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #userLookupInfo {
+        padding-right: 0
+    }
+
+    #userLookupInfo::after {
+        display: none
+    }
+
+    #userLookupText {
+        column-count: 1
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #userLookupPets {
+        width: 86%;
+        padding: 120px 0 130px
+    }
+
+    #gameTrophiesList {
+        max-width: 80%
+    }
+
+    #footer_content {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 740px) and (pointer: coarse) {
+    #topbar {
+        align-items: center;
+        padding: 20px 30px;
+        justify-content: center;
+        gap: 30px;
+        z-index: 9999
+    }
+
+    #container::before {
+        background: #fff;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        content: "";
+        z-index: 9999;
+        height: 70px
+    }
+
+    #logo img {
+        width: 60px
+    }
+
+    nav {
+        gap: 30px
+    }
+
+    nav a {
+        font-size: 12px
+    }
+
+    nav a::after {
+        margin-top: -8px
+    }
+
+    #userLookupLinks {
+        flex-wrap: wrap
+    }
+
+    #userLookupLinks .ul__link {
+        width: calc(100% / 3);
+        padding: 15px 0 30px
+    }
+
+    .ul--linktext {
+        font-size: 9px
+    }
+
+    #userLookupPets {
+        width: 90%
+    }
+
+    #userPetList .med-image {
+        width: 100px
+    }
+
+    .ul__pet {
+        margin: 15px
+    }
+
+    #gameTrophiesList {
+        max-width: 90%
+    }
+
+    .ul__sitetrophy,
+    .ul__gametrophy {
+        margin: 5px 5px
+    }
+
+    #footer_content {
+        font-size: 10px;
+        max-width: 300px
+    }
+}
+
+@media only screen and (max-width: 700px) and (pointer: coarse) {
+    #userLookupPets {
+        width: 90%
+    }
+
+    #userPetList .med-image {
+        width: 100px
+    }
+
+    .ul__pet {
+        margin: 12px
+    }
+}
+
+@media only screen and (max-height: 1620px) and (pointer: coarse) {
+    header {
+        height: 68vh
+    }
+}
