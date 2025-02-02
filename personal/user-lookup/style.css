@@ -690,10 +690,10 @@ img[src*="techo_stone"] {
     opacity: 0.4;
 }
 
-.ul__Berb .med-image,
-.ul__Lovere .med-image,
-.ul__White .med-image {
-    width: 150px !important;
+#userPetList .ul__Berb .med-image,
+#userPetList .ul__Lovere .med-image,
+#userPetList .ul__White .med-image {
+    width: 110px !important;
 }
 
 .ul--sitetrophiesheader {
