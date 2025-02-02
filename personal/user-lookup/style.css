@@ -92,7 +92,18 @@ div.re_text {
     display: flex;
     justify-content: space-between;
     mix-blend-mode: difference;
-    position: fixed
+    position: fixed;
+    animation: fadeDown 0.5s forwards;
+}
+
+@keyframes fadeDown {
+    from {
+        transform: translateY(-50px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
 }
 
 #logo {
@@ -187,9 +198,9 @@ header::after {
 }
 
 #header-image img {
-    width: 90vw;
+    width: 85vw;
     max-width: 1500px;
-    max-height: 70vh;
+    max-height: 65vh;
     display: block
 }
 
