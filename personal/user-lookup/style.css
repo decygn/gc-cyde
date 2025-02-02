@@ -659,17 +659,19 @@ img[src*="techo_stone"] {
 .ul__Vertebrate::after {
     content: 'Pet & Name Up for trade';
     display: block;
-    font-size: 11px;
+    font-size: 10px;
     color: #999;
     text-transform: uppercase;
+    margin-top: 3px;
 }
 
 .ul__Lovere::after {
     content: 'Pet & Name Up for trade';
     display: block;
-    font-size: 11px;
+    font-size: 10px;
     color: #999;
     text-transform: uppercase;
+    margin-top: 3px;
 }
 
 .ul__Quadrone::after,
@@ -677,9 +679,10 @@ img[src*="techo_stone"] {
 .ul__Cometary::after {
     content: 'Name Up for trade';
     display: block;
-    font-size: 11px;
+    font-size: 10px;
     color: #999;
     text-transform: uppercase;
+    margin-top: 3px;
 }
 
 .Hypnotise__after {
