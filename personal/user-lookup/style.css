@@ -553,7 +553,7 @@ header::after {
 a.ul--petname {
     text-transform: uppercase;
     margin-top: 15px;
-    font-size: 10px;
+    font-size: 12px;
     font-family: Stretch Pro;
     letter-spacing: 0.5px;
     color: #000 !important
@@ -657,7 +657,7 @@ img[src*="techo_stone"] {
 /* ====================== END OF PET OVERLAYS ======================= */
 
 .ul__Vertebrate::after {
-    content: 'Pet & Name Up for trade';
+    content: 'Pet & Name UFT';
     display: block;
     font-size: 10px;
     color: #999;
@@ -666,7 +666,7 @@ img[src*="techo_stone"] {
 }
 
 .ul__Lovere::after {
-    content: 'Pet & Name Up for trade';
+    content: 'Pet UFT';
     display: block;
     font-size: 10px;
     color: #999;
@@ -674,10 +674,11 @@ img[src*="techo_stone"] {
     margin-top: 3px;
 }
 
+.ul__Arose::after,
 .ul__Quadrone::after,
 .ul__Receive::after,
 .ul__Cometary::after {
-    content: 'Name Up for trade';
+    content: 'Name UFT';
     display: block;
     font-size: 10px;
     color: #999;
