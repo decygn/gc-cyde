@@ -657,7 +657,25 @@ img[src*="techo_stone"] {
 /* ====================== END OF PET OVERLAYS ======================= */
 
 .ul__Vertebrate::after {
-    content: 'Up for trade';
+    content: 'Pet & Name Up for trade';
+    display: block;
+    font-size: 11px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.ul__Lovere::after {
+    content: 'Pet & Name Up for trade';
+    display: block;
+    font-size: 11px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.ul__Quadrone::after,
+.ul__Receive::after,
+.ul__Cometary::after {
+    content: 'Name Up for trade';
     display: block;
     font-size: 11px;
     color: #999;
