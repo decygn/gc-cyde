@@ -659,9 +659,14 @@ img[src*="techo_stone"] {
 .Hypnotise__after {
     display: block;
     flex-basis: 100%;
+
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
 }
 
-.ul__Berb::before {
+.Hypnotise__after::after {
     content: '[ WIP ]';
     text-align: center;
     margin: 0 auto;
@@ -681,14 +686,14 @@ img[src*="techo_stone"] {
 
 .ul__Berb,
 .ul__Lovere,
-[id="White Kyureum"] {
+[id="White Kyurem"] {
     opacity: 0.4;
 }
 
 .ul__Berb .med-image,
 .ul__Lovere .med-image,
-[id="White Kyureum"] .med-image {
-    width: 150px;
+[id="White Kyurem"] .med-image {
+    width: 150px !important;
 }
 
 .ul--sitetrophiesheader {
