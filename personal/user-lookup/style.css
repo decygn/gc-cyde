@@ -686,13 +686,13 @@ img[src*="techo_stone"] {
 
 .ul__Berb,
 .ul__Lovere,
-[id="White Kyurem"] {
+.ul__White {
     opacity: 0.4;
 }
 
 .ul__Berb .med-image,
 .ul__Lovere .med-image,
-[id="White Kyurem"] .med-image {
+.ul__White .med-image {
     width: 150px !important;
 }
 
