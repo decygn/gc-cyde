@@ -569,6 +569,11 @@ header::after {
     transition: all 0.3s ease
 }
 
+.ul__pet img:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease
+}
+
 #siteTrophiesList img,
 #gameTrophiesList img {
     transform: scale(0.8);
