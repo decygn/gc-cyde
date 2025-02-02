@@ -1062,7 +1062,7 @@ img[src*="techo_stone"] {
 
 @media only screen and (max-width: 900px) {
     #userLookupPets {
-        width: 86%;
+        width: 90%;
         padding: 120px 0 130px
     }
 
@@ -1128,7 +1128,7 @@ img[src*="techo_stone"] {
     }
 
     #userPetList .med-image {
-        width: 100px
+        width: 100px !important
     }
 
     .ul__pet {
@@ -1156,7 +1156,7 @@ img[src*="techo_stone"] {
     }
 
     #userPetList .med-image {
-        width: 100px
+        width: 100px !important
     }
 
     .ul__pet {
