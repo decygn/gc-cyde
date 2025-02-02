@@ -561,7 +561,7 @@ header::after {
 }
 
 .ul__pet {
-    margin: 20px
+    margin: 15px 20px
 }
 
 .ul__pet img {
@@ -1064,6 +1064,10 @@ img[src*="techo_stone"] {
     #userLookupPets {
         width: 90%;
         padding: 120px 0 130px
+    }
+
+    #userPetList .med-image {
+        width: 110px !important
     }
 
     #gameTrophiesList {
