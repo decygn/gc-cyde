@@ -559,6 +559,12 @@ a.ul--petname {
     color: #000 !important
 }
 
+/* ====================== PET OVERLAYS ======================= */
+
+[src*="aisha_msp"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_aisha.png);
+}
+
 .ul--sitetrophiesheader {
     padding-top: 35px
 }
