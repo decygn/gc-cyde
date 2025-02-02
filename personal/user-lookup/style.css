@@ -259,7 +259,9 @@ header::after {
     background: #000;
     display: flex;
     flex-direction: column-reverse;
-    padding-right: 600px
+    padding-right: 600px;
+    opacity: 0;
+    animation: fadeDown 0.7s forwards 1.4s;
 }
 
 #userLookupInfo::after {
