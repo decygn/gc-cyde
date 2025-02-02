@@ -573,6 +573,10 @@ img[src*="zafara_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_zafara.png);
 }
 
+img[src*="jubjub_alien"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_jubjub.png);
+}
+
 img[src*="wocky_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_wocky.png);
 }
@@ -609,17 +613,46 @@ img[src*="zafara_edgy"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/edgy_zafara.png);
 }
 
-img[src*="chia_robot"] {
-    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_chia.png);
+img[src*="jubjub_pirate"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/pirate_jubjub.png);
 }
 
-img[src*="chia_robot"] {
-    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_chia.png);
+img[src*="ixi_grey"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/grey_ixi.png);
 }
 
-img[src*="chia_robot"] {
-    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_chia.png);
+img[src*="shoyru_starry"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/starry_shoyru.png);
 }
+
+img[src*="hissi_halloween"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/halloween_hissi.png);
+}
+
+img[src*="poogle_plushie"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/plushie_poogle.png);
+}
+
+img[src*="chia_nugget"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/nugget_chia.png);
+}
+
+img[src*="grundo_chocolate"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_grundo.png);
+}
+
+img[src*="wocky_valentine"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_wocky.png);
+}
+
+img[src*="poogle_valentine"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_poogle.png);
+}
+
+img[src*="techo_stone"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/stone_techo.png);
+}
+
 
 /* ====================== END OF PET OVERLAYS ======================= */
 .ul--sitetrophiesheader {
