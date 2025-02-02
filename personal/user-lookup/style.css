@@ -674,6 +674,7 @@ img[src*="techo_stone"] {
     margin-top: 3px;
 }
 
+.ul__Hypnotise::after,
 .ul__Arose::after,
 .ul__Quadrone::after,
 .ul__Receive::after,
