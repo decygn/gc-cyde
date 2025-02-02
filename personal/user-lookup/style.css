@@ -93,7 +93,8 @@ div.re_text {
     justify-content: space-between;
     mix-blend-mode: difference;
     position: fixed;
-    animation: fadeDown 0.5s forwards;
+    animation: fadeDown 0.7s forwards;
+    opacity: 0;
 }
 
 @keyframes fadeDown {
@@ -103,6 +104,7 @@ div.re_text {
 
     to {
         transform: translateY(0);
+        opacity: 1;
     }
 }
 
@@ -194,7 +196,15 @@ header::after {
 }
 
 #header-image {
-    margin-top: -130px
+    margin-top: -130px;
+    opacity: 0;
+    animation: fadeIn 0.7s forwards .5s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 #header-image img {
@@ -212,7 +222,9 @@ header::after {
     font-size: 14px;
     text-transform: capitalize;
     letter-spacing: -0.5px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    animation: fadeDown 0.7s forwards 1s;
+    opacity: 0;
 }
 
 .description b {
