@@ -221,7 +221,7 @@ header::after {
     position: absolute;
     bottom: 0;
     font-size: 14px;
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
     letter-spacing: -0.5px;
     margin-bottom: 50px;
