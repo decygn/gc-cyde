@@ -607,6 +607,10 @@ img[src*="jubjub_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_jubjub.png);
 }
 
+img[src*="lutari_alien"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_lutari.png);
+}
+
 img[src*="wocky_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_wocky.png);
 }
