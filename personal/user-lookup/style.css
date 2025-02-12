@@ -494,6 +494,23 @@ header::after {
     font-weight: 400
 }
 
+.ul--relics {
+    position: absolute;
+    order: 110 !important;
+    margin-top: 570px;
+    color: #fff;
+    margin-left: -200px;
+    z-index: 999999999;
+    width: 100%;
+}
+
+.ul--relics a {
+    color: #999;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 1px dashed #555
+}
+
 #userLookupLinks .ul__link:nth-of-type(6) {
     background: #e0e0e0
 }
