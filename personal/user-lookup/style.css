@@ -1076,6 +1076,10 @@ img[src*="techo_stone"] {
     #userLookupInfo::after {
         right: -300px
     }
+
+    .ul--relics {
+        margin-left: -35px;
+    }
 }
 
 @media only screen and (max-width: 1260px) {
@@ -1085,6 +1089,10 @@ img[src*="techo_stone"] {
 
     #userLookupInfo::after {
         right: -400px
+    }
+
+    .ul--relics {
+        margin-left: 15px;
     }
 }
 
@@ -1099,6 +1107,11 @@ img[src*="techo_stone"] {
 
     #userLookupText {
         column-count: 1
+    }
+
+    .ul--relics {
+        margin-top: 725px;
+        margin-left: -95px;
     }
 }
 
