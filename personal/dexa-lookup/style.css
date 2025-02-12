@@ -27,6 +27,7 @@
 
 body {
     background-image: url(https://decygn.github.io/gc-cyde/personal/dexa-lookup/img/background.jpg);
+    background-size: cover;
     color: #fff;
     font-family: Inconsolata
 }
