@@ -464,12 +464,12 @@ footer a:hover {
     }
 }
 
-@media screen and (min-height: 880px) {
-    footer {
-        bottom: -10px !important;
-        position: fixed
-    }
+footer {
+    bottom: -10px !important;
+    position: fixed
 }
+
+@media screen and (min-height: 880px) {}
 
 @media screen and (min-height: 1201px) {
     footer {
