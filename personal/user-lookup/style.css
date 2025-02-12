@@ -757,15 +757,13 @@ img[src*="techo_stone"] {
     padding: 6px 10px
 }
 
-.ul__Saumon,
-.ul__Qualis,
+.ul__Receive,
 .ul__Lovere,
 .ul__White {
     opacity: 0.4;
 }
 
-#userPetList .ul__Saumon .med-image,
-#userPetList .ul__Qualis .med-image,
+#userPetList .ul__Receive .med-image,
 #userPetList .ul__Lovere .med-image,
 #userPetList .ul__White .med-image {
     width: 110px !important;
