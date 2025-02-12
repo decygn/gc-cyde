@@ -1113,9 +1113,7 @@ img[src*="techo_stone"] {
         margin-top: 725px;
         margin-left: -98px;
     }
-}
 
-@media only screen and (max-width: 900px) {
     #userLookupPets {
         width: 90%;
         padding: 120px 0 130px
@@ -1128,6 +1126,9 @@ img[src*="techo_stone"] {
     #gameTrophiesList {
         max-width: 80%
     }
+}
+
+@media only screen and (max-width: 900px) {
 
     #footer_content {
         width: 100%
