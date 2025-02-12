@@ -1119,16 +1119,15 @@ img[src*="techo_stone"] {
         padding: 120px 0 130px
     }
 
-    #userPetList .med-image {
-        width: 110px !important
-    }
-
     #gameTrophiesList {
         max-width: 80%
     }
 }
 
 @media only screen and (max-width: 900px) {
+    #userPetList .med-image {
+        width: 110px !important
+    }
 
     #footer_content {
         width: 100%
