@@ -775,13 +775,13 @@ img[src*="techo_stone"] {
 }
 
 .ul__Receive,
-.ul__Lovere,
+.ul__Periscope,
 .ul__White {
     opacity: 0.4;
 }
 
 #userPetList .ul__Receive .med-image,
-#userPetList .ul__Lovere .med-image,
+#userPetList .ul__Periscope .med-image,
 #userPetList .ul__White .med-image {
     width: 110px !important;
 }
@@ -1126,7 +1126,7 @@ img[src*="techo_stone"] {
 
 @media only screen and (max-width: 900px) {
     #userPetList .med-image {
-        width: 110px !important
+        width: 140px !important
     }
 
     #footer_content {
