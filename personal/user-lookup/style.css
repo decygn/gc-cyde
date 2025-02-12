@@ -648,6 +648,10 @@ img[src*="hissi_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_hissi.png);
 }
 
+img[src*="zafara_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_zafara.png);
+}
+
 img[src*="cybunny_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_cybunny.png);
 }
@@ -775,13 +779,11 @@ img[src*="techo_stone"] {
 }
 
 .ul__Receive,
-.ul__Periscope,
 .ul__White {
     opacity: 0.4;
 }
 
 #userPetList .ul__Receive .med-image,
-#userPetList .ul__Periscope .med-image,
 #userPetList .ul__White .med-image {
     width: 110px !important;
 }
