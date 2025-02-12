@@ -1062,6 +1062,10 @@ img[src*="techo_stone"] {
     #userLookupInfo::after {
         right: -200px
     }
+
+    .ul--relics {
+        margin-left: -85px;
+    }
 }
 
 @media only screen and (max-width: 1360px) {
