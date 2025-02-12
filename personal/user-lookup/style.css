@@ -499,7 +499,7 @@ header::after {
     order: 110 !important;
     margin-top: 570px;
     color: #fff;
-    margin-left: -200px;
+    margin-left: -185px;
     z-index: 999999999;
     width: 100%;
 }
