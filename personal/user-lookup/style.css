@@ -779,12 +779,12 @@ img[src*="techo_stone"] {
 }
 
 .ul__Receive,
-.ul__Quale {
+.ul__Knucker {
     opacity: 0.4;
 }
 
 #userPetList .ul__Receive .med-image,
-#userPetList .ul__Quale .med-image {
+#userPetList .ul__Knucker .med-image {
     width: 110px !important;
 }
 
