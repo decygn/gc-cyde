@@ -1,0 +1,184 @@
+/* Global Styles */
+body {
+    background-color: #F0F0F5;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+/* App Layout */
+.app-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E0E0E0;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.new-chat {
+    background-color: #10A37F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.new-chat:hover {
+    background-color: #0C8665;
+}
+
+.nav-links p {
+    font-size: 14px;
+    color: #555;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.nav-links p:hover {
+    color: #000;
+}
+
+/* Chat Window */
+.chat-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+/* Chat Header */
+.chat-header {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #F7F7F8;
+}
+
+/* Chat Messages */
+.chat-window {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Message Bubbles */
+.message {
+    display: flex;
+    max-width: 80%;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* User Message */
+.user {
+    align-self: flex-end;
+    background-color: #DCF1FF;
+    color: #000;
+    border-radius: 15px 15px 0px 15px;
+    padding: 10px 14px;
+}
+
+/* AI Message */
+.ai {
+    align-self: flex-start;
+    background-color: #F3F3F3;
+    color: #000;
+    display: flex;
+    gap: 10px;
+    padding: 12px 14px;
+    border-radius: 15px 15px 15px 0px;
+}
+
+/* AI Avatar */
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Input Bar */
+.input-bar {
+    display: flex;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #E0E0E0;
+}
+
+.input-bar input {
+    flex-grow: 1;
+    padding: 12px;
+    background-color: #F7F7F8;
+    border: 1px solid #E0E0E0;
+    color: #000;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-bar input::placeholder {
+    color: #888;
+}
+
+.input-bar button {
+    background-color: #0A84FF;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.input-bar button:hover {
+    background-color: #0077E6;
+}
+
+/* Scrollbar */
+.chat-window::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-window::-webkit-scrollbar-thumb {
+    background: #D0D0D0;
+    border-radius: 3px;
+}
+
+.chat-window::-webkit-scrollbar-track {
+    background: #F7F7F8;
+}
