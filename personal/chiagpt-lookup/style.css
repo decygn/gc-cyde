@@ -377,14 +377,20 @@ a,
         margin-left: 160px;
     }
 
+    aside li img {
+        margin-right: 8px;
+        width: 18px;
+    }
+
+    aside a {
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+
     #topbar {
         position: fixed;
         left: 160px;
         width: calc(100% - 160px);
-    }
-
-    aside li img {
-        display: none;
     }
 
     #petLookupContent {
