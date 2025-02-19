@@ -27,6 +27,7 @@ a {
 #sb_side,
 #page_banner,
 #userLookupShield,
+#sb_bottom,
 hr,
 .ul--header {
     display: none
@@ -719,7 +720,8 @@ img[src*="techo_stone"] {
 
 /* ====================== END OF PET OVERLAYS ======================= */
 
-.ul__Vertebrate::after {
+.ul__Vertebrate::after,
+.ul__Knucker::after {
     content: 'Pet & Name UFT';
     display: block;
     font-size: 10px;
@@ -737,7 +739,6 @@ img[src*="techo_stone"] {
     margin-top: 3px;
 }
 
-.ul__Hypnotise::after,
 .ul__Arose::after,
 .ul__Quadrone::after,
 .ul__Receive::after,
@@ -750,7 +751,7 @@ img[src*="techo_stone"] {
     margin-top: 3px;
 }
 
-.Hypnotise__after {
+.Narcosis__after {
     display: block;
     flex-basis: 100%;
 
@@ -760,7 +761,7 @@ img[src*="techo_stone"] {
     text-align: center;
 }
 
-.Hypnotise__after::after {
+.Narcosis__after::after {
     content: '[ WIP ]';
     text-align: center;
     margin: 0 auto;
@@ -779,7 +780,9 @@ img[src*="techo_stone"] {
 }
 
 .ul__Receive,
-.ul__Knucker {
+.ul__Knucker,
+.ul__binksbonk,
+.ul__Cybernaut {
     opacity: 0.4;
 }
 
