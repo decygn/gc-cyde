@@ -742,7 +742,10 @@ img[src*="techo_stone"] {
 .ul__Arose::after,
 .ul__Quadrone::after,
 .ul__Receive::after,
-.ul__Cometary::after {
+.ul__Cometary::after,
+.ul__Metre::after,
+.ul__Gunfire::after,
+.ul__Springtide::after {
     content: 'Name UFT';
     display: block;
     font-size: 10px;
