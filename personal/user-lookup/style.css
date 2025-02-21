@@ -787,7 +787,9 @@ img[src*="techo_stone"] {
 }
 
 #userPetList .ul__Receive .med-image,
-#userPetList .ul__Knucker .med-image {
+#userPetList .ul__Knucker .med-image,
+#userPetList .ul__binksbonk .med-image,
+#userPetList .ul__Cybernaut .med-image {
     width: 110px !important;
 }
 
@@ -1016,11 +1018,11 @@ img[src*="techo_stone"] {
 
 #footer_content::before {
     font-family: Stretch Pro;
-    color: #fff;
+    color: #333;
     letter-spacing: 0.5px;
     margin-bottom: 40px;
     content: "CSS BY CYDE";
-    border: 3px solid #fff;
+    background: #fff;
     font-size: 14px;
     padding: 15px 30px;
     position: absolute;
