@@ -969,6 +969,14 @@ img[src*="techo_stone"] {
     order: -84
 }
 
+.ul__game17 {
+    order: -90
+}
+
+.ul__game60 {
+    order: -78
+}
+
 #userReportBlock {
     background: #f9f9f9;
     margin: 0;
