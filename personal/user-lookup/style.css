@@ -785,14 +785,16 @@ img[src*="techo_stone"] {
 .ul__Receive,
 .ul__Knucker,
 .ul__binksbonk,
-.ul__Rrrrr {
+.ul__Rrrrr,
+.ul__Cymric {
     opacity: 0.4;
 }
 
 #userPetList .ul__Receive .med-image,
 #userPetList .ul__Knucker .med-image,
 #userPetList .ul__binksbonk .med-image,
-#userPetList .ul__Rrrrr .med-image {
+#userPetList .ul__Rrrrr .med-image,
+#userPetList .ul__Cymric .med-image {
     width: 110px !important;
 }
 
