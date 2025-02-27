@@ -786,7 +786,8 @@ img[src*="techo_stone"] {
 .ul__Knucker,
 .ul__binksbonk,
 .ul__Rrrrr,
-.ul__Cymric {
+.ul__Cymric,
+.ul__Darku {
     opacity: 0.4;
 }
 
@@ -794,7 +795,8 @@ img[src*="techo_stone"] {
 #userPetList .ul__Knucker .med-image,
 #userPetList .ul__binksbonk .med-image,
 #userPetList .ul__Rrrrr .med-image,
-#userPetList .ul__Cymric .med-image {
+#userPetList .ul__Cymric .med-image,
+#userPetList .ul__Darku .med-image {
     width: 110px !important;
 }
 
