@@ -669,6 +669,10 @@ img[src*="chia_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_chia.png);
 }
 
+img[src*="aisha_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_aisha.png);
+}
+
 img[src*="krawk_shadow"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/shadow_krawk.png);
 }
@@ -703,6 +707,10 @@ img[src*="chia_nugget"] {
 
 img[src*="grundo_chocolate"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_grundo.png);
+}
+
+img[src*="aisha_chocolate"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_aisha.png);
 }
 
 img[src*="wocky_valentine"] {
@@ -786,7 +794,6 @@ img[src*="techo_stone"] {
 .ul__Knucker,
 .ul__binksbonk,
 .ul__Rrrrr,
-.ul__Nuffin,
 .ul__Darku {
     opacity: 0.4;
 }
@@ -795,7 +802,6 @@ img[src*="techo_stone"] {
 #userPetList .ul__Knucker .med-image,
 #userPetList .ul__binksbonk .med-image,
 #userPetList .ul__Rrrrr .med-image,
-#userPetList .ul__Nuffin .med-image,
 #userPetList .ul__Darku .med-image {
     width: 110px !important;
 }
