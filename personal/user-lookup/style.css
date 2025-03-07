@@ -790,7 +790,7 @@ img[src*="techo_stone"] {
     padding: 6px 10px
 }
 
-.ul__Receive,
+.ul__Cyberattack,
 .ul__Knucker,
 .ul__binksbonk,
 .ul__Confront,
@@ -798,7 +798,7 @@ img[src*="techo_stone"] {
     opacity: 0.4;
 }
 
-#userPetList .ul__Receive .med-image,
+#userPetList .ul__Cyberattack .med-image,
 #userPetList .ul__Knucker .med-image,
 #userPetList .ul__binksbonk .med-image,
 #userPetList .ul__Confront .med-image,
