@@ -799,12 +799,12 @@ img[src*="techo_stone"] {
 .ul__Mating,
 .ul__Confront,
 .ul__Notify,
-.ul__Diasy,
+.ul__Vantablack,
 .ul__Zoned {
     opacity: 0.4;
 }
 
-#userPetList .ul__Diasy .med-image,
+#userPetList .ul__Vantablack .med-image,
 #userPetList .ul__Zoned .med-image,
 #userPetList .ul__Employ .med-image,
 #userPetList .ul__Cyberattack .med-image,
