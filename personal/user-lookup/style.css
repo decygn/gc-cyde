@@ -801,13 +801,13 @@ img[src*="techo_stone"] {
 .ul__Notify,
 .ul__Vantablack,
 .ul__Vectorize,
-.ul__Zoned {
+.ul__Intend {
     opacity: 0.4;
 }
 
 #userPetList .ul__Vectorize .med-image,
 #userPetList .ul__Vantablack .med-image,
-#userPetList .ul__Zoned .med-image,
+#userPetList .ul__Intend .med-image,
 #userPetList .ul__Employ .med-image,
 #userPetList .ul__Cyberattack .med-image,
 #userPetList .ul__Brava .med-image,
