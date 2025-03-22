@@ -793,9 +793,11 @@ img[src*="techo_stone"] {
     padding: 6px 10px
 }
 
+.ul__Gigahertz,
+.ul__Armless,
 .ul__Employ,
 .ul__Uneven,
-.ul__Brava,
+.ul__Sluggard,
 .ul__Mating,
 .ul__Confront,
 .ul__Notify,
@@ -805,12 +807,14 @@ img[src*="techo_stone"] {
     opacity: 0.4;
 }
 
+#userPetList .ul__Gigahertz .med-image,
+#userPetList .ul__Armless .med-image,
 #userPetList .ul__Vectorize .med-image,
 #userPetList .ul__Vantablack .med-image,
 #userPetList .ul__Intend .med-image,
 #userPetList .ul__Employ .med-image,
 #userPetList .ul__Uneven .med-image,
-#userPetList .ul__Brava .med-image,
+#userPetList .ul__Sluggard .med-image,
 #userPetList .ul__Mating .med-image,
 #userPetList .ul__Confront .med-image,
 #userPetList .ul__Notify .med-image {
