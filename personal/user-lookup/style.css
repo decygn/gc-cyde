@@ -793,8 +793,11 @@ img[src*="techo_stone"] {
     padding: 6px 10px
 }
 
+.ul__Leopardi,
+.ul__Ginsberg,
+.ul__Wordsworth,
 .ul__Gigahertz,
-.ul__Armless,
+.ul__Federation,
 .ul__Employ,
 .ul__Uneven,
 .ul__Sluggard,
@@ -807,8 +810,11 @@ img[src*="techo_stone"] {
     opacity: 0.4;
 }
 
+#userPetList .ul__Leopardi .med-image,
+#userPetList .ul__Ginsberg .med-image,
+#userPetList .ul__Wordsworth .med-image,
 #userPetList .ul__Gigahertz .med-image,
-#userPetList .ul__Armless .med-image,
+#userPetList .ul__Federation .med-image,
 #userPetList .ul__Vectorize .med-image,
 #userPetList .ul__Vantablack .med-image,
 #userPetList .ul__Intend .med-image,
