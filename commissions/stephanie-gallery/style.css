@@ -307,13 +307,8 @@ a:hover {
         opacity: 0.5;
     }
 
-    50% {
-        transform: translateY(-380px);
-        opacity: 0.5;
-    }
-
     95% {
-        transform: translateY(-680px);
+        transform: translateY(-880px);
         opacity: 0.5;
     }
 
