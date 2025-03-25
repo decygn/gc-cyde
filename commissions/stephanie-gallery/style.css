@@ -183,6 +183,7 @@ a:hover {
     pointer-events: none;
     opacity: 0;
     transform: scale(0.9) !important;
+    transform-origin: right bottom;
     z-index: 9;
     animation: slide-right 1.2s ease-in-out 1.4s forwards;
 }
@@ -199,5 +200,117 @@ a:hover {
         margin-right: 0;
         margin-bottom: -0px;
         transform: rotate(0deg);
+    }
+}
+
+/* =================== BUBBLES =================== */
+
+#left-bubbles {}
+
+.bubble-1 {
+    left: 300px;
+    animation-delay: 1.3s;
+}
+
+.bubble-1 .bubble-animation-y {
+    animation-delay: 0.7s;
+}
+
+.bubble-2 {
+    left: 33px;
+    animation-delay: 2s;
+}
+
+.bubble-2 .bubble-animation-y {
+    animation-delay: 2.1s;
+}
+
+.bubble-3 {
+    left: 225px;
+    animation-delay: 4.7s;
+}
+
+.bubble-3 .bubble-animation-y {
+    animation-delay: 3.8s;
+}
+
+.bubble-4 {
+    left: 285px;
+    animation-delay: 0s;
+}
+
+.bubble-4 .bubble-animation-y {
+    animation-delay: 6s;
+}
+
+.bubble-5 {
+    left: 115px;
+    animation-delay: 1.5s;
+}
+
+.bubble-5 .bubble-animation-y {
+    animation-delay: 7s;
+}
+
+.bubble-container {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 0;
+}
+
+.bubble {
+    background-color: #ff00ff;
+    opacity: 0;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+}
+
+.bubble-animation-x {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bubbleXAnimFrames;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+
+.bubble-animation-y {
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: bubbleYAnimFrames;
+    animation-timing-function: linear;
+}
+
+@keyframes bubbleXAnimFrames {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+@keyframes bubbleYAnimFrames {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+
+    95% {
+        transform: translateY(-280px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(-300px);
+        opacity: 0;
     }
 }
