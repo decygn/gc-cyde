@@ -110,7 +110,7 @@ a:hover {
     height: auto;
     max-width: 1600px;
     content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/title.png);
-    animation: float ease-in-out 2s infinite;
+    animation: float ease-in-out 3s infinite;
 }
 
 @keyframes title-reveal {
@@ -131,7 +131,7 @@ a:hover {
     }
 
     50% {
-        transform: translateY(10px);
+        transform: translateY(20px);
     }
 
     100% {
@@ -208,6 +208,11 @@ a:hover {
 #left-bubbles,
 #right-bubbles {
     position: fixed;
+    bottom: 0;
+}
+
+#right-bubbles {
+    right: 0;
 }
 
 #left-bubbles .bubble-1 {
@@ -330,12 +335,12 @@ a:hover {
 
     10% {
         transform: translateY(0);
-        opacity: 0.5;
+        opacity: 0.8;
     }
 
     95% {
         transform: translateY(-880px);
-        opacity: 0.5;
+        opacity: 0.9;
     }
 
     100% {
