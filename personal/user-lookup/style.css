@@ -793,6 +793,7 @@ img[src*="techo_stone"] {
     padding: 6px 10px
 }
 
+.ul__Compression,
 .ul__Cheating,
 .ul_Matchmake,
 .ul__Washroom,
@@ -810,6 +811,7 @@ img[src*="techo_stone"] {
     opacity: 0.4;
 }
 
+#userPetList .ul__Compression .med-image,
 #userPetList .ul__Cheating .med-image,
 #userPetList .ul__Matchmake .med-image,
 #userPetList .ul__Washroom .med-image,
