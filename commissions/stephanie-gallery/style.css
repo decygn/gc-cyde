@@ -205,18 +205,18 @@ a:hover {
 
 /* =================== BUBBLES =================== */
 
-#left-bubbles {
-    position: fixed;
-}
-
+#left-bubbles,
 #right-bubbles {
     position: fixed;
-    right: 0;
-    
 }
 
-.bubble-1 {
+#left-bubbles .bubble-1 {
     left: 300px;
+    animation-delay: 1.3s;
+}
+
+#right-bubbles .bubble-1 {
+    right: 300px;
     animation-delay: 1.3s;
 }
 
@@ -224,8 +224,13 @@ a:hover {
     animation-delay: 0.7s;
 }
 
-.bubble-2 {
+#left-bubbles .bubble-2 {
     left: 33px;
+    animation-delay: 2s;
+}
+
+#right-bubbles .bubble-2 {
+    right: 33px;
     animation-delay: 2s;
 }
 
@@ -233,8 +238,13 @@ a:hover {
     animation-delay: 2.1s;
 }
 
-.bubble-3 {
+#left-bubbles .bubble-3 {
     left: 225px;
+    animation-delay: 4.7s;
+}
+
+#right-bubbles .bubble-3 {
+    right: 225px;
     animation-delay: 4.7s;
 }
 
@@ -242,8 +252,13 @@ a:hover {
     animation-delay: 3.8s;
 }
 
-.bubble-4 {
+#left-bubbles .bubble-4 {
     left: 285px;
+    animation-delay: 0s;
+}
+
+#right-bubbles .bubble-4 {
+    right: 285px;
     animation-delay: 0s;
 }
 
@@ -251,8 +266,13 @@ a:hover {
     animation-delay: 6s;
 }
 
-.bubble-5 {
+#left-bubbles .bubble-5 {
     left: 115px;
+    animation-delay: 1.5s;
+}
+
+#right-bubbles .bubble-5 {
+    right: 115px;
     animation-delay: 1.5s;
 }
 
