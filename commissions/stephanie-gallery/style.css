@@ -353,6 +353,13 @@ a:hover {
 }
 
 /* =================== LIGHT RAYS =================== */
+main {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: fixed;
+}
+
 main .light-rays>*::before,
 main .light-rays {
     position: absolute;
@@ -363,11 +370,6 @@ main .light-rays {
     left: 0;
 }
 
-main {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
 
 main .light-rays {
     pointer-events: none;
