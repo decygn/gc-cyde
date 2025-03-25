@@ -1,0 +1,88 @@
+html,
+body {
+    overflow-x: hidden !important;
+}
+
+#sb_side,
+#page_banner,
+#sb_top,
+#shopBar,
+#aio_sidebar,
+#galCats,
+#galleryKeeper,
+hr,
+#page_footer {
+    display: none;
+}
+
+body {
+    background: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/background.jpg?) no-repeat top center/cover;
+    font-family: ;
+    color: #fff;
+}
+
+a {
+    color: #8c3e0f;
+    transition: .3s all ease;
+}
+
+a:hover {
+    color: #482e11;
+}
+
+/* =================== PAGE EVENT STYLING =================== */
+
+#page_event {
+    color: #000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 50px auto;
+    min-height: 0;
+}
+
+.re {
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.shh {
+    padding-top: 6px;
+    line-height: 2;
+}
+
+/* =================== LAYOUT STRUCTURE =================== */
+
+
+#container {
+    display: block;
+    top: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+}
+
+#page_content {
+    top: 0 !important;
+    padding-top: 300px;
+    padding-bottom: 500px;
+    position: relative;
+    width: 100% !important;
+    min-height: 100vh !important;
+}
+
+#gallery_items {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    position: relative !important;
+    opacity: 0;
+    animation: fadein 3s ease-in-out 2s forwards;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
