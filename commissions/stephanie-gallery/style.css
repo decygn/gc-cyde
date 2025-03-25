@@ -209,6 +209,7 @@ a:hover {
 #right-bubbles {
     position: fixed;
     bottom: 0;
+    z-index: 99;
 }
 
 #right-bubbles {
@@ -221,7 +222,7 @@ a:hover {
 }
 
 #right-bubbles .bubble-1 {
-    right: 110px;
+    right: 30px;
     animation-delay: 1.8s;
 }
 
@@ -235,7 +236,7 @@ a:hover {
 }
 
 #right-bubbles .bubble-2 {
-    right: 133px;
+    right: 333px;
     animation-delay: 1.5s;
 }
 
@@ -327,6 +328,7 @@ a:hover {
     }
 }
 
+
 @keyframes bubbleYAnimFrames {
     0% {
         transform: translateY(0);
@@ -340,7 +342,7 @@ a:hover {
 
     95% {
         transform: translateY(-880px);
-        opacity: 0.9;
+        opacity: 0.7;
     }
 
     100% {
