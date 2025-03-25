@@ -209,6 +209,12 @@ a:hover {
     position: fixed;
 }
 
+#right-bubbles {
+    position: fixed;
+    right: 0;
+    
+}
+
 .bubble-1 {
     left: 300px;
     animation-delay: 1.3s;
