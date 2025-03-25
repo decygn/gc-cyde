@@ -139,3 +139,65 @@ a:hover {
         transform: translateY(0px);
     }
 }
+
+/* =================== FOREGROUNDS =================== */
+
+
+#page_content::before {
+    content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/left-foreground.png);
+    bottom: 58px;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    pointer-events: none;
+    z-index: 5;
+    opacity: 0;
+    transform: scale(0.9) !important;
+    transform-origin: left bottom;
+    animation: slide-left 1s ease-in-out 1.2s forwards;
+}
+
+@keyframes slide-left {
+    0% {
+        margin-left: -50px;
+        margin-bottom: -120px;
+        transform: rotate(10deg);
+    }
+
+    100% {
+        opacity: 100%;
+        margin-left: 0;
+        margin-bottom: -0px;
+        transform: rotate(0deg);
+    }
+}
+
+#container::after {
+    content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/right-foreground.png);
+    right: 0;
+    bottom: -10px;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 9;
+    animation: slide-right 1.2s ease-in-out 1.4s forwards;
+}
+
+@keyframes slide-right {
+    0% {
+        margin-right: -50px;
+        margin-bottom: -120px;
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        opacity: 100%;
+        margin-right: 0;
+        margin-bottom: -0px;
+        transform: rotate(0deg);
+    }
+}
