@@ -1,0 +1,532 @@
+/* =================== BUBBLES =================== */
+
+#left-bubbles,
+#right-bubbles {
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+}
+
+#right-bubbles {
+    right: 300px;
+    transform: scaleX(-1);
+}
+
+#left-bubbles .bubble-1 {
+    left: 300px;
+    animation-delay: 1.3s;
+}
+
+#right-bubbles .bubble-1 {
+    right: 30px;
+    animation-delay: 0.8s;
+}
+
+.bubble-1 .bubble-animation-y {
+    animation-delay: 0.7s;
+}
+
+#left-bubbles .bubble-2 {
+    left: 33px;
+    animation-delay: 2s;
+}
+
+#right-bubbles .bubble-2 {
+    right: 333px;
+    animation-delay: 1.5s;
+}
+
+.bubble-2 .bubble-animation-y {
+    animation-delay: 2.1s;
+}
+
+#left-bubbles .bubble-3 {
+    left: 225px;
+    animation-delay: 4.7s;
+}
+
+#right-bubbles .bubble-3 {
+    right: 115px;
+    animation-delay: 4.2s;
+}
+
+.bubble-3 .bubble-animation-y {
+    animation-delay: 3.8s;
+}
+
+#left-bubbles .bubble-4 {
+    left: 285px;
+    animation-delay: 0s;
+}
+
+#right-bubbles .bubble-4 {
+    right: 85px;
+    animation-delay: 0.4s;
+}
+
+.bubble-4 .bubble-animation-y {
+    animation-delay: 6s;
+}
+
+#left-bubbles .bubble-5 {
+    left: 115px;
+    animation-delay: 1.5s;
+}
+
+#right-bubbles .bubble-5 {
+    right: 65px;
+    animation-delay: 1.2s;
+}
+
+.bubble-5 .bubble-animation-y {
+    animation-delay: 7s;
+}
+
+.bubble-container {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 0;
+}
+
+.bubble {
+    background-color: rgb(111, 221, 231, 0.3);
+    opacity: 0;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    box-shadow: inset 0 2px 2px rgba(255, 255, 255, 1), inset 0px 5px 10px 5px rgba(255, 255, 255, 0.5);
+}
+
+.bubble-animation-x {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bubbleXAnimFrames;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+
+.bubble-animation-y {
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: bubbleYAnimFrames;
+    animation-timing-function: linear;
+}
+
+@keyframes bubbleXAnimFrames {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+
+@keyframes bubbleYAnimFrames {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 0.8;
+    }
+
+    95% {
+        transform: translateY(-880px);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateY(-900px);
+        opacity: 0;
+    }
+}
+
+/* =================== LIGHT RAYS =================== */
+
+main {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    animation: fadein 3s ease-in-out 2s forwards;
+}
+
+main .light-rays>*::before,
+main .light-rays {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+main .light-rays {
+    pointer-events: none;
+    filter: blur(0.1rem);
+}
+
+.light-rays>* {
+    --deg: 0;
+    --length: 0rem;
+    --thickness: 20px;
+    --duration: 2s;
+    --delay: 1s;
+    --rotate: 0deg;
+    --degRange: 72.5deg;
+    --spreadRange: 40vw;
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    width: var(--thickness);
+    height: calc(20% + 370px + var(--length));
+    left: 50%;
+    transform: translateX(calc(-50% + var(--deg) * var(--spreadRange) * -1 + 0.5 * var(--spreadRange))) translateY(-100px) rotateZ(calc(var(--degRange) * -0.5 + var(--deg) * var(--degRange))) rotateX(0.01deg);
+    transform-origin: center -100px;
+    mix-blend-mode: screen;
+    -webkit-animation: shimmer linear var(--duration) calc(var(--delay) * -1) infinite alternate forwards, rotate ease-in-out calc(var(--duration) * 3.14) calc(var(--delay) * -1) infinite alternate forwards;
+    animation: shimmer linear var(--duration) calc(var(--delay) * -1) infinite alternate forwards, rotate ease-in-out calc(var(--duration) * 3.14) calc(var(--delay) * -1) infinite alternate forwards;
+}
+
+.light-rays>*::before {
+    content: "";
+    background: linear-gradient(to bottom, #a6fff8, rgba(166, 255, 248, 0) 100%);
+    transform-origin: top center;
+    transform: rotateX(40deg);
+}
+
+.light-rays>*:nth-child(1) {
+    --deg: 0.3036067177;
+    --thickness: 24.1784948603px;
+    --length: -20.7913923913px;
+    --duration: 2.0391979922s;
+    --delay: 2.5213792915s;
+    --rotate: -2.3693027494deg;
+}
+
+.light-rays>*:nth-child(2) {
+    --deg: 0.8837905381;
+    --thickness: 24.4384972985px;
+    --length: -10.5159622356px;
+    --duration: 1.0216900908s;
+    --delay: 2.1259075732s;
+    --rotate: -1.9776788829deg;
+}
+
+.light-rays>*:nth-child(3) {
+    --deg: 0.3731403358;
+    --thickness: 31.3201844118px;
+    --length: -12.6556528029px;
+    --duration: 1.4287024647s;
+    --delay: 2.5810449269s;
+    --rotate: 3.9524496692deg;
+}
+
+.light-rays>*:nth-child(4) {
+    --deg: 0.6342576795;
+    --thickness: 12.7382488308px;
+    --length: -36.3126553618px;
+    --duration: 1.6621294892s;
+    --delay: 2.8140000712s;
+    --rotate: -1.364010851deg;
+}
+
+.light-rays>*:nth-child(5) {
+    --deg: 0.7890286227;
+    --thickness: 12.2751687731px;
+    --length: 8.7529594802px;
+    --duration: 1.1120177541s;
+    --delay: 2.8527447429s;
+    --rotate: -3.2721673321deg;
+}
+
+.light-rays>*:nth-child(6) {
+    --deg: 0.7757773875;
+    --thickness: 23.6011713118px;
+    --length: 42.6694952996px;
+    --duration: 1.6217382169s;
+    --delay: 2.9821910245s;
+    --rotate: 2.3220046577deg;
+}
+
+.light-rays>*:nth-child(7) {
+    --deg: 0.7448427386;
+    --thickness: 24.9530427753px;
+    --length: 25.9783608263px;
+    --duration: 1.0854599031s;
+    --delay: 2.1698354368s;
+    --rotate: -0.2679287698deg;
+}
+
+.light-rays>*:nth-child(8) {
+    --deg: 0.6087622675;
+    --thickness: 22.5168857582px;
+    --length: 36.3849733079px;
+    --duration: 2.2572247721s;
+    --delay: 2.9151991466s;
+    --rotate: 1.1658454894deg;
+}
+
+.light-rays>*:nth-child(9) {
+    --deg: 0.7098827686;
+    --thickness: 27.5814041898px;
+    --length: 15.5103781615px;
+    --duration: 2.0562172219s;
+    --delay: 2.0213421688s;
+    --rotate: 2.4477648712deg;
+}
+
+.light-rays>*:nth-child(10) {
+    --deg: 0.5911299633;
+    --thickness: 15.1460103948px;
+    --length: -3.7578504807px;
+    --duration: 1.7297096788s;
+    --delay: 2.2987690301s;
+    --rotate: 1.8604779671deg;
+}
+
+.light-rays>*:nth-child(11) {
+    --deg: 0.3585218967;
+    --thickness: 20.8109550845px;
+    --length: 42.7134964942px;
+    --duration: 1.940733171s;
+    --delay: 2.8882486714s;
+    --rotate: -0.858894567deg;
+}
+
+.light-rays>*:nth-child(12) {
+    --deg: 0.8632004984;
+    --thickness: 30.7672796483px;
+    --length: 24.0431726615px;
+    --duration: 1.1170702528s;
+    --delay: 2.3057981582s;
+    --rotate: 2.6335168256deg;
+}
+
+.light-rays>*:nth-child(13) {
+    --deg: 0.7540111622;
+    --thickness: 22.5326500501px;
+    --length: 43.4251741148px;
+    --duration: 1.6507096397s;
+    --delay: 2.1353532833s;
+    --rotate: 0.5494612315deg;
+}
+
+.light-rays>*:nth-child(14) {
+    --deg: 0.2020391795;
+    --thickness: 29.7193250382px;
+    --length: -21.263865384px;
+    --duration: 2.1812077168s;
+    --delay: 2.4115964069s;
+    --rotate: -0.6129438405deg;
+}
+
+.light-rays>*:nth-child(15) {
+    --deg: 0.5064071941;
+    --thickness: 32.3019162063px;
+    --length: -8.3777067991px;
+    --duration: 2.2683863102s;
+    --delay: 2.0763468302s;
+    --rotate: -3.8492442998deg;
+}
+
+.light-rays>*:nth-child(16) {
+    --deg: 0.3491328962;
+    --thickness: 24.8596211554px;
+    --length: 46.4891795249px;
+    --duration: 1.7934304781s;
+    --delay: 2.9185841807s;
+    --rotate: 2.6905915527deg;
+}
+
+.light-rays>*:nth-child(17) {
+    --deg: 0.4592049369;
+    --thickness: 11.3027408134px;
+    --length: 36.4505473689px;
+    --duration: 1.4706239124s;
+    --delay: 2.2854777296s;
+    --rotate: 0.356369563deg;
+}
+
+.light-rays>*:nth-child(18) {
+    --deg: 0.6076163922;
+    --thickness: 31.0501055144px;
+    --length: -19.8634123258px;
+    --duration: 2.3572258859s;
+    --delay: 2.9713393832s;
+    --rotate: 1.1313102067deg;
+}
+
+.light-rays>*:nth-child(19) {
+    --deg: 0.1755849167;
+    --thickness: 15.2884141421px;
+    --length: -26.3871867554px;
+    --duration: 2.0753665801s;
+    --delay: 2.2539726617s;
+    --rotate: 2.6658035024deg;
+}
+
+.light-rays>*:nth-child(20) {
+    --deg: 0.6960485843;
+    --thickness: 18.6514455932px;
+    --length: -45.0241346646px;
+    --duration: 2.4674466761s;
+    --delay: 2.0950074115s;
+    --rotate: 1.4857800516deg;
+}
+
+.light-rays>*:nth-child(21) {
+    --deg: 0.7055860135;
+    --thickness: 13.9740279736px;
+    --length: -19.2262679009px;
+    --duration: 2.2578669135s;
+    --delay: 2.6174577505s;
+    --rotate: 1.8576478504deg;
+}
+
+.light-rays>*:nth-child(22) {
+    --deg: 0.322008275;
+    --thickness: 17.9416134686px;
+    --length: 41.8415051217px;
+    --duration: 2.4830472711s;
+    --delay: 2.3173442219s;
+    --rotate: -1.1563682897deg;
+}
+
+.light-rays>*:nth-child(23) {
+    --deg: 0.9786169285;
+    --thickness: 23.5511885632px;
+    --length: 43.4022015201px;
+    --duration: 1.1412403756s;
+    --delay: 2.2202958834s;
+    --rotate: 2.0024222151deg;
+}
+
+.light-rays>*:nth-child(24) {
+    --deg: 0.9716795817;
+    --thickness: 17.3911589353px;
+    --length: -1.6690507788px;
+    --duration: 1.5620635991s;
+    --delay: 2.5857586496s;
+    --rotate: -3.853567307deg;
+}
+
+.light-rays>*:nth-child(25) {
+    --deg: 0.473896674;
+    --thickness: 15.2365649703px;
+    --length: -35.7335435888px;
+    --duration: 2.2087379714s;
+    --delay: 2.0968766147s;
+    --rotate: 2.717592241deg;
+}
+
+.light-rays>*:nth-child(26) {
+    --deg: 0.6050918901;
+    --thickness: 23.0254983223px;
+    --length: 43.3296311636px;
+    --duration: 1.6981012297s;
+    --delay: 2.7827169083s;
+    --rotate: 2.5219587682deg;
+}
+
+.light-rays>*:nth-child(27) {
+    --deg: 0.3739253365;
+    --thickness: 25.6248364696px;
+    --length: -21.6362270212px;
+    --duration: 1.3916898946s;
+    --delay: 2.3387346845s;
+    --rotate: -1.5611051343deg;
+}
+
+.light-rays>*:nth-child(28) {
+    --deg: 0.0491301307;
+    --thickness: 8.7943318721px;
+    --length: -29.3194025899px;
+    --duration: 1.0854144527s;
+    --delay: 2.2113075314s;
+    --rotate: -1.5998540361deg;
+}
+
+.light-rays>*:nth-child(29) {
+    --deg: 0.634566006;
+    --thickness: 29.2509062884px;
+    --length: -16.2937623903px;
+    --duration: 1.5131914883s;
+    --delay: 2.877553568s;
+    --rotate: 3.7490475207deg;
+}
+
+.light-rays>*:nth-child(30) {
+    --deg: 0.9745875805;
+    --thickness: 28.4357256521px;
+    --length: 35.1437081466px;
+    --duration: 2.2623928988s;
+    --delay: 2.6271792269s;
+    --rotate: -2.7055069262deg;
+}
+
+.light-rays>*:nth-child(31) {
+    --deg: 0.9482505175;
+    --thickness: 12.6453333987px;
+    --length: 43.5556553765px;
+    --duration: 2.30160739s;
+    --delay: 2.8549549484s;
+    --rotate: 3.3761719799deg;
+}
+
+.light-rays>*:nth-child(32) {
+    --deg: 0.5867254747;
+    --thickness: 10.1129091266px;
+    --length: 26.5321165822px;
+    --duration: 2.0092225339s;
+    --delay: 2.9617758514s;
+    --rotate: -1.9167641676deg;
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        opacity: 0.33;
+    }
+
+    100% {
+        opacity: 0.03;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        opacity: 0.33;
+    }
+
+    100% {
+        opacity: 0.03;
+    }
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: var(--rotate);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: var(--rotate);
+    }
+}
