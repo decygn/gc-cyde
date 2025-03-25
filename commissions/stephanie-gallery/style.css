@@ -317,3 +317,39 @@ a:hover {
         opacity: 0;
     }
 }
+
+/* =================== GALLERY ITEM STYLING =================== */
+
+.gallery_item {
+    left: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.gallery_item img {
+    width: 80px !important;
+    height: 80px !important;
+    border: 0 !important;
+    background: none !important;
+    margin-bottom: 3px;
+}
+
+.gallery-item-info {
+    opacity: 0;
+    transition: .3s ease all;
+}
+
+.gallery_item:hover .gallery-item-info {
+    opacity: 1;
+}
+
+.gallery-item-name {
+    line-height: 1;
+}
+
+.gallery-item-qty {
+    text-transform: uppercase;
+    font-size: 11px;
+}
