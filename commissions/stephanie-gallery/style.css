@@ -353,6 +353,29 @@ a:hover {
 }
 
 /* =================== LIGHT RAYS =================== */
+main .light-rays>*::before,
+main .light-rays {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(farthest-corner at 50% 0%, #23617d 0%, #112031 100%);
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+main .light-rays {
+    pointer-events: none;
+    filter: blur(0.6rem);
+}
 
 .light-rays>* {
     --deg: 0;
