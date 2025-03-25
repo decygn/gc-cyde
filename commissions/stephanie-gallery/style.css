@@ -358,6 +358,7 @@ main {
     height: 100%;
     z-index: 999;
     position: fixed;
+    top: 0;
 }
 
 main .light-rays>*::before,
@@ -373,7 +374,7 @@ main .light-rays {
 
 main .light-rays {
     pointer-events: none;
-    filter: blur(0.6rem);
+    filter: blur(0.1rem);
 }
 
 .light-rays>* {
