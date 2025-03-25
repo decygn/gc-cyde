@@ -221,7 +221,7 @@ a:hover {
 }
 
 #right-bubbles .bubble-1 {
-    right: 300px;
+    right: 110px;
     animation-delay: 1.8s;
 }
 
@@ -235,7 +235,7 @@ a:hover {
 }
 
 #right-bubbles .bubble-2 {
-    right: 33px;
+    right: 133px;
     animation-delay: 1.5s;
 }
 
@@ -249,7 +249,7 @@ a:hover {
 }
 
 #right-bubbles .bubble-3 {
-    right: 225px;
+    right: 115px;
     animation-delay: 4.2s;
 }
 
@@ -263,7 +263,7 @@ a:hover {
 }
 
 #right-bubbles .bubble-4 {
-    right: 285px;
+    right: 85px;
     animation-delay: 0.4s;
 }
 
@@ -277,7 +277,7 @@ a:hover {
 }
 
 #right-bubbles .bubble-5 {
-    right: 115px;
+    right: 65px;
     animation-delay: 1.2s;
 }
 
