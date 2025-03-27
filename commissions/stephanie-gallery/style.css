@@ -12,6 +12,7 @@ body {
 #aio_sidebar,
 #galCats,
 #galleryKeeper,
+#galleryInfo,
 hr,
 #page_footer {
     display: none;
@@ -106,45 +107,39 @@ nav a {
     display: block;
     transition: 0.3s all ease;
     position: relative;
-}
-
-nav a::after {
-    content: "";
     width: 264px;
-    height: 129px;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    position: absolute;
-    display: block;
-    transition: 0.3s all ease;
-}
-
-nav a:hover::after {
-    opacity: 1;
+    height: 140px;
+    overflow: hidden;
 }
 
 nav a:nth-of-type(1) {
-    margin-top: 6px;
     background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/toggle.png);
-}
-
-nav a:nth-of-type(2) {
-    margin-top: -26px
 }
 
 nav a:nth-of-type(1):hover {
     background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/toggle-hover.png);
 }
 
+nav a:nth-of-type(2) {
+    margin-top: -32px;
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/lookup.png);
+    height: 150px;
+}
 
 nav a:nth-of-type(2)::after {
     background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/lookup-hover.png);
+    height: 150px;
 }
 
+nav a:nth-of-type(3) {
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/credit.png);
+    height: 130px;
+    margin-top: -5px;
+}
 
 nav a:nth-of-type(3)::after {
     background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/credit-hover.png);
+    height: 130px;
 }
 
 /* =================== TITLE =================== */
