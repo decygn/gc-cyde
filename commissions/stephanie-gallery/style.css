@@ -126,7 +126,7 @@ nav a:nth-of-type(2) {
     height: 150px;
 }
 
-nav a:nth-of-type(2)::after {
+nav a:nth-of-type(2):hover {
     background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/lookup-hover.png);
     height: 150px;
 }
@@ -137,7 +137,7 @@ nav a:nth-of-type(3) {
     margin-top: -5px;
 }
 
-nav a:nth-of-type(3)::after {
+nav a:nth-of-type(3):hover {
     background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/credit-hover.png);
     height: 130px;
 }
@@ -156,7 +156,7 @@ nav a:nth-of-type(3)::after {
     display: flex;
     opacity: 0;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     animation: title-reveal ease-in-out 1.2s .9s forwards;
 }
 
