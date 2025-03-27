@@ -794,7 +794,7 @@ img[src*="techo_stone"] {
 }
 
 .ul__Suraya,
-.ul__Compression,
+.ul__Compressed,
 .ul__Cheating,
 .ul__Matchmake,
 .ul__Washroom,
@@ -813,7 +813,7 @@ img[src*="techo_stone"] {
 }
 
 #userPetList .ul__Suraya .med-image,
-#userPetList .ul__Compression .med-image,
+#userPetList .ul__Compressed .med-image,
 #userPetList .ul__Cheating .med-image,
 #userPetList .ul__Matchmake .med-image,
 #userPetList .ul__Washroom .med-image,
