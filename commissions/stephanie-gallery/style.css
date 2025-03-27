@@ -120,8 +120,30 @@ nav a::after {
     transition: 0.3s all ease;
 }
 
+nav a:hover::after {
+    opacity: 1;
+}
+
+nav a:nth-of-type(1) {
+    margin-top: 6px
+}
+
+nav a:nth-of-type(2) {
+    margin-top: -26px
+}
+
 nav a:nth-of-type(1)::after {
-    background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/toggle-hhover.png);
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/toggle-hover.png);
+}
+
+
+nav a:nth-of-type(2)::after {
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/lookup-hover.png);
+}
+
+
+nav a:nth-of-type(3)::after {
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/credit-hover.png);
 }
 
 /* =================== TITLE =================== */
