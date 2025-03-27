@@ -292,3 +292,11 @@ nav a:nth-of-type(3)::after {
     text-transform: uppercase;
     font-size: 11px;
 }
+
+/* =================== MEDIA QUERIES =================== */
+
+@media only screen and (max-width: 1600px) {
+    #title img {
+        max-width: 86vw;
+    }
+}
