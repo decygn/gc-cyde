@@ -110,7 +110,7 @@ a:hover {
 #title img {
     display: block;
     height: auto;
-    max-width: 1600px;
+    max-width: 1500px;
     content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/title.png);
     animation: float ease-in-out 3s infinite;
 }
