@@ -102,13 +102,13 @@ nav {
     gap: 50px;
     opacity: 0;
     z-index: 99999;
-    animation: nav-reveal ease-in-out 1.4s .3s forwards;
+    animation: nav-reveal ease-in-out .8s .3s forwards;
 }
 
 @keyframes nav-reveal {
     0% {
         opacity: 0;
-        margin-top: -100px;
+        margin-top: -80px;
     }
 
     100% {
@@ -174,14 +174,6 @@ nav a:nth-of-type(3):hover {
     animation: title-reveal ease-in-out 1.2s .9s forwards;
 }
 
-#title img {
-    display: block;
-    height: auto;
-    max-width: 1500px;
-    content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/title.png);
-    animation: float ease-in-out 3s infinite;
-}
-
 @keyframes title-reveal {
     0% {
         opacity: 0;
@@ -192,6 +184,14 @@ nav a:nth-of-type(3):hover {
         opacity: 1;
         margin-top: 0;
     }
+}
+
+#title img {
+    display: block;
+    height: auto;
+    max-width: 1500px;
+    content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/title.png);
+    animation: float ease-in-out 3s infinite;
 }
 
 @keyframes float {
@@ -209,7 +209,6 @@ nav a:nth-of-type(3):hover {
 }
 
 /* =================== FOREGROUNDS =================== */
-
 
 #page_content::before {
     content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/left-foreground.png);
@@ -249,7 +248,7 @@ nav a:nth-of-type(3):hover {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
-    test pointer-events: none;
+    pointer-events: none;
     opacity: 0;
     transform: scale(0.9) !important;
     transform-origin: right bottom;
@@ -307,19 +306,7 @@ nav a:nth-of-type(3):hover {
     font-size: 11px;
 }
 
-
-
-/* =================== MEDIA QUERIES =================== */
-
-@media only screen and (max-width: 1600px) {
-    #title img {
-        max-width: 86vw;
-    }
-}
-
 /* =================== ITEM ANIMATIONS =================== */
-
-/* move across screen */
 
 @keyframes move-ltr {
     0% {
@@ -358,16 +345,13 @@ nav a:nth-of-type(3):hover {
 @keyframes swim {
     0% {
         transform: translateX(-100px);
-        /* Start off screen left */
     }
 
     100% {
         transform: translateX(100vw);
-        /* Move to the right end of the screen */
     }
 }
 
-/* Keyframes for bobbing up and down */
 @keyframes bob {
 
     0%,
@@ -381,6 +365,7 @@ nav a:nth-of-type(3):hover {
         /* Move up */
     }
 }
+
 /* =================== ITEM POSITIONS =================== */
 
 /* madfish */
@@ -394,5 +379,12 @@ nav a:nth-of-type(3):hover {
 
 .gallery_item:has([src*="vor_madfish"]) img {
     content: url(https://i.imgur.com/QyUMZa0.png);
-    animation: squeeze2 0.3s ease infinite;
+}
+
+/* =================== MEDIA QUERIES =================== */
+
+@media only screen and (max-width: 1600px) {
+    #title img {
+        max-width: 86vw;
+    }
 }
