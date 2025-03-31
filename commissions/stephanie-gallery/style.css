@@ -354,7 +354,7 @@ nav a:nth-of-type(3):hover {
 .gallery_item:has([src*="vor_madfish"]) {
     display: block !important;
     top: 540px;
-    left: -500px;
+    left: 0;
     animation: move-rtl 60s linear infinite;
 }
 
