@@ -100,7 +100,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     opacity: 0;
     z-index: 99999;
     animation: nav-reveal ease-in-out 1.2s .3s forwards;
@@ -122,8 +122,8 @@ nav a {
     display: block;
     transition: 0.3s all ease;
     position: relative;
-    width: 264px;
-    height: 140px;
+    width: 234px;
+    height: 110px;
     overflow: hidden;
 }
 
@@ -163,7 +163,7 @@ nav a:nth-of-type(3):hover {
     width: 100%;
     left: 0;
     right: 0;
-    top: 185px;
+    top: 180px;
     height: 40vh;
     margin: 0 auto;
     text-align: center;
@@ -190,7 +190,7 @@ nav a:nth-of-type(3):hover {
 #title img {
     display: block;
     height: auto;
-    max-width: 1560px;
+    max-width: 1460px;
     content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/title.png);
     animation: float ease-in-out 3s infinite;
 }
@@ -283,15 +283,16 @@ nav a:nth-of-type(3):hover {
 }
 
 .gallery_item img {
-    width: 150px !important;
-    height: 150px !important;
+    width: 170px !important;
+    height: 170px !important;
     border: 0 !important;
     background: none !important;
     margin-bottom: 3px;
 }
 
 .gallery-item-info {
-    opacity: 0;
+    font-size: 23px;
+    letter-spacing: 1px;
     transition: .3s ease all;
 }
 
@@ -305,7 +306,7 @@ nav a:nth-of-type(3):hover {
 
 .gallery-item-qty {
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 /* =================== ITEM ANIMATIONS =================== */
