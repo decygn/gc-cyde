@@ -307,10 +307,92 @@ nav a:nth-of-type(3):hover {
     font-size: 11px;
 }
 
+
+
 /* =================== MEDIA QUERIES =================== */
 
 @media only screen and (max-width: 1600px) {
     #title img {
         max-width: 86vw;
     }
+}
+
+/* =================== ITEM ANIMATIONS =================== */
+
+/* move across screen */
+
+@keyframes move-ltr {
+    0% {
+        transform: translateX(calc(100vw + 180px));
+    }
+
+    100% {
+        transform: translateX(calc(0vw - 180px));
+    }
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(calc(0vw - 180px));
+    }
+
+    100% {
+        transform: translateX(calc(100vw + 180px));
+    }
+}
+
+@keyframes bob {
+    0% {
+        transform: scale3d(1, 1, 1) translateY(-3vw) rotate(-5deg);
+    }
+
+    50% {
+        transform: scale3d(1.05, 0.96, 1) translateY(3vw) rotate(-10deg);
+    }
+
+    100% {
+        transform: translateY(-3vw) rotate(-5deg);
+    }
+}
+
+@keyframes swim {
+    0% {
+        transform: translateX(-100px);
+        /* Start off screen left */
+    }
+
+    100% {
+        transform: translateX(100vw);
+        /* Move to the right end of the screen */
+    }
+}
+
+/* Keyframes for bobbing up and down */
+@keyframes bob {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Original position */
+    }
+
+    50% {
+        transform: translateY(-10px);
+        /* Move up */
+    }
+}
+/* =================== ITEM POSITIONS =================== */
+
+/* madfish */
+
+.gallery_item:has([src*="vor_madfish"]) {
+    display: block !important;
+    top: 540px;
+    left: 500px;
+    animation: swim 5s linear infinite, bob 1s ease-in-out infinite;
+}
+
+.gallery_item:has([src*="vor_madfish"]) img {
+    content: url(https://i.imgur.com/QyUMZa0.png);
+    animation: squeeze2 0.3s ease infinite;
 }
