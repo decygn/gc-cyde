@@ -121,7 +121,7 @@ nav {
 
 nav a {
     display: block;
-    transition: 0.3s all ease;
+    transition: 0.1s all ease;
     position: relative;
     width: 264px;
     height: 140px;
