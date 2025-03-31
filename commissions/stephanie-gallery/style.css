@@ -101,6 +101,7 @@ nav {
     align-items: center;
     gap: 50px;
     z-index: 99999;
+    animation: title-reveal ease-in-out 0.8s .4s forwards;
 }
 
 nav a {
