@@ -357,7 +357,7 @@ nav a:nth-of-type(3):hover {
 }
 
 .gallery_item:has([src*="vor_madfish"]) img {
-    content: url();
+    content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/items/vor_madfish.png);
     animation: bob 3s ease infinite;
 }
 
