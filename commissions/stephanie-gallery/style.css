@@ -281,8 +281,8 @@ nav a:nth-of-type(3):hover {
 }
 
 .gallery_item img {
-    width: 80px !important;
-    height: 80px !important;
+    width: 150px !important;
+    height: 150px !important;
     border: 0 !important;
     background: none !important;
     margin-bottom: 3px;
@@ -353,7 +353,7 @@ nav a:nth-of-type(3):hover {
     display: block !important;
     top: 540px;
     left: 500px;
-    animation: move-ltr 70s linear infinite;
+    animation: move-rtl 70s linear infinite;
 }
 
 .gallery_item:has([src*="vor_madfish"]) img {
