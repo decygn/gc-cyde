@@ -353,13 +353,13 @@ nav a:nth-of-type(3):hover {
 .gallery_item:has([src*="vor_madfish"]) {
     display: block !important;
     top: 540px;
-    left: 500px;
+    left: -500px;
     animation: move-rtl 60s linear infinite;
 }
 
 .gallery_item:has([src*="vor_madfish"]) img {
     content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/items/vor_madfish.png);
-    animation: bob 2s ease infinite;
+    animation: bob 4s ease infinite;
 }
 
 /* =================== MEDIA QUERIES =================== */
