@@ -358,14 +358,14 @@ nav a:nth-of-type(3):hover {
     display: block !important;
     top: 540px;
     left: 0;
-    animation: move-rtl 60s linear infinite;
+    animation: move-rtl 60s ease-in-out infinite;
 }
 
 .gallery_item:has([src*="vor_madfish"]) img {
     content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/items/vor_madfish.png);
     width: 200px;
     height: 200px;
-    animation: bob 2.5s ease infinite;
+    animation: bob 2.5s ease-in-out infinite;
 }
 
 /* =================== MEDIA QUERIES =================== */
