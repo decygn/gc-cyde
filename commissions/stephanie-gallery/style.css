@@ -171,7 +171,7 @@ nav a:nth-of-type(3):hover {
     opacity: 0;
     justify-content: center;
     align-items: flex-start;
-    animation: title-reveal ease-in-out 1.6s .9s forwards;
+    animation: title-reveal ease-in-out 1.6s 1.2s forwards;
 }
 
 @keyframes title-reveal {
