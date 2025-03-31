@@ -102,7 +102,7 @@ nav {
     gap: 50px;
     opacity: 0;
     z-index: 99999;
-    animation: nav-reveal ease-in-out .8s .3s forwards;
+    animation: nav-reveal ease-in-out 1.2s .3s forwards;
 }
 
 @keyframes nav-reveal {
@@ -171,7 +171,7 @@ nav a:nth-of-type(3):hover {
     opacity: 0;
     justify-content: center;
     align-items: flex-start;
-    animation: title-reveal ease-in-out 1.2s .9s forwards;
+    animation: title-reveal ease-in-out 1.6s .9s forwards;
 }
 
 @keyframes title-reveal {
@@ -329,40 +329,19 @@ nav a:nth-of-type(3):hover {
 }
 
 @keyframes bob {
-    0% {
-        transform: scale3d(1, 1, 1) translateY(-3vw) rotate(-5deg);
-    }
-
-    50% {
-        transform: scale3d(1.05, 0.96, 1) translateY(3vw) rotate(-10deg);
-    }
-
-    100% {
-        transform: translateY(-3vw) rotate(-5deg);
-    }
-}
-
-@keyframes swim {
-    0% {
-        transform: translateX(-100px);
-    }
-
-    100% {
-        transform: translateX(100vw);
-    }
-}
-
-@keyframes bob {
 
     0%,
+    50%,
     100% {
         transform: translateY(0);
-        /* Original position */
     }
 
-    50% {
-        transform: translateY(-10px);
-        /* Move up */
+    25% {
+        transform: translateY(-5px);
+    }
+
+    75% {
+        transform: translateY(-3px);
     }
 }
 
@@ -374,11 +353,12 @@ nav a:nth-of-type(3):hover {
     display: block !important;
     top: 540px;
     left: 500px;
-    animation: swim 5s linear infinite, bob 1s ease-in-out infinite;
+    animation: move-rtl 70s linear infinite;
 }
 
 .gallery_item:has([src*="vor_madfish"]) img {
-    content: url(https://i.imgur.com/QyUMZa0.png);
+    content: url();
+    animation: bob 2s ease infinite;
 }
 
 /* =================== MEDIA QUERIES =================== */
