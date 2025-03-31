@@ -122,9 +122,8 @@ nav a {
     display: block;
     transition: 0.3s all ease;
     position: relative;
-    width: 234px;
-    height: 110px;
-    background-size: 234px;
+    width: 264px;
+    height: 140px;
     overflow: hidden;
 }
 
