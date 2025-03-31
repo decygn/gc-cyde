@@ -162,7 +162,7 @@ nav a:nth-of-type(3):hover {
     width: 100%;
     left: 0;
     right: 0;
-    top: 200px;
+    top: 185px;
     height: 40vh;
     margin: 0 auto;
     text-align: center;
@@ -189,7 +189,7 @@ nav a:nth-of-type(3):hover {
 #title img {
     display: block;
     height: auto;
-    max-width: 1500px;
+    max-width: 1560px;
     content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/title.png);
     animation: float ease-in-out 3s infinite;
 }
