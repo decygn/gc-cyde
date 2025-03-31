@@ -337,11 +337,11 @@ nav a:nth-of-type(3):hover {
     }
 
     25% {
-        transform: translateY(-5px);
+        transform: translateY(-15px);
     }
 
     75% {
-        transform: translateY(-3px);
+        transform: translateY(-10px);
     }
 }
 
@@ -353,12 +353,12 @@ nav a:nth-of-type(3):hover {
     display: block !important;
     top: 540px;
     left: 500px;
-    animation: move-rtl 70s linear infinite;
+    animation: move-ltr 70s linear infinite;
 }
 
 .gallery_item:has([src*="vor_madfish"]) img {
     content: url();
-    animation: bob 2s ease infinite;
+    animation: bob 3s ease infinite;
 }
 
 /* =================== MEDIA QUERIES =================== */
