@@ -129,9 +129,12 @@ nav a {
 }
 
 nav a:nth-of-type(1)::before {
-    content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/toggle-hover.png);
-    width: 0;
-    height: 0;
+    content: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/toggle-hover.png) url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/lookup-hover.png) url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/credit-hover.png);
+    width: 0.01px;
+    opacity: 0.01;
+    height: 0.01px;
+    overflow: hidden;
+    z-index: -1;
     position: absolute;
     visibility: hidden;
 }
