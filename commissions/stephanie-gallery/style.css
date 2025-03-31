@@ -127,6 +127,11 @@ nav a {
     overflow: hidden;
 }
 
+nav a img {
+    width: 234px;
+    height: 110px;
+}
+
 nav a:nth-of-type(1) {
     background-image: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/nav/toggle.png);
 }
@@ -293,6 +298,7 @@ nav a:nth-of-type(3):hover {
 .gallery-item-info {
     font-size: 23px;
     letter-spacing: 1px;
+    opacity: 0;
     transition: .3s ease all;
 }
 
