@@ -793,6 +793,7 @@ img[src*="techo_stone"] {
     padding: 6px 10px
 }
 
+.ul__Intranet,
 .ul__Suraya,
 .ul__Compressed,
 .ul__Cheating,
@@ -812,6 +813,7 @@ img[src*="techo_stone"] {
     opacity: 0.4;
 }
 
+#userPetList .ul__Intranet .med-image,
 #userPetList .ul__Suraya .med-image,
 #userPetList .ul__Compressed .med-image,
 #userPetList .ul__Cheating .med-image,
