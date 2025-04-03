@@ -554,7 +554,7 @@ header::after {
 }
 
 #userLookupPets {
-    width: 80%;
+    max-width: 1120px;
     padding: 150px 0 160px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -809,6 +809,7 @@ img[src*="techo_stone"] {
     padding: 6px 10px
 }
 
+.ul__Carambra,
 .ul__Intranet,
 .ul__Suraya,
 .ul__Compressed,
@@ -825,6 +826,7 @@ img[src*="techo_stone"] {
     opacity: 0.4;
 }
 
+#userPetList .ul__Carambra .med-image,
 #userPetList .ul__Intranet .med-image,
 #userPetList .ul__Suraya .med-image,
 #userPetList .ul__Compressed .med-image,
