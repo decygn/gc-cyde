@@ -609,7 +609,7 @@ a.ul--petname {
 
 /* ====================== PET OVERLAYS ======================= */
 
-img[src*="kacheek_msp"] {
+.ul__Confront img[src*="kacheek_msp"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_kacheek.png);
 }
 
