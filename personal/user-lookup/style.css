@@ -625,6 +625,10 @@ img[src*="cybunny_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny.png);
 }
 
+img[src*="bori_alien"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_bori.png);
+}
+
 img[src*="zafara_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_zafara.png);
 }
