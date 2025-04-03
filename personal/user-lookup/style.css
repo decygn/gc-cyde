@@ -633,6 +633,10 @@ img[src*="zafara_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_zafara.png);
 }
 
+img[src*="chia_alien"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_chia.png);
+}
+
 img[src*="aisha_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_aisha.png);
 }
@@ -820,7 +824,6 @@ img[src*="techo_stone"] {
 .ul__Sluggard,
 .ul__Mating,
 .ul__Notify,
-.ul__Vantablack,
 .ul__Vectorize,
 .ul__Intend {
     opacity: 0.4;
@@ -833,7 +836,6 @@ img[src*="techo_stone"] {
 #userPetList .ul__Matchmake .med-image,
 #userPetList .ul__Egocentric .med-image,
 #userPetList .ul__Vectorize .med-image,
-#userPetList .ul__Vantablack .med-image,
 #userPetList .ul__Intend .med-image,
 #userPetList .ul__Employ .med-image,
 #userPetList .ul__Uneven .med-image,
