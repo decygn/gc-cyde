@@ -609,6 +609,14 @@ a.ul--petname {
 
 /* ====================== PET OVERLAYS ======================= */
 
+img[src*="kacheek_msp"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_kacheek.png);
+}
+
+img[src*="poogle_msp"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_poogle.png);
+}
+
 img[src*="aisha_msp"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_aisha.png);
 }
