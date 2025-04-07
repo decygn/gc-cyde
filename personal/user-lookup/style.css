@@ -813,35 +813,11 @@ img[src*="techo_stone"] {
     padding: 6px 10px
 }
 
-.ul__Carambar,
-.ul__Intranet,
-.ul__Suraya,
-.ul__Compressed,
-.ul__Matchmake,
-.ul__Egocentric,
-.ul__Employ,
-.ul__Uneven,
-.ul__Seelkee,
-.ul__Mating,
-.ul__Notify,
-.ul__Vectorize,
-.ul__Intend {
+.ul__Narcosis~.ul__pet {
     opacity: 0.4;
 }
 
-#userPetList .ul__Carambar .med-image,
-#userPetList .ul__Intranet .med-image,
-#userPetList .ul__Suraya .med-image,
-#userPetList .ul__Compressed .med-image,
-#userPetList .ul__Matchmake .med-image,
-#userPetList .ul__Egocentric .med-image,
-#userPetList .ul__Vectorize .med-image,
-#userPetList .ul__Intend .med-image,
-#userPetList .ul__Employ .med-image,
-#userPetList .ul__Uneven .med-image,
-#userPetList .ul__Seelkee .med-image,
-#userPetList .ul__Mating .med-image,
-#userPetList .ul__Notify .med-image {
+#userPetList .ul__Narcosis~.ul__pet .med-image {
     width: 110px !important;
 }
 
