@@ -503,6 +503,7 @@ header::after {
     margin-left: -185px;
     z-index: 999999999;
     width: 100%;
+    animation: fadeIn 0.7s forwards 1.4s;
 }
 
 .ul--relics a {
