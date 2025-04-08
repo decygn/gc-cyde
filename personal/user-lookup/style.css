@@ -510,7 +510,8 @@ header::after {
     color: #999;
     font-style: normal;
     font-weight: 400;
-    border-bottom: 1px dashed #555
+    border-bottom: 1px dashed #555;
+    animation: fadeIn 0.7s forwards 1.4s;
 }
 
 #userLookupLinks .ul__link:nth-of-type(6) {
