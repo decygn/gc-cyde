@@ -1,5 +1,5 @@
 @import url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/atmosphere.css);
-@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap);
 
 html,
 body {
@@ -20,7 +20,7 @@ hr,
 }
 
 body {
-    background: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/background.jpg?) no-repeat top center/cover;
+    background: url(https://decygn.github.io/gc-cyde/commissions/stephanie-gallery/img/background.jpg) no-repeat top center/cover;
     font-family: Lakki Reddy;
     color: #fff;
 }
