@@ -150,7 +150,7 @@
 
 /* =================== LIGHT RAYS =================== */
 
-main {
+#rays {
     width: 100%;
     height: 100%;
     z-index: 999;
@@ -160,8 +160,8 @@ main {
     animation: fadein 3s ease-in-out 2s forwards;
 }
 
-main .light-rays>*::before,
-main .light-rays {
+#rays .light-rays>*::before,
+#rays .light-rays {
     position: absolute;
     display: block;
     width: 100%;
@@ -171,7 +171,7 @@ main .light-rays {
 }
 
 
-main .light-rays {
+#rays .light-rays {
     pointer-events: none;
     filter: blur(0.1rem);
 }
