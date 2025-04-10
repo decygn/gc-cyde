@@ -557,7 +557,7 @@ header::after {
 }
 
 #userLookupPets {
-    max-width: 1120px;
+    max-width: 1200px;
     padding: 150px 0 160px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -583,10 +583,12 @@ header::after {
 }
 
 .ul__pet {
-    margin: 15px 20px
+    margin: 15px 20px;
+    flex: 0;
 }
 
 .ul__pet img {
+    margin-bottom: 10px;
     transition: all 0.3s ease
 }
 
@@ -836,7 +838,8 @@ img[src*="techo_stone"] {
 }
 
 #userPetList .ul__Narcosis~.ul__pet .med-image {
-    width: 110px !important;
+    width: 115px !important;
+    margin-bottom: 18px;
 }
 
 .ul--sitetrophiesheader {
