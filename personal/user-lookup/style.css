@@ -835,6 +835,8 @@ img[src*="techo_stone"] {
 
 .ul__Narcosis~.ul__pet {
     opacity: 0.4;
+    width: 140px !important;
+    flex: 0 0 auto;
 }
 
 #userPetList .ul__Narcosis~.ul__pet .med-image {
