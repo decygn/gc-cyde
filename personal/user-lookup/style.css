@@ -765,17 +765,6 @@ img[src*="techo_stone"] {
 
 
 /* ====================== END OF PET OVERLAYS ======================= */
-
-.ul__Vertebrate::after,
-.ul_Gunfire::after {
-    content: 'Pet & Name UFT';
-    display: block;
-    font-size: 10px;
-    color: #999;
-    text-transform: uppercase;
-    margin-top: 3px;
-}
-
 .ul__Cyde::after {
     content: 'Overlay by Maze';
     display: block;
@@ -785,6 +774,16 @@ img[src*="techo_stone"] {
     margin-top: 3px;
 }
 
+/*
+.ul__Vertebrate::after,
+.ul_Gunfire::after {
+    content: 'Pet & Name UFT';
+    display: block;
+    font-size: 10px;
+    color: #999;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
 .ul__Arose::after,
 .ul__Commission::after,
 .ul__Receive::after,
@@ -802,7 +801,7 @@ img[src*="techo_stone"] {
     text-transform: uppercase;
     margin-top: 3px;
 }
-
+*/
 .Narcosis__after {
     display: block;
     flex-basis: 100%;
