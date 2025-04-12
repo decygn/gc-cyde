@@ -646,7 +646,7 @@ img[src*="bori_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_bori.png);
 }
 
-img[src*="zafara_alien"] {
+.ul__Metre img[src*="zafara_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_zafara.png);
 }
 
