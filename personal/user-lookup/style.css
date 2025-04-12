@@ -763,6 +763,10 @@ img[src*="shoyru_valentine"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_shoyru.png);
 }
 
+img[src*="kougra_valentine"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_kougra.png);
+}
+
 img[src*="techo_stone"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/stone_techo.png);
 }
