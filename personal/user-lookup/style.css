@@ -384,7 +384,8 @@ header::after {
 #userLookupCollections {
     text-transform: uppercase;
     display: flex;
-    font-family: Stretch Pro
+    font-family: Stretch Pro;
+    width: 100%;
 }
 
 .ul--collectionslabel::after {
