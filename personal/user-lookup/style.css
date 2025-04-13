@@ -691,6 +691,10 @@ img[src*="zafara_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_zafara.png);
 }
 
+img[src*="poogle_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_poogle.png);
+}
+
 img[src*="cybunny_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_cybunny.png);
 }
