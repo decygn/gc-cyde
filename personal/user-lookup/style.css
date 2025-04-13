@@ -703,6 +703,10 @@ img[src*="jetsam_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_jetsam.png);
 }
 
+img[src*="shoyru_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_shoyru.png);
+}
+
 img[src*="xweetok_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_xweetok.png);
 }
