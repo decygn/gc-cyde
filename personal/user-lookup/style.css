@@ -771,6 +771,10 @@ img[src*="poogle_chocolate"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_poogle.png);
 }
 
+img[src*="chomby_chocolate"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_chomby.png);
+}
+
 img[src*="wocky_valentine"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_wocky.png);
 }
