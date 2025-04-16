@@ -778,9 +778,28 @@ nav a:nth-of-type(3):hover {
     }
 }
 
+@media only screen and (max-width: 1280px) {
+    #page_content::before {
+        transform: scale(0.7);
+    }
+
+    #container::after {
+        transform: scale(0.7);
+    }
+}
+
 @media only screen and (max-width: 1024px) {
+
+    #page_content::before {
+        transform: scale(0.6);
+    }
+
+    #container::after {
+        transform: scale(0.6);
+    }
+
     #title img {
-        max-width: 86vw;
+        max-width: 92vw;
     }
 
     nav {
@@ -795,5 +814,9 @@ nav a:nth-of-type(3):hover {
 
     nav {
         gap: 20px;
+    }
+
+    #title img {
+        max-width: 94vw;
     }
 }
