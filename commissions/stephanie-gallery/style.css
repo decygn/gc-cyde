@@ -780,22 +780,22 @@ nav a:nth-of-type(3):hover {
 
 @media only screen and (max-width: 1280px) {
     #page_content::before {
-        transform: scale(0.7);
+        transform: scale(0.7) !important;
     }
 
     #container::after {
-        transform: scale(0.7);
+        transform: scale(0.7) !important;
     }
 }
 
 @media only screen and (max-width: 1024px) {
 
     #page_content::before {
-        transform: scale(0.6);
+        transform: scale(0.6) !important;
     }
 
     #container::after {
-        transform: scale(0.6);
+        transform: scale(0.6) !important;
     }
 
     #title img {
@@ -819,5 +819,13 @@ nav a:nth-of-type(3):hover {
 
     #title img {
         max-width: 94vw;
+    }
+
+    #page_content::before {
+        transform: scale(0.7) !important;
+    }
+
+    #container::after {
+        transform: scale(0.7) !important;
     }
 }
