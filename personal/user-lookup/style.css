@@ -727,6 +727,10 @@ img[src*="aisha_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_aisha.png);
 }
 
+img[src*="techo_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_techo.png);
+}
+
 img[src*="korbat_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_korbat.png);
 }
