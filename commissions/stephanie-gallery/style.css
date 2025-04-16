@@ -799,12 +799,11 @@ nav a:nth-of-type(3):hover {
     }
 
     #title img {
-        max-width: 92vw;
+        max-width: 96vw;
     }
 
     nav {
-        gap: 30px;
-        width: unset !important;
+        gap: 25px;
     }
 }
 
@@ -814,11 +813,8 @@ nav a:nth-of-type(3):hover {
     }
 
     nav {
-        gap: 20px;
-    }
-
-    #title img {
-        max-width: 94vw;
+        gap: 15px;
+        transform: scale(0.7);
     }
 
     #page_content::before {
