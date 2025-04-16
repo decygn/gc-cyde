@@ -234,7 +234,7 @@ nav a:nth-of-type(3):hover {
     pointer-events: none;
     z-index: 5;
     opacity: 0;
-    transform: scale(0.9) !important;
+    transform: scale(0.84) !important;
     transform-origin: left bottom;
     animation: slide-left 1s ease-in-out 1.2s forwards;
 }
@@ -264,7 +264,7 @@ nav a:nth-of-type(3):hover {
     background-size: 100%;
     pointer-events: none;
     opacity: 0;
-    transform: scale(0.9) !important;
+    transform: scale(0.84) !important;
     transform-origin: right bottom;
     z-index: 9;
     animation: slide-right 1.2s ease-in-out 1.4s forwards;
