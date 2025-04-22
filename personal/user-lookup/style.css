@@ -365,7 +365,8 @@ header::after {
 
 .guilds--list {
     list-style: none;
-    padding: 0
+    padding: 0;
+    text-transform: capitalize;
 }
 
 .ul--guilds {
@@ -499,7 +500,7 @@ header::after {
 .ul--relics {
     position: absolute;
     order: 110 !important;
-    margin-top: 582px;
+    margin-top: 602px;
     color: #fff;
     margin-left: -614px;
     z-index: 999999999;
@@ -1217,7 +1218,7 @@ img[src*="techo_stone"] {
     }
 
     .ul--relics {
-        margin-top: 750px;
+        margin-top: 775px;
         margin-left: -98px;
     }
 
