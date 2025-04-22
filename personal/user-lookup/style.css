@@ -499,9 +499,9 @@ header::after {
 .ul--relics {
     position: absolute;
     order: 110 !important;
-    margin-top: 570px;
+    margin-top: 582px;
     color: #fff;
-    margin-left: -185px;
+    margin-left: -614px;
     z-index: 999999999;
     width: 100%;
     animation: fadeIn 0.7s forwards 1.4s;
@@ -1157,7 +1157,7 @@ img[src*="techo_stone"] {
     }
 
     .ul--relics {
-        margin-left: -135px;
+        margin-left: -564px;
     }
 }
 
@@ -1171,7 +1171,7 @@ img[src*="techo_stone"] {
     }
 
     .ul--relics {
-        margin-left: -85px;
+        margin-left: -514px;
     }
 }
 
@@ -1185,7 +1185,7 @@ img[src*="techo_stone"] {
     }
 
     .ul--relics {
-        margin-left: -35px;
+        margin-left: -464px;
     }
 }
 
@@ -1199,7 +1199,7 @@ img[src*="techo_stone"] {
     }
 
     .ul--relics {
-        margin-left: 15px;
+        margin-left: -414px
     }
 }
 
@@ -1217,7 +1217,7 @@ img[src*="techo_stone"] {
     }
 
     .ul--relics {
-        margin-top: 725px;
+        margin-top: 750px;
         margin-left: -98px;
     }
 
@@ -1234,6 +1234,10 @@ img[src*="techo_stone"] {
 @media only screen and (max-width: 900px) {
     #userPetList .med-image {
         width: 140px !important
+    }
+
+    .ul__pet {
+        margin: 12px 10px;
     }
 
     #footer_content {
