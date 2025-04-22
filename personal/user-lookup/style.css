@@ -264,6 +264,7 @@ header::after {
     flex-direction: column-reverse;
     padding-right: 600px;
     opacity: 0;
+    margin-bottom: -10px;
     animation: fadeIn 0.7s forwards 1.4s;
 }
 
@@ -511,6 +512,7 @@ header::after {
 .ul--relics a {
     color: #999;
     font-style: normal;
+    opacity: 0;
     font-weight: 400;
     border-bottom: 1px dashed #555;
     animation: fadeIn 0.7s forwards 1.4s;
