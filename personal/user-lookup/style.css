@@ -211,7 +211,7 @@ header::after {
 
 #header-image img {
     width: 85vw;
-    max-width: 1500px;
+    max-width: 1360px;
     max-height: 65vh;
     display: block
 }
