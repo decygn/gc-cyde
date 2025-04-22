@@ -350,7 +350,7 @@ header::after {
 }
 
 .ul--startdate::after {
-    content: "(4 months)";
+    content: "(5 months)";
     display: inline-block;
     margin-left: 5px
 }
