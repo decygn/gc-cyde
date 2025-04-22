@@ -1,0 +1,56 @@
+@import url(https://fonts.cdnfonts.com/css/akira-expanded);
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400..700&display=swap);
+@import url(https://fonts.cdnfonts.com/css/stretch-pro);
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#gc_banner {
+    display: none
+}
+
+body {
+    font-family: JetBrains Mono;
+}
+
+a {
+    transition: 0.3s all ease;
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    background: #ffffff;
+    padding: 20px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 111;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+nav .akira {
+    font-family: Akira Expanded;
+    font-size: 14px;
+}
+
+nav ul li:nth-of-type(3) {
+    text-align: right;
+}
+
+#logo {
+    width: 80px;
+}
