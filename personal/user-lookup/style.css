@@ -272,7 +272,7 @@ header::after {
     position: absolute;
     top: 0;
     right: 0;
-    transform: scaley(1.07)
+    transform: scaley(1.1)
 }
 
 .ul__stamps {
