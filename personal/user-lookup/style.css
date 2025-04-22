@@ -774,6 +774,10 @@ img[src*="grundo_chocolate"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_grundo.png);
 }
 
+img[src*="wocky_chocolate"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_wocky.png);
+}
+
 img[src*="aisha_chocolate"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_aisha.png);
 }
