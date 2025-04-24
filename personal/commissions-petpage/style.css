@@ -23,11 +23,12 @@ a {
 }
 
 nav {
+    position: absolute;
     background: #ffffff;
     padding: 20px 30px;
     width: 100%;
     box-sizing: border-box;
-    z-index: 111;
+    z-index: 11111;
 }
 
 nav ul {
@@ -53,4 +54,52 @@ nav ul li:nth-of-type(3) {
 
 #logo {
     width: 80px;
+}
+
+.planet {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: calc(50% - 50px);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+main section {
+    width: 50%;
+    height: 100vh !important;
+}
+
+#graphics {
+    background: url(img/light-background.png);
+    background-size: 110%;
+    background-position: 65% 20%;
+}
+
+#layouts {
+    background-image: url(img/dark-background.png);
+    background-size: 100%;
+    background-position: 60% 20%;
 }
