@@ -14,12 +14,40 @@ body {
 
 body {
     font-family: JetBrains Mono;
+    color: #fff;
 }
 
 a {
     transition: 0.3s all ease;
     text-decoration: none;
     color: #000;
+}
+
+.border {
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+}
+
+.left {
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 100%;
+}
+
+.right {
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 100%;
+}
+
+.bottom {
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
 }
 
 nav {
@@ -87,19 +115,104 @@ main {
     position: absolute;
 }
 
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    background:
+        linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mix-blend-mode: overlay;
+}
+
 main section {
+    display: block;
     width: 50%;
     height: 100vh !important;
 }
 
-#graphics {
+#left {
     background: url(img/light-background.png);
     background-size: 110%;
-    background-position: 65% 20%;
+    background-position: 65% 30%;
+    transition: .8s all ease;
 }
 
-#layouts {
+#right {
     background-image: url(img/dark-background.png);
     background-size: 100%;
-    background-position: 60% 20%;
+    transition: .8s all ease;
+    background-position: 60% 30%;
+}
+
+#left:hover {
+    transition: .8s all ease;
+    background-size: 115%;
+    margin-top: -20px;
+}
+
+#right:hover {
+    transition: .8s all ease;
+    background-size: 105%;
+    margin-top: -20px;
+}
+
+.text-wrapper-left {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 100px);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.button {
+    display: block;
+    background: #81152f;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    font-family: Stretch Pro;
+    transition: .5s all ease;
+}
+
+.button:hover {
+    background: #fff;
+    color: #81152f;
+    transition: .5s all ease;
+}
+
+#status {
+    bottom: 50px;
+    position: absolute;
+    width: 50%;
+    font-size: 14px;
+}
+
+.status-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.status-label {
+    background: #fff;
+    color: #ffa92d;
+    padding: 10px 12px 8px 14px;
+    font-weight: 500;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    letter-spacing: -.5px;
+}
+
+.status-field {
+    border: 2px solid #fff;
+    padding: 8px 15px;
+    font-weight: 900;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    letter-spacing: 0;
 }
