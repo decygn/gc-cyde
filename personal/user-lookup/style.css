@@ -751,7 +751,7 @@ img[src*="jubjub_pirate"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/pirate_jubjub.png);
 }
 
-img[src*="ixi_grey"] {
+.ul__Trepid img[src*="ixi_grey"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/grey_ixi.png);
 }
 
