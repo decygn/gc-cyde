@@ -643,10 +643,6 @@ img[src*="xweetok_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_xweetok.png);
 }
 
-img[src*="cybunny_alien"] {
-    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny.png);
-}
-
 img[src*="korbat_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_korbat.png);
 }
