@@ -352,7 +352,7 @@ header::after {
 }
 
 .ul--startdate::after {
-    content: "(5 months)";
+    content: "(6 months)";
     display: inline-block;
     margin-left: 5px
 }
