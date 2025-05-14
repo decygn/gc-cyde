@@ -12,14 +12,9 @@ div.sf,
 h2.ul--header,
 .ul--collectionslabel::after,
 #userLookupCollections strong,
-.hider,
 scrollbar,
 ::-webkit-scrollbar {
     display: none
-}
-
-#huh {
-    display: unset;
 }
 
 body {
