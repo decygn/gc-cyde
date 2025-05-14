@@ -1,259 +1,1227 @@
- @import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Nanum+Brush+Script&display=swap');
- 
- #sb_top,
- #sb_side,
- #page_banner,
- #page_footer,
- hr,
- .loggedin,
- #aio_sidebar_placeholder,
- div.sf,
- h2.ul--header,
- .ul--collectionslabel::after,
- #userLookupCollections strong,
- ::-webkit-scrollbar,
- scrollbar,
- .hide {
-     display: none
- }
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Schoolbell&display=swap');
 
- body {
-     background: #ebebe5;
-     scrollbar-color: transparent;
-     overflow-y: hidden;
-     font-family: Nanum Brush Script;
- }
+#sb_top,
+#sb_side,
+#page_banner,
+#page_footer,
+hr,
+.loggedin,
+#aio_sidebar_placeholder,
+div.sf,
+h2.ul--header,
+.ul--collectionslabel::after,
+#userLookupCollections strong,
+.hider,
+scrollbar,
+::-webkit-scrollbar {
+    display: none
+}
 
- body,
- a,
- a:hover,
- html {
-     cursor: url(https://i.imgur.com/y2PdIYq.png), auto !important
- }
+#huh {
+    display: unset;
+}
 
- #container {
-     display: grid;
-     width: 100vw;
-     min-width: unset;
-     height: 100vh;
-     max-width: min-content;
-     grid-template-columns: 0 600px 0;
-     grid-template-rows: 0 0 0 min-content min-content 0;
-     margin: auto;
-     align-content: center;
-     justify-content: center;
- }
+body {
+    background: #f5f5f2;
+    font-family: Schoolbell;
+    font-size: 1.3em;
+    line-height: 1.4;
+}
 
- #page_content {
-     width: 100%;
-     height: fit-content
- }
+a {
+    color: #70BA40
+}
 
- #page_event {
-     position: fixed;
-     bottom: 10px;
-     left: 50%;
-     transform: translateX(-50%);
- }
+a:hover {
+    color: #356229;
+}
 
- .re {
-     display: grid;
-     background-color: rgba(255, 255, 255, 0.5);
-     border: 1px solid #732147;
-     height: 80px;
-     width: 300px;
-     flex-direction: column;
-     align-items: baseline;
-     justify-items: stretch
- }
+body,
+a,
+a:hover,
+a:active,
+a:visited,
+input,
+html {
+    cursor: url(https://i.imgur.com/y2PdIYq.png), auto !important
+}
 
- .shh strong {
-     font-size: 9px;
-     color: #fff
- }
+#container {
+    display: grid;
+    width: 100vw;
+    min-width: unset;
+    height: 100vh;
+    max-width: min-content;
+    grid-template-columns: 0 600px 0;
+    grid-template-rows: 0 0 0 min-content min-content 0;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
 
- .re img {
-     height: 50px;
-     width: 50px
- }
+#page_content {
+    width: 100%;
+    height: fit-content
+}
 
- .shh {
-     background-color: #732147;
-     color: #fff
- }
+#page_event {
+    position: relative;
+}
 
- nav {
-     position: fixed;
-     display: flex;
-     margin-top: 713px;
-     pointer-events: auto;
-     width: 600px;
-     justify-content: center;
- }
+.re {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: min-content;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-items: stretch
+}
 
- nav li {
-     margin: 0 5px;
-     list-style: none;
-     transition: .3s all ease;
- }
+.shh strong {
+    font-size: 17px;
+    color: #fff
+}
 
- nav li:hover {
-     transform: translateY(40px);
- }
+.re_text {
+    font-size: 16px;
+}
 
- #userLookupContent {
-     display: grid;
-     grid-template-areas:
-         "cover"
-         "title"
-         "links"
-         "info"
-         "pets"
-         "trophies";
-     grid-template-rows: auto;
-     grid-template-columns: 100%;
-     width: 600px;
-     height: 764px;
-     box-sizing: border-box;
-     margin: 0;
-     overflow: hidden;
-     background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/notebook-background.png);
-     background-position: top center;
-     background-repeat: no-repeat;
-     z-index: 1;
- }
+.re img {
+    height: 80px;
+    border: 0;
+    width: 80px
+}
 
- .cover {
-     display: block;
-     height: 100vh;
-     width: 100%;
-     grid-area: cover;
-     background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/cover.png);
-     background-position: top center;
-     background-repeat: no-repeat;
-     overflow: hidden;
-     position: relative;
-     margin-top: -15px;
- }
+.shh {
+    background-color: #356229;
+    color: #fff
+}
 
- .sticker {
-     left: 0;
-     top: 0;
-     position: absolute;
-     transition: .1s all ease;
- }
+nav {
+    position: fixed;
+    display: flex;
+    margin-top: 713px;
+    pointer-events: auto;
+    width: 600px;
+    justify-content: center;
+}
 
- .sticker:hover {
-     transform: rotate(-10deg);
- }
+nav li {
+    margin: 0 5px;
+    list-style: none;
+    transition: .3s all ease;
+}
 
- .sticker1 {
-     margin-top: 50px;
-     margin-left: 40px;
- }
+nav li:hover {
+    transform: translateY(40px);
+}
 
- .sticker2 {
-     margin-top: 60px;
-     margin-left: 213px;
- }
+#userLookupContent {
+    display: grid;
+    grid-template-areas:
+        "cover"
+        "title"
+        "links"
+        "info"
+        "pets"
+        "trophies1"
+        "trophies2";
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    width: 600px;
+    height: 764px;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/notebook-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
 
- .sticker3 {
-     margin-top: 45px;
-     margin-left: 410px;
- }
+.cover {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    grid-area: cover;
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/cover.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    margin-top: -22px;
+    margin-left: -1px;
+}
 
- .sticker4 {
-     margin-top: 545px;
-     margin-left: 30px;
- }
+.sticker {
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: .1s all ease;
+}
 
- .sticker5 {
-     margin-top: 565px;
-     margin-left: 230px;
- }
+.sticker:hover {
+    transform: rotate(-10deg);
+}
 
- .sticker6 {
-     margin-top: 535px;
-     margin-left: 410px;
- }
+.sticker1 {
+    margin-top: 50px;
+    margin-left: 40px;
+}
 
- #title {
-     height: 100px;
-     width: 100%;
-     z-index: 1;
-     margin-top: 260px;
- }
+.sticker2 {
+    margin-top: 60px;
+    margin-left: 213px;
+}
 
- #userLookupInfo {
-     grid-area: title;
-     height: min-content !important;
-     margin-top: 120px;
-     padding-left: 15px;
-     width: 578px;
-     overflow: hidden;
-     z-index: 1;
- }
+.sticker3 {
+    margin-top: 45px;
+    margin-left: 410px;
+}
 
+.sticker4 {
+    margin-top: 545px;
+    margin-left: 30px;
+}
 
- #userLookupLinks {
-     grid-area: links;
-     bottom: 0 !important;
-     position: relative;
-     height: min-content;
-     width: 90%;
-     margin: 0 auto;
-     margin-top: 40px;
- }
+.sticker5 {
+    margin-top: 565px;
+    margin-left: 230px;
+}
 
- #userLookupLinks .smallfont {
-     display: none;
- }
+.sticker6 {
+    margin-top: 535px;
+    margin-left: 410px;
+}
 
- .ul--tradesimg {
-     content: url(https://i.imgur.com/adXJhQC.png)
- }
+#title {
+    height: 90px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 270px;
+}
 
- .ul--scoresimg {
-     content: url(https://i.imgur.com/MBWsQwV.png)
- }
+#userLookupInfo {
+    position: relative;
+    grid-area: title;
+    height: min-content !important;
+    margin-top: 110px;
+    margin-left: 40px;
+    width: calc(95% - 30px);
+    z-index: 2;
+    overflow: scroll;
+    height: 430px !important;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: auto auto;
+}
 
- .ul--neomailimg {
-     content: url(https://i.imgur.com/tas3Pdr.png)
- }
+#userLookupText {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    line-height: 1.2 !important;
+}
 
- .ul--auctionsimg {
-     content: url(https://i.imgur.com/agHcVck.png)
- }
+.ul--gendercolor {
+    font-weight: normal !important;
+    color: #000 !important;
+}
 
- .ul--wishlistimg {
-     content: url(https://i.imgur.com/9Ci6jIV.png)
- }
+#userLookupShield {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
 
- .ul--neofriendimg {
-     height: 50px !important;
-     background: no-repeat center/contain url(https://i.imgur.com/KVZ0BLq.png);
-     object-position: -99999px
- }
+#userLookupShield::before {
+    display: block;
+    z-index: 99;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #fffbf3;
+    position: absolute;
+    mix-blend-mode: multiply;
+}
 
- #userLookupPets {
-     grid-area: pets;
-     height: 100%;
-     width: 100%;
-     background: #FFFBF3;
-     min-height: 764px;
-     overflow: scroll;
- }
+#userLookupCollections {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+}
 
- #userLookupSiteTrophies {
-     grid-area: trophies;
-     height: 100vh;
-     width: 100%;
-     overflow: scroll;
- }
+#userLookupCollections .smallfont {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
- #userLookupGameTrophies {
-     grid-area: trophies;
-     height: 100vh;
-     width: 100%;
-     overflow: scroll;
- }
+.ul--stampsimg {
+    content: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/stamp.png);
+}
+
+#userLookupLinks {
+    grid-area: links;
+    bottom: 0 !important;
+    position: relative;
+    height: min-content;
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 0px;
+    background: #FFFBF3;
+}
+
+#userLookupLinks::after {
+    z-index: 1;
+    position: absolute;
+    content: '';
+    width: 700px;
+    height: 33px;
+    margin-top: 69px;
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/notebook-background.png);
+    background-position: bottom center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+#userLookupLinks img:hover,
+#userLookupLinks form:hover {
+    transform: rotate(25deg);
+}
+
+.ul--tradesimg {
+    content: url(https://i.imgur.com/adXJhQC.png)
+}
+
+.ul--scoresimg {
+    content: url(https://i.imgur.com/MBWsQwV.png)
+}
+
+.ul--neomailimg {
+    content: url(https://i.imgur.com/tas3Pdr.png)
+}
+
+.ul--auctionsimg {
+    content: url(https://i.imgur.com/agHcVck.png)
+}
+
+.ul--wishlistimg {
+    content: url(https://i.imgur.com/9Ci6jIV.png)
+}
+
+.ul--neofriendimg {
+    height: 50px !important;
+    background: no-repeat center/contain url(https://i.imgur.com/KVZ0BLq.png);
+    object-position: -99999px
+}
+
+#userLookupLinks .smallfont {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#userLookupPets {
+    grid-area: pets;
+    width: 600px;
+    height: 760px !important;
+    overflow: scroll;
+    margin: 0 auto;
+    margin-top: 210px !important;
+    z-index: 2;
+    background: #FFFBF3;
+    position: relative;
+
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/notebook-background.png);
+    background-position: top center;
+    background-color: rgba(126, 30, 30, 0);
+    background-repeat: no-repeat;
+
+}
+
+#userLookupPets .ul--sectionheader:first-of-type,
+.ul--sectionheader::before,
+.ul--sectionheader::after {
+    display: none;
+}
+
+.ul--sectionheader {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: -5px;
+}
+
+.ul--petname {
+    word-break: keep-all;
+    font-weight: normal;
+}
+
+#userPetList {
+    margin: 50px auto;
+    width: 530px;
+    height: 704px;
+    overflow: scroll;
+}
+
+.ul__pet {
+    padding: 5px;
+}
+
+img.ul--petimg {
+    transition: .5s all ease !important;
+    width: 110px !important;
+    margin-bottom: 3px;
+}
+
+img.ul--petimg:hover {
+    transition: .5s all ease !important;
+}
+
+.cat-group--WIP img.ul--petimg {
+    width: 80px !important;
+}
+
+.cat-group--WIP .ul__pet a {
+    position: relative;
+    display: block !important;
+    margin-top: 5px;
+}
+
+.cat-group--WIP .ul__pet a:hover {
+    opacity: 0.5;
+}
+
+.cat-group--WIP .ul__pet a:first-of-type::before {
+    display: block;
+    z-index: 99;
+    content: '';
+    height: calc(100% - 3px);
+    width: calc(100% - 4px);
+    margin: 0 auto;
+    margin-left: 2px;
+    background: #fffbf3;
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+
+#userLookupSiteTrophies {
+    grid-area: trophies1;
+    height: min-content;
+    width: 100%;
+    overflow: scroll;
+    margin-top: 60px;
+    padding-top: 50px;
+
+}
+
+#userLookupSiteTrophies .ul--sectionheader {}
+
+#siteTrophiesList {
+    padding: 10px;
+    height: 250px !important;
+    overflow: scroll;
+    mix-blend-mode: multiply;
+}
+
+#userLookupGameTrophies {
+    grid-area: trophies2;
+    z-index: 1;
+    height: min-content;
+    width: 100%;
+    background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/notebook-background.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+#userLookupGameTrophies .ul--sectionheader {
+    margin-top: 10px;
+}
+
+#gameTrophiesList {
+    height: 280px !important;
+    padding-bottom: 40px;
+    overflow: scroll;
+    mix-blend-mode: multiply;
+}
+
+#siteTrophiesList img,
+#gameTrophiesList img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 60px;
+}
+
+#userLookupGameTrophies .ul--sectionheader {
+    margin-bottom: 10px;
+}
+
+.ul--sitetrophyname,
+.ul--gametrophyname,
+.ul--sitetrophycap,
+.ul--sitetrophyname a,
+.ul--gametrophyname a,
+.ul--sitetrophycap a {
+    font-size: 0.8em !important;
+    line-height: 1.2 !important;
+}
+
+/* PETS */
+
+.ul__Amphis .ul--petimg {
+    content: url(https://i.imgur.com/GeYCYn3.png)
+}
+
+.ul__Amphis img:hover {
+    content: url(https://i.imgur.com/FQHgH5T.png)
+}
+
+.ul__Boitata .ul--petimg {
+    content: url(https://i.imgur.com/ukT7sMM.png)
+}
+
+.ul__Boitata img:hover {
+    content: url(https://i.imgur.com/AyAJuEh.png)
+}
+
+.ul__Boto.Rosa .ul--petimg {
+    content: url(https://i.imgur.com/nxXRMd5.png)
+}
+
+.ul__Boto.Rosa img:hover {
+    content: url(https://i.imgur.com/23pk7eE.png)
+}
+
+.ul__🚀.Buzz.Lightyear .ul--petimg {
+    content: url(https://i.imgur.com/3ishcJX.png)
+}
+
+.ul__🚀.Buzz.Lightyear img:hover {
+    content: url(https://i.imgur.com/p7Fanrw.png)
+}
+
+.ul__Cuca .ul--petimg {
+    content: url(https://i.imgur.com/tuKqQm6.png)
+}
+
+.ul__Cuca img:hover {
+    content: url(https://i.imgur.com/pWYDcWE.png)
+}
+
+.ul__Cupim .ul--petimg {
+    content: url(https://i.imgur.com/MSup81Q.png)
+}
+
+.ul__Cupim img:hover {
+    content: url(https://i.imgur.com/Jg0nEQA.png)
+}
+
+.ul__Curupira .ul--petimg {
+    content: url(https://i.imgur.com/XK8s19f.png)
+}
+
+.ul__Curupira img:hover {
+    content: url(https://i.imgur.com/TOLeX03.png)
+}
+
+.ul__Dionaea .ul--petimg {
+    content: url(https://i.imgur.com/867Hker.png)
+}
+
+.ul__Dionaea img:hover {
+    content: url(https://i.imgur.com/fkVLlic.png)
+}
+
+.ul__Iara .ul--petimg {
+    content: url(https://i.imgur.com/OPUZQci.png)
+}
+
+.ul__Iara img:hover {
+    content: url(https://i.imgur.com/A03P7Qk.png)
+}
+
+.ul__Kymera .ul--petimg {
+    content: url(https://i.imgur.com/SdnYpIz.png)
+}
+
+.ul__Kymera img:hover {
+    content: url(https://i.imgur.com/VnMVjvy.png)
+}
+
+.ul__Lobisomem .ul--petimg {
+    content: url(https://i.imgur.com/sq2Tql2.png)
+}
+
+.ul__Lobisomem img:hover {
+    content: url(https://i.imgur.com/1CDOqA2.png)
+}
+
+.ul__Mula .ul--petimg {
+    content: url(https://i.imgur.com/7xNAf0x.png)
+}
+
+.ul__Mula img:hover {
+    content: url(https://i.imgur.com/up1Azsi.png)
+}
+
+.ul__Nelumbo .ul--petimg {
+    content: url(https://i.imgur.com/kb17Wqd.png)
+}
+
+.ul__Nelumbo img:hover {
+    content: url(https://i.imgur.com/OHo9Uya.png)
+}
+
+.ul__Nephentes .ul--petimg {
+    content: url(https://i.imgur.com/Sjo3WFr.png)
+}
+
+.ul__Nephentes img:hover {
+    content: url(https://i.imgur.com/qoQH0gC.png)
+}
+
+.ul__Orchidacea .ul--petimg {
+    content: url(https://i.imgur.com/nFBbgsL.png)
+}
+
+.ul__Orchidacea img:hover {
+    content: url(https://i.imgur.com/lD2cIM0.png)
+}
+
+.ul__Salazzle .ul--petimg {
+    content: url(https://i.imgur.com/UvPVIsQ.png)
+}
+
+.ul__Salazzle img:hover {
+    content: url(https://i.imgur.com/cf5O9cI.png)
+}
+
+.ul__Swamper .ul--petimg {
+    content: url(https://i.imgur.com/gLwkLAW.png)
+}
+
+.ul__Swamper img:hover {
+    content: url(https://i.imgur.com/71EBRxF.png)
+}
+
+.ul__Syzz .ul--petimg {
+    content: url(https://i.imgur.com/YoGPP1j.png)
+}
+
+.ul__Syzz img:hover {
+    content: url(https://i.imgur.com/Yv5bFdF.png)
+}
+
+.ul__Vermithor .ul--petimg {
+    content: url(https://i.imgur.com/5T8Uj1J.png)
+}
+
+.ul__Vermithor img:hover {
+    content: url(https://i.imgur.com/1G53z4g.png)
+}
+
+.ul__🛸.Emperor.Zurg .ul--petimg {
+    content: url(https://i.imgur.com/iiSvT61.png)
+}
+
+.ul__🛸.Emperor.Zurg img:hover {
+    content: url(https://i.imgur.com/qPABHXp.png)
+}
+
+.ul__4C4R4 .ul--petimg {
+    content: url(https://i.imgur.com/sxLLJ1Z.png)
+}
+
+.ul__4C4R4 img:hover {
+    content: url(https://i.imgur.com/eDMPqR0.png)
+}
+
+.ul__41SH4 .ul--petimg {
+    content: url(https://i.imgur.com/1KsfR4F.png)
+}
+
+.ul__41SH4 img:hover {
+    content: url(https://i.imgur.com/N0oFNyI.png)
+}
+
+.ul__BLUM4R00 .ul--petimg {
+    content: url(https://i.imgur.com/rDAK7GN.png)
+}
+
+.ul__BLUM4R00 img:hover {
+    content: url(https://i.imgur.com/ozBJlaW.png)
+}
+
+.ul__CH14 .ul--petimg {
+    content: url(https://i.imgur.com/l4bokEZ.png)
+}
+
+.ul__CH14 img:hover {
+    content: url(https://i.imgur.com/E2INpb0.png)
+}
+
+.ul__GN0RBU .ul--petimg {
+    content: url(https://i.imgur.com/id6oklz.png)
+}
+
+.ul__GN0RBU img:hover {
+    content: url(https://i.imgur.com/s4XbnDD.png)
+}
+
+.ul__GRUND0 .ul--petimg {
+    content: url(https://i.imgur.com/DRIZkHW.png)
+}
+
+.ul__GRUND0 img:hover {
+    content: url(https://i.imgur.com/9DcpUaZ.png)
+}
+
+.ul__H1SS1 .ul--petimg {
+    content: url(https://i.imgur.com/4LcwvhF.png)
+}
+
+.ul__H1SS1 img:hover {
+    content: url(https://i.imgur.com/Pht1zNj.png)
+}
+
+.ul__K4CH33K .ul--petimg {
+    content: url(https://i.imgur.com/l2i5faQ.png)
+}
+
+.ul__K4CH33K img:hover {
+    content: url(https://i.imgur.com/NVM7fsJ.png)
+}
+
+.ul__K1K0 .ul--petimg {
+    content: url(https://i.imgur.com/DvQlDje.png)
+}
+
+.ul__K1K0 img:hover {
+    content: url(https://i.imgur.com/gyyNeRD.png)
+}
+
+.ul__K0RB4T .ul--petimg {
+    content: url(https://i.imgur.com/E22Z2qV.png)
+}
+
+.ul__K0RB4T img:hover {
+    content: url(https://i.imgur.com/JYFEfBg.png)
+}
+
+.ul__K0UGR4 .ul--petimg {
+    content: url(https://i.imgur.com/0PRvzkX.png)
+}
+
+.ul__K0UGR4 img:hover {
+    content: url(https://i.imgur.com/gIF5opN.png)
+}
+
+.ul__KR4WK .ul--petimg {
+    content: url(https://i.imgur.com/YBSrPC8.png)
+}
+
+.ul__KR4WK img:hover {
+    content: url(https://i.imgur.com/GJ6eZst.png)
+}
+
+.ul__LUP3 .ul--petimg {
+    content: url(https://i.imgur.com/RJXiAGv.png)
+}
+
+.ul__LUP3 img:hover {
+    content: url(https://i.imgur.com/c2yto6W.png)
+}
+
+.ul__0GR1N .ul--petimg {
+    content: url(https://i.imgur.com/SGnr8AA.png)
+}
+
+.ul__0GR1N img:hover {
+    content: url(https://i.imgur.com/hDKmLkP.png)
+}
+
+.ul__P00GL3 .ul--petimg {
+    content: url(https://i.imgur.com/5tovjhd.png)
+}
+
+.ul__P00GL3 img:hover {
+    content: url(https://i.imgur.com/NvFBS1q.png)
+}
+
+.ul__SC0RCH10 .ul--petimg {
+    content: url(https://i.imgur.com/9mBFJjG.png)
+}
+
+.ul__SC0RCH10 img:hover {
+    content: url(https://i.imgur.com/P8ndaTc.png)
+}
+
+.ul__T3CH0 .ul--petimg {
+    content: url(https://i.imgur.com/9xsUP46.png)
+}
+
+.ul__T3CH0 img:hover {
+    content: url(https://i.imgur.com/ibjycd5.png)
+}
+
+.ul__W0CKY .ul--petimg {
+    content: url(https://i.imgur.com/QBulv6n.png)
+}
+
+.ul__W0CKY img:hover {
+    content: url(https://i.imgur.com/ixvT4R3.png)
+}
+
+.ul__0K .ul--petimg {
+    content: url(https://i.imgur.com/6EElZa2.png)
+}
+
+.ul__0K img:hover {
+    content: url(https://i.imgur.com/0WW4pOc.png)
+}
+
+.ul__CH0MBY .ul--petimg {
+    content: url(https://i.imgur.com/liqIoS8.png)
+}
+
+.ul__CH0MBY img:hover {
+    content: url(https://i.imgur.com/Hiwx5Vs.png)
+}
+
+.ul__Degelo .ul--petimg {
+    content: url(https://i.imgur.com/oiPH89k.png)
+}
+
+.ul__Degelo img:hover {
+    content: url(https://i.imgur.com/SV3mItv.png)
+}
+
+.ul__Friaca .ul--petimg {
+    content: url(https://i.imgur.com/azxxAQb.png)
+}
+
+.ul__Friaca img:hover {
+    content: url(https://i.imgur.com/alBIrbr.png)
+}
+
+.ul__Gurio .ul--petimg {
+    content: url(https://i.imgur.com/5rvtUzW.png)
+}
+
+.ul__Gurio img:hover {
+    content: url(https://i.imgur.com/7y7xCD8.png)
+}
+
+.ul__Brrrrr .ul--petimg {
+    content: url(https://i.imgur.com/LWoj539.png)
+}
+
+.ul__Brrrrr img:hover {
+    content: url(https://i.imgur.com/9h125YE.png)
+}
+
+.ul__Friento .ul--petimg {
+    content: url(https://i.imgur.com/UPcabBY.png)
+}
+
+.ul__Friento img:hover {
+    content: url(https://i.imgur.com/SXzHzYf.png)
+}
+
+.ul__XW33T0K .ul--petimg {
+    content: url(https://i.imgur.com/4W6MVsG.png)
+}
+
+.ul__XW33T0K img:hover {
+    content: url(https://i.imgur.com/Oovk4vD.png)
+}
+
+.ul__Z4F4R4 .ul--petimg {
+    content: url(https://i.imgur.com/2FiD8vw.png)
+}
+
+.ul__Z4F4R4 img:hover {
+    content: url(https://i.imgur.com/CqJX17v.png)
+}
+
+.ul__Coldy .ul--petimg {
+    content: url(https://i.imgur.com/ficxfvt.png)
+}
+
+.ul__Coldy img:hover {
+    content: url(https://i.imgur.com/RXEb53A.png)
+}
+
+.ul__Desolado .ul--petimg {
+    content: url(https://i.imgur.com/Qa3jovt.png)
+}
+
+.ul__Desolado img:hover {
+    content: url(https://i.imgur.com/fVcI7To.png)
+}
+
+.ul__Drama.King .ul--petimg {
+    content: url(https://i.imgur.com/0fVIxMo.png)
+}
+
+.ul__Drama.King img:hover {
+    content: url(https://i.imgur.com/XpjSuKf.png)
+}
+
+.ul__Languish .ul--petimg {
+    content: url(https://i.imgur.com/am3oXdY.png)
+}
+
+.ul__Languish img:hover {
+    content: url(https://i.imgur.com/fcUneFc.png)
+}
+
+.ul__Mucinex .ul--petimg {
+    content: url(https://i.imgur.com/Q1HxjvQ.png)
+}
+
+.ul__Mucinex img:hover {
+    content: url(https://i.imgur.com/12c8UzW.png)
+}
+
+.ul__Neve .ul--petimg {
+    content: url(https://i.imgur.com/cXEOpjD.png)
+}
+
+.ul__Neve img:hover {
+    content: url(https://i.imgur.com/lHMQUq1.png)
+}
+
+.ul__Nimbo .ul--petimg {
+    content: url(https://i.imgur.com/u5RFeMr.png)
+}
+
+.ul__Nimbo img:hover {
+    content: url(https://i.imgur.com/Nn8DXUh.png)
+}
+
+.ul__Saylor .ul--petimg {
+    content: url(https://i.imgur.com/EYMoiYV.png)
+}
+
+.ul__Saylor img:hover {
+    content: url(https://i.imgur.com/RMDtv1J.png)
+}
+
+.ul__Sofrer .ul--petimg {
+    content: url(https://i.imgur.com/BO9mXGZ.png)
+}
+
+.ul__Sofrer img:hover {
+    content: url(https://i.imgur.com/CkunDjr.png)
+}
+
+.ul__Sumber .ul--petimg {
+    content: url(https://i.imgur.com/fYOqL1x.png)
+}
+
+.ul__Sumber img:hover {
+    content: url(https://i.imgur.com/Nd4Da8M.png)
+}
+
+.ul__Tida .ul--petimg {
+    content: url(https://i.imgur.com/ojINtke.png)
+}
+
+.ul__Tida img:hover {
+    content: url(https://i.imgur.com/YQxxIYu.png)
+}
+
+.ul__Judiado .ul--petimg {
+    content: url(https://i.imgur.com/lqKaNSJ.png)
+}
+
+.ul__Judiado img:hover {
+    content: url(https://i.imgur.com/PorRIYo.png)
+}
+
+.ul__Assolan .ul--petimg {
+    content: url(https://i.imgur.com/UDPemgO.png)
+}
+
+.ul__Assolan img:hover {
+    content: url(https://i.imgur.com/Eur7AIi.png)
+}
+
+.ul__Bafo .ul--petimg {
+    content: url(https://i.imgur.com/OdQsD1X.png)
+}
+
+.ul__Bafo img:hover {
+    content: url(https://i.imgur.com/iHEQL1M.png)
+}
+
+.ul__Barnable .ul--petimg {
+    content: url(https://i.imgur.com/Re6LX7C.png)
+}
+
+.ul__Barnable img:hover {
+    content: url(https://i.imgur.com/vesxF0c.png)
+}
+
+.ul__Brilhus .ul--petimg {
+    content: url(https://i.imgur.com/Xi7RTp1.png)
+}
+
+.ul__Brilhus img:hover {
+    content: url(https://i.imgur.com/RGv8Bsu.png)
+}
+
+.ul__Chakota .ul--petimg {
+    content: url(https://i.imgur.com/ZNsD3kb.png)
+}
+
+.ul__Chakota img:hover {
+    content: url(https://i.imgur.com/7TE611f.png)
+}
+
+.ul__Danoninho .ul--petimg {
+    content: url(https://i.imgur.com/K540Wem.png)
+}
+
+.ul__Danoninho img:hover {
+    content: url(https://i.imgur.com/RuYM4Gz.png)
+}
+
+.ul__Disko .ul--petimg {
+    content: url(https://i.imgur.com/vMOrljJ.png)
+}
+
+.ul__Disko img:hover {
+    content: url(https://i.imgur.com/p6ZmG9I.png)
+}
+
+.ul__Eskibon .ul--petimg {
+    content: url(https://i.imgur.com/qChyRLj.png)
+}
+
+.ul__Eskibon img:hover {
+    content: url(https://i.imgur.com/b7h1cmj.png)
+}
+
+.ul__Jeitosa .ul--petimg {
+    content: url(https://i.imgur.com/jA9W5qv.png)
+}
+
+.ul__Jeitosa img:hover {
+    content: url(https://i.imgur.com/b4ZDgVt.png)
+}
+
+.ul__Joji .ul--petimg {
+    content: url(https://i.imgur.com/iiqFBWR.png)
+}
+
+.ul__Joji img:hover {
+    content: url(https://i.imgur.com/lRFFkwQ.png)
+}
+
+.ul__Laranja .ul--petimg {
+    content: url(https://i.imgur.com/GwhGHR7.png)
+}
+
+.ul__Laranja img:hover {
+    content: url(https://i.imgur.com/Mo4nvuH.png)
+}
+
+.ul__Melken .ul--petimg {
+    content: url(https://i.imgur.com/ioDGcTg.png)
+}
+
+.ul__Melken img:hover {
+    content: url(https://i.imgur.com/xnHtTWN.png)
+}
+
+.ul__Mundy .ul--petimg {
+    content: url(https://i.imgur.com/ERcy3Bc.png)
+}
+
+.ul__Mundy img:hover {
+    content: url(https://i.imgur.com/l6aKK4o.png)
+}
+
+.ul__Narval .ul--petimg {
+    content: url(https://i.imgur.com/alG77G6.png)
+}
+
+.ul__Narval img:hover {
+    content: url(https://i.imgur.com/PZkxQ8l.png)
+}
+
+.ul__Nuggetinho .ul--petimg {
+    content: url(https://i.imgur.com/6LtAMmY.png)
+}
+
+.ul__Nuggetinho img:hover {
+    content: url(https://i.imgur.com/IgLeOt7.png)
+}
+
+.ul__Pudinho .ul--petimg {
+    content: url(https://i.imgur.com/REd7QXg.png)
+}
+
+.ul__Pudinho img:hover {
+    content: url(https://i.imgur.com/8QngU2Q.png)
+}
+
+.ul__Tinindo .ul--petimg {
+    content: url(https://i.imgur.com/ES4mKLv.png)
+}
+
+.ul__Tinindo img:hover {
+    content: url(https://i.imgur.com/1RDvlES.png)
+}
+
+.ul__Ilarie .ul--petimg {
+    content: url(https://i.imgur.com/gyM1mrg.png)
+}
+
+.ul__Ilarie img:hover {
+    content: url(https://i.imgur.com/rtlBR4Z.png)
+}
+
+.ul__Amador .ul--petimg {
+    content: url(https://i.imgur.com/yY54cGz.png)
+}
+
+.ul__Amador img:hover {
+    content: url(https://i.imgur.com/QVDJWMC.png)
+}
+
+.ul__Ammora .ul--petimg {
+    content: url(https://i.imgur.com/2ll5LuE.png)
+}
+
+.ul__Ammora img:hover {
+    content: url(https://i.imgur.com/OvrMqna.png)
+}
+
+.ul__Avel .ul--petimg {
+    content: url(https://i.imgur.com/GwA3Zsa.png)
+}
+
+.ul__Avel img:hover {
+    content: url(https://i.imgur.com/jkIgcGT.png)
+}
+
+.ul__Celester .ul--petimg {
+    content: url(https://i.imgur.com/zmoDVyD.png)
+}
+
+.ul__Celester img:hover {
+    content: url(https://i.imgur.com/PIvfkyO.png)
+}
+
+.ul__Esquilo .ul--petimg {
+    content: url(https://i.imgur.com/VBeFCqd.png)
+}
+
+.ul__Esquilo img:hover {
+    content: url(https://i.imgur.com/IZyGYDH.png)
+}
+
+.ul__Fluidez .ul--petimg {
+    content: url(https://i.imgur.com/7kdzd3Q.png)
+}
+
+.ul__Fluidez img:hover {
+    content: url(https://i.imgur.com/xdiEqCL.png)
+}
+
+.ul__Haema .ul--petimg {
+    content: url(https://i.imgur.com/eGIgeJE.png)
+}
+
+.ul__Haema img:hover {
+    content: url(https://i.imgur.com/EQZEyGl.png)
+}
+
+.ul__Krak .ul--petimg {
+    content: url(https://i.imgur.com/XXJ6Iva.png)
+}
+
+.ul__Krak img:hover {
+    content: url(https://i.imgur.com/X246BUr.png)
+}
+
+.ul__Little.Lamb .ul--petimg {
+    content: url(https://i.imgur.com/tylsDCi.png)
+}
+
+.ul__Little.Lamb img:hover {
+    content: url(https://i.imgur.com/aaySuyH.png)
+}
+
+.ul__Phenyx .ul--petimg {
+    content: url(https://i.imgur.com/O47DPr8.png)
+}
+
+.ul__Phenyx img:hover {
+    content: url(https://i.imgur.com/kLCEudc.png)
+}
+
+.ul__Roselya .ul--petimg {
+    content: url(https://i.imgur.com/ukR33wC.png)
+}
+
+.ul__Roselya img:hover {
+    content: url(https://i.imgur.com/pNIpAjO.png)
+}
+
+.ul__Sneekon .ul--petimg {
+    content: url(https://i.imgur.com/k4y2V36.png)
+}
+
+.ul__Sneekon img:hover {
+    content: url(https://i.imgur.com/UEk7iep.png)
+}
+
+.ul__Sozinha .ul--petimg {
+    content: url(https://i.imgur.com/ccewRs7.png)
+}
+
+.ul__Sozinha img:hover {
+    content: url(https://i.imgur.com/BsNnQ15.png)
+}
+
+.ul__Susi .ul--petimg {
+    content: url(https://i.imgur.com/YYdVcwF.png)
+}
+
+.ul__Susi img:hover {
+    content: url(https://i.imgur.com/VcNC2su.png)
+}
+
+.ul__Tereshkova .ul--petimg {
+    content: url(https://i.imgur.com/ybzYwSA.png)
+}
+
+.ul__Tereshkova img:hover {
+    content: url(https://i.imgur.com/NJUjSQr.png)
+}
+
+.ul__Peonia .ul--petimg {
+    content: url(https://i.imgur.com/9AFHfTu.png)
+}
+
+.ul__Peonia img:hover {
+    content: url(https://i.imgur.com/x8hg7pt.png)
+}
+
+.ul__K01 .ul--petimg {
+    content: url(https://i.imgur.com/Nv3AVmW.png);
+}
+
+.ul__K01 img:hover {
+    content: url(https://i.imgur.com/d2edvwO.png);
+}
