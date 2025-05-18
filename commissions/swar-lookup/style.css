@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Schoolbell&display=swap');
 
+
 #sb_top,
-#sb_bottom,
 #sb_side,
 #page_banner,
 #page_footer,
@@ -12,16 +12,22 @@ div.sf,
 h2.ul--header,
 .ul--collectionslabel::after,
 #userLookupCollections strong,
+.hider,
 scrollbar,
 ::-webkit-scrollbar {
     display: none
 }
 
+#huh {
+    display: unset;
+}
+
 body {
-    background: #f5f5f2;
     font-family: Schoolbell;
     font-size: 1.3em;
     line-height: 1.4;
+    background-image: url(img/background.png);
+    background-color: #f5f5f2;
 }
 
 a {
@@ -147,7 +153,7 @@ nav li:hover {
     background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
-    margin-top: 3px;
+    margin-top: -22px;
     margin-left: -1px;
 }
 
@@ -1220,4 +1226,20 @@ img.ul--petimg:hover {
 
 .ul__K01 img:hover {
     content: url(https://i.imgur.com/d2edvwO.png);
+}
+
+.ul__Calota .ul--petimg {
+    content: url(https://i.imgur.com/OBxDpiD.png);
+}
+
+.ul__Calota img:hover {
+    content: url(https://i.imgur.com/ohSno3w.png);
+}
+
+.ul__Papito .ul--petimg {
+    content: url(https://i.imgur.com/EVXkbW3.png);
+}
+
+.ul__Papito img:hover {
+    content: url(https://i.imgur.com/QFkMoBr.png);
 }
