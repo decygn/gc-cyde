@@ -334,7 +334,6 @@ nav li:hover {
     grid-area: pets;
     width: 600px;
     height: 760px !important;
-    overflow: scroll;
     margin: 0 auto;
     margin-top: 210px !important;
     z-index: 2;
