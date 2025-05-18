@@ -26,9 +26,8 @@ body {
     font-family: Schoolbell;
     font-size: 1.3em;
     line-height: 1.4;
-    /*
     background-image: url(img/background.png);
-    background-color: #A46637;*/
+    background-color: #A46637;
 }
 
 a {
