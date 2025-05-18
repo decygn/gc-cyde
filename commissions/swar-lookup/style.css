@@ -26,8 +26,8 @@ body {
     font-family: Schoolbell;
     font-size: 1.3em;
     line-height: 1.4;
-    background-image: url(img/background.png);
     background-color: #A46637;
+    background-image: url(img/background.png);
 }
 
 a {
@@ -422,8 +422,6 @@ img.ul--petimg:hover {
     padding-top: 50px;
 
 }
-
-#userLookupSiteTrophies .ul--sectionheader {}
 
 #siteTrophiesList {
     padding: 10px;
@@ -1242,4 +1240,12 @@ img.ul--petimg:hover {
 
 .ul__Papito img:hover {
     content: url(https://i.imgur.com/QFkMoBr.png);
+}
+
+@media only screen and (pointer: coarse) {
+
+    .ul__Papito .ul--petimg {
+        content: url(https://i.imgur.com/QFkMoBr.png);
+    }
+
 }
