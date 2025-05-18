@@ -20,10 +20,6 @@ scrollbar,
     display: none !important;
 }
 
-#huh {
-    display: unset;
-}
-
 body {
     font-family: Schoolbell;
     font-size: 1.3em;
@@ -475,4 +471,12 @@ img.ul--petimg:hover {
 .ul--sitetrophycap a {
     font-size: 0.8em !important;
     line-height: 1.2 !important;
+}
+
+@media only screen and (pointer: coarse) {
+    #container {
+        height: unset;
+        margin-top: ;
+        padding-bottom: 0;
+    }
 }
