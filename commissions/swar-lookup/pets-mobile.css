@@ -1,5 +1,9 @@
 @media only screen and (pointer: coarse) {
 
+    .ul--petimg:hover {
+        opacity: 0.7;
+    }
+
     .ul__Amphis .ul--petimg {
         content: url(https://i.imgur.com/FQHgH5T.png)
     }

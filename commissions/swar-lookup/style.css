@@ -387,17 +387,20 @@ img.ul--petimg:hover {
     transition: .5s all ease !important;
 }
 
-.cat-group--WIP img.ul--petimg {
+.cat-group--WIP img.ul--petimg,
+.cat-group--Everyone.Else img.ul--petimg {
     width: 80px !important;
 }
 
-.cat-group--WIP .ul__pet a {
+.cat-group--WIP .ul__pet a,
+.cat-group--Everyone.Else .ul__pet a {
     position: relative;
     display: block !important;
     margin-top: 5px;
 }
 
-.cat-group--WIP .ul__pet a:hover {
+.cat-group--WIP .ul__pet a:hover,
+.cat-group--Everyone.Else .ul__pet a:hover {
     opacity: 0.5;
 }
 
