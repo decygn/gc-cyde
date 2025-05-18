@@ -483,8 +483,6 @@ img.ul--petimg:hover {
 
 @media only screen and (pointer: coarse) {
     #container {
-        height: unset;
-        margin-top: ;
         padding-bottom: 0;
     }
 }
