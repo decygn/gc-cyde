@@ -403,7 +403,8 @@ img.ul--petimg:hover {
     opacity: 0.5;
 }
 
-.cat-group--WIP .ul__pet a:first-of-type::before {
+.cat-group--WIP .ul__pet a:first-of-type::before,
+.cat-group--Everyone.Else .ul__pet a:first-of-type::before {
     display: block;
     z-index: 99;
     content: '';
