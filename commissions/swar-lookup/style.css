@@ -491,6 +491,11 @@ img.ul--petimg:hover {
     #container {
         padding-bottom: 0;
     }
+
+    #siteTrophiesList {
+        height: 240px !important;
+    }
+
 }
 
 @media screen and (max-device-width: 992px) {
