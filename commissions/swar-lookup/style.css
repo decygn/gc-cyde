@@ -474,12 +474,19 @@ img.ul--petimg:hover {
 }
 
 @media only screen and (max-width: 1400px) and (max-height: 870px) {
-    body {
-        background-image: none;
+    #page_content {
+
+        transform: scale(0.8);
     }
 }
 
 @media only screen and (pointer: coarse) {
+
+    #page_content {
+
+        transform: scale(1.2);
+    }
+
     #container {
         padding-bottom: 0;
     }
