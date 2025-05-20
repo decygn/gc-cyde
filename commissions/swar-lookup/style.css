@@ -521,4 +521,14 @@ img.ul--petimg:hover {
     .ul__gametrophy {
         width: 100px !important;
     }
+
+    #container {
+        grid-template-areas:
+            "atop atop aio"
+            "top top aio"
+            "side banner aio"
+            "side event aio"
+            "side content aio"
+            "side footer aio";
+    }
 }
