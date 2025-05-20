@@ -473,6 +473,12 @@ img.ul--petimg:hover {
     line-height: 1.2 !important;
 }
 
+@media only screen and (max-width: 1400px) and (max-height: 870px) {
+    body {
+        background-image: none;
+    }
+}
+
 @media only screen and (pointer: coarse) {
     #container {
         padding-bottom: 0;
