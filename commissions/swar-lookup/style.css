@@ -492,3 +492,9 @@ img.ul--petimg:hover {
         padding-bottom: 0;
     }
 }
+
+@media screen and (max-device-width: 992px) {
+    html {
+        font-size: unset;
+    }
+}
