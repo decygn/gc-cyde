@@ -506,4 +506,18 @@ img.ul--petimg:hover {
     html {
         font-size: unset !important;
     }
+
+    .small-image {
+        width: 50px !important;
+    }
+
+    .ul__neofriend form {
+        height: 50px !important;
+
+    }
+
+    .ul__sitetrophy,
+    .ul__gametrophy {
+        width: 100px !important;
+    }
 }
