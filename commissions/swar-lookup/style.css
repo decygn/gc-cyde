@@ -496,6 +496,10 @@ img.ul--petimg:hover {
         height: 240px !important;
     }
 
+    #userLookupInfo {
+        grid-template-columns: 6fr 2fr;
+    }
+
 }
 
 @media screen and (max-device-width: 992px) {
