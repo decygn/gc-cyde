@@ -129,7 +129,7 @@ nav li:hover {
         "pets"
         "trophies1"
         "trophies2";
-    grid-template-rows: auto;
+    grid-template-rows: minmax(0, auto);
     grid-template-columns: 100%;
     width: 600px;
     height: 764px;
