@@ -212,7 +212,7 @@ nav li:hover {
     margin-left: 40px;
     width: calc(95% - 30px);
     z-index: 2;
-    overflow: scroll;
+    overflow: auto;
     height: 430px !important;
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -367,7 +367,7 @@ nav li:hover {
     margin: 50px auto;
     width: 530px;
     height: 704px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .ul__pet {
@@ -419,7 +419,7 @@ img.ul--petimg:hover {
     grid-area: trophies1;
     height: min-content;
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
     margin-top: 60px;
     padding-top: 50px;
 
@@ -428,7 +428,7 @@ img.ul--petimg:hover {
 #siteTrophiesList {
     padding: 10px;
     height: 250px !important;
-    overflow: scroll;
+    overflow: auto;
     mix-blend-mode: multiply;
 }
 
@@ -449,7 +449,7 @@ img.ul--petimg:hover {
 #gameTrophiesList {
     height: 280px !important;
     padding-bottom: 40px;
-    overflow: scroll;
+    overflow: auto;
     mix-blend-mode: multiply;
 }
 
