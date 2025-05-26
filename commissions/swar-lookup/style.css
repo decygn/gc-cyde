@@ -448,7 +448,7 @@ img.ul--petimg:hover {
 
 #gameTrophiesList {
     height: 260px !important;
-    padding-bottom: 40px;
+    padding-bottom: 44px;
     overflow: auto;
     mix-blend-mode: multiply;
 }
