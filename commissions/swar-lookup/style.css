@@ -440,11 +440,10 @@ img.ul--petimg:hover {
     background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/notebook-background.png);
     background-position: bottom center;
     background-repeat: no-repeat;
-    margin-bottom: -10px;
 }
 
 #userLookupGameTrophies .ul--sectionheader {
-    margin-top: 10px;
+    margin-top: -10px;
 }
 
 #gameTrophiesList {
