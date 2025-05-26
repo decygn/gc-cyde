@@ -435,7 +435,7 @@ img.ul--petimg:hover {
 #userLookupGameTrophies {
     grid-area: trophies2;
     z-index: 1;
-    height: min-content;
+    height: auto;
     width: 100%;
     background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/notebook-background.png);
     background-position: bottom center;
@@ -447,7 +447,7 @@ img.ul--petimg:hover {
 }
 
 #gameTrophiesList {
-    height: 280px !important;
+    height: 260px !important;
     padding-bottom: 40px;
     overflow: auto;
     mix-blend-mode: multiply;
