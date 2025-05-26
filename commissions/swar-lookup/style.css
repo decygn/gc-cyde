@@ -417,7 +417,7 @@ img.ul--petimg:hover {
 
 #userLookupSiteTrophies {
     grid-area: trophies1;
-    height: min-content;
+    height: 250px;
     width: 100%;
     overflow: auto;
     margin-top: 60px;
