@@ -420,7 +420,7 @@ img.ul--petimg:hover {
     height: 340px;
     width: 100%;
     overflow: auto;
-    /* margin-top: 60px; */
+    margin-top: 4px;
     padding-top: 50px;
 
 }
