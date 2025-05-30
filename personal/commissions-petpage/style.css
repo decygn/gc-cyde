@@ -332,9 +332,7 @@ main section {
         position: relative;
     }
 
-    #left #status {
-        bottom: 39vh
-    }
+    #left #status {}
 
     #right #status {
         bottom: 1vh
