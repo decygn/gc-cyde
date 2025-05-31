@@ -420,7 +420,7 @@ img.ul--petimg:hover {
     height: 340px;
     width: 100%;
     overflow: auto;
-    margin-top: 8px !important;
+    margin-top: 4px;
     padding-top: 50px;
 
 }
@@ -436,6 +436,7 @@ img.ul--petimg:hover {
     grid-area: trophies2;
     z-index: 1;
     height: auto;
+    height: calc(100% + 4px);
     width: 100%;
     background-image: url(https://decygn.github.io/gc-cyde/commissions/swar-lookup/img/notebook-background.png);
     background-position: bottom center;
