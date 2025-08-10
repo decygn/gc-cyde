@@ -700,6 +700,10 @@ img[src*="grarrl_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_grarrl.png);
 }
 
+img[src*="ixi_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_ixi.png);
+}
+
 img[src*="hissi_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_hissi.png);
 }
