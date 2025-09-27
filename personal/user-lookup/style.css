@@ -701,6 +701,10 @@ img[src*="lutari_starry"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/starry_lutari.png);
 }
 
+img[src*="buzz_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_buzz.png);
+}
+
 img[src*="grarrl_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_grarrl.png);
 }
@@ -815,6 +819,10 @@ img[src*="poogle_chocolate"] {
 
 img[src*="chomby_chocolate"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_chomby.png);
+}
+
+img[src*="cybunny_valentine"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_cybunny.png);
 }
 
 img[src*="kiko_valentine"] {
