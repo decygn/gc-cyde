@@ -1087,6 +1087,10 @@ img[src*="techo_stone"] {
     order: -89
 }
 
+.ul__game60 {
+    order: -90
+}
+
 .ul__game24 {
     order: -89
 }
@@ -1117,10 +1121,6 @@ img[src*="techo_stone"] {
 
 .ul__game17 {
     order: -90
-}
-
-.ul__game60 {
-    order: -78
 }
 
 .ul__game23 {
