@@ -625,6 +625,10 @@ a.ul--petname {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_kacheek.png);
 }
 
+img[src*="jubjub_msp"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_jubjub.png);
+}
+
 img[src*="acara_msp"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_acara.png);
 }
@@ -819,6 +823,10 @@ img[src*="poogle_chocolate"] {
 
 img[src*="chomby_chocolate"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_chomby.png);
+}
+
+img[src*="kyrii_valentine"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_kyrii.png);
 }
 
 img[src*="cybunny_valentine"] {
