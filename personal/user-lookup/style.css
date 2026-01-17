@@ -649,7 +649,7 @@ img[src*="aisha_msp"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_ruki.png);
 }
 
-img[src*="blumaroo_alien"] {
+.ul__Egocentric img[src*="blumaroo_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_blumaroo.png);
 }
 
@@ -685,7 +685,7 @@ img[src*="lupe_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_lupe.png);
 }
 
-img[src*="jubjub_alien"] {
+.ul__Receive img[src*="jubjub_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_jubjub.png);
 }
 
@@ -807,6 +807,10 @@ img[src*="aisha_plushie"] {
 
 img[src*="chia_nugget"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/nugget_chia.png);
+}
+
+img[src*="kiko_chocolate"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/chocolate_grundo.png);
 }
 
 img[src*="grundo_chocolate"] {
