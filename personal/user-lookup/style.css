@@ -865,6 +865,9 @@ img[src*="kougra_valentine"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_kougra.png);
 }
 
+img[src*="zafara_valentine"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/valentine_zafara.png);
+}
 img[src*="techo_stone"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/stone_techo.png);
 }
