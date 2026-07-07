@@ -586,7 +586,7 @@ header::after {
 }
 
 #userPetList .med-image {
-    width: 180px !important
+    width: 180px !important;
 }
 
 .ul__pet {
@@ -986,7 +986,7 @@ img[src*="techo_stone"] {
 }
 
 #siteTrophiesList::before {
-    margin-top: -20px;
+    margin-top: -50px;
     content: "[ site ]"
 }
 
@@ -995,8 +995,9 @@ img[src*="techo_stone"] {
     position: relative
 }
 
-#gameTrophiesList {
-    line-height: 1.2;
+#gameTrophiesList,
+#siteTrophiesList {
+    line-height: 1.2!important;
     margin: 0 auto;
     padding-top: 30px;
     max-width: 60%;
@@ -1048,10 +1049,6 @@ img[src*="techo_stone"] {
 .ul__sitetrophy,
 .ul__gametrophy {
     margin: 5px 10px
-}
-
-.ul__sitetrophy {
-    margin-top: 30px
 }
 
 .ul--sitetrophyname {
@@ -1140,7 +1137,7 @@ img[src*="techo_stone"] {
 }
 
 .ul__game23 {
-    order: -78
+    order: -89
 }
 
 #userReportBlock {
@@ -1299,7 +1296,7 @@ img[src*="techo_stone"] {
         width: 90%;
         padding: 120px 0 130px
     }
-
+    #siteTrophiesList,
     #gameTrophiesList {
         max-width: 80%
     }
@@ -1378,7 +1375,7 @@ img[src*="techo_stone"] {
     .ul__pet {
         margin: 12px
     }
-
+    #siteTrophiesList,
     #gameTrophiesList {
         max-width: 90%
     }
