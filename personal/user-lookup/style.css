@@ -657,6 +657,10 @@ img[src*="aisha_msp"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_draik.png);
 }
 
+img[src*="kougra_alien"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_kougra.png);
+}
+
 img[src*="xweetok_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_xweetok.png);
 }
