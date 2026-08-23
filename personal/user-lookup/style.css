@@ -273,8 +273,8 @@ header::after {
     content: url(https://i.imgur.com/rinIOco.png);
     position: absolute;
     top: 0;
-    right: 0;
-    transform: scaley(1.1)
+    right: -350px!important;
+    transform: scaley(1.35) scalex(1.3);
 }
 
 .ul__stamps {
@@ -397,8 +397,8 @@ header::after {
 }
 
 .ul--avatarstext {
-    margin-left: -165px;
-    margin-top: -110px;
+    margin-left: -155px;
+    margin-top: -170px;
     width: 100px;
     display: flex;
     flex-direction: column-reverse;
@@ -431,6 +431,9 @@ header::after {
     margin-right: -14px
 }
 .ul__tcgs {
+    margin-left: -160px;
+    margin-top: -10px;
+    margin-bottom: 20px;
     width:120px;
 }
 .ul__tcgs img {
@@ -1264,7 +1267,7 @@ img[src*="chia_coffee"] {
     }
 
     #userLookupInfo::after {
-        right: -100px
+        right: -150px
     }
 
     .ul--relics {
@@ -1278,7 +1281,7 @@ img[src*="chia_coffee"] {
     }
 
     #userLookupInfo::after {
-        right: -200px
+        right: -250px
     }
 
     .ul--relics {
@@ -1292,7 +1295,7 @@ img[src*="chia_coffee"] {
     }
 
     #userLookupInfo::after {
-        right: -300px
+        right: -350px
     }
 
     .ul--relics {
@@ -1306,7 +1309,7 @@ img[src*="chia_coffee"] {
     }
 
     #userLookupInfo::after {
-        right: -400px
+        right: -450px
     }
 
     .ul--relics {
