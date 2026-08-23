@@ -409,7 +409,8 @@ header::after {
 }
 
 .ul--avatarstext strong,
-.ul--stampstext strong {
+.ul--stampstext strong,
+.ul--tcgstext strong {
     display: block;
     font-size: 10px;
     font-weight: bold;
@@ -429,7 +430,9 @@ header::after {
     margin-left: -14px;
     margin-right: -14px
 }
-
+.ul--tcgstext img {
+    display: none;
+}
 .ul--stampstext {
     margin-left: 500px;
     margin-top: -120px;
