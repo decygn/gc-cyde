@@ -272,7 +272,7 @@ header::after {
 #userLookupInfo::after {
     content: url(https://i.imgur.com/rinIOco.png);
     position: absolute;
-    top: 0;
+    top: 30px;
     right: -350px!important;
     transform: scaley(1.35) scalex(1.3);
 }
