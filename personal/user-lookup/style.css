@@ -430,6 +430,9 @@ header::after {
     margin-left: -14px;
     margin-right: -14px
 }
+.ul__tcgs {
+    width:120px;
+}
 .ul__tcgs img {
     display: none;
 }
@@ -439,7 +442,6 @@ header::after {
     color: #fff;
     border: 1px solid #fff;
     font-size: 30px;
-    padding: 2px 14px;
     line-height: 1.2;
     display: flex;
     flex-direction: column-reverse
