@@ -810,6 +810,10 @@ img[src*="aisha_plushie"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/plushie_aisha.png);
 }
 
+img[src*="pteri_yellow"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/yellow_pteri.png);
+}
+
 img[src*="chia_nugget"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/nugget_chia.png);
 }
