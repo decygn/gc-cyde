@@ -430,8 +430,19 @@ header::after {
     margin-left: -14px;
     margin-right: -14px
 }
-.ul--tcgstext img {
+.ul__tcgs img {
     display: none;
+}
+.ul--tcgstext {
+    margin-left: ;
+    margin-top: ;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 30px;
+    padding: 2px 14px;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column-reverse
 }
 .ul--stampstext {
     margin-left: 500px;
