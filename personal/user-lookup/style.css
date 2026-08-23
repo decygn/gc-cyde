@@ -273,7 +273,7 @@ header::after {
     content: url(https://i.imgur.com/rinIOco.png);
     position: absolute;
     top: 30px;
-    right: -350px!important;
+    right: 0;
     transform: scaley(1.35) scalex(1.3);
 }
 
