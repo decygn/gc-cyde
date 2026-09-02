@@ -1243,7 +1243,7 @@ img[src*="chia_coffee"] {
     content: "CSS BY CYDE";
     font-size: 11px;
     padding: 13px 23px;
-    border-radius: 100%;
+    border-radius: 65px;
     position: absolute;
     margin: 0 auto;
     left: 0;
