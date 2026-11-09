@@ -608,8 +608,8 @@ header::after {
     line-height: 1;
 }
 .ul__Cyde .ul--petimg {
-    width: 230px;
-    height: auto;
+    width: 230px!important;
+    height: auto!important;
 }
 
 #userPetList {
@@ -931,7 +931,7 @@ img[src*="chia_coffee"] {
 
 /* ====================== END OF PET OVERLAYS ======================= */
 .ul__Cyde::after {
-    content: 'Overlay by Maze';
+    content: 'Pet Overlay by Maze';
     display: block;
     font-size: 10px;
     color: #999;
