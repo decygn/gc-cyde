@@ -570,15 +570,17 @@ header::after {
 }
 
 .ul--sectionheader {
-    margin-top: 50px;
-    font-family: akira expanded;
     letter-spacing: -0.5px;
     line-height: 1.1;
     text-align: center !important;
-    font-weight: 900 !important;
+
+    
+    font-family: Stretch Pro;
     text-transform: uppercase;
-    font-size: 40px;
-    letter-spacing: -1px
+    font-size: 26px;
+    opacity: 0.4;
+    letter-spacing: 1px;
+    margin-top: 50px;
 }
 
 .ul--sectionheader::before,
