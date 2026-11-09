@@ -613,7 +613,7 @@ header::after {
     line-height: 1;
 }
 #userPetList .ul__Cyde .ul--petimg.med-image {
-    width: 230px!important;
+    width: auto!important;
     height: auto!important;
 }
 
@@ -661,7 +661,7 @@ a.ul--petname {
 
 .ul__Cyde img[src*="cybunny_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny.png);
-    width: 230px!important;
+    width: auto!important;
     height: auto!important;
 }
 
