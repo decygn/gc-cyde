@@ -615,7 +615,9 @@ header::after {
 #userPetList {
     
 }
-
+.userPetList {
+    max-width: 1200px;
+}
 #userPetList .med-image {
     width: 180px !important;
 }
