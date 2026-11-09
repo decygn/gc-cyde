@@ -577,7 +577,7 @@ header::after {
     text-align: center !important;
     font-weight: 900 !important;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: -1px
 }
 
@@ -595,7 +595,7 @@ header::after {
     align-items: center
 }
 
-.ul--petsheader strong {
+.ul--petsheader:first-child strong {
     display: none
 }
 
