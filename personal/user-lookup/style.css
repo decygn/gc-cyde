@@ -607,6 +607,10 @@ header::after {
     font-size: 20px;
     line-height: 1;
 }
+.ul__Cyde .ul--petimg {
+    width: 230px;
+    height: auto;
+}
 
 #userPetList {
     
