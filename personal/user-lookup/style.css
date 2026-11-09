@@ -570,7 +570,7 @@ header::after {
 }
 
 .ul--sectionheader {
-    letter-spacing: -0.5px;
+    letter-spacing: 1px;
     line-height: 1.1;
     text-align: center !important;
 
@@ -595,7 +595,8 @@ header::after {
     align-items: center
 }
 
-.ul--petsheader:first-child strong {
+.ul--petsheader:first-child strong,
+.cat-header--Cyde {
     display: none
 }
 
