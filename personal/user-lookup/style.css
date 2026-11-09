@@ -587,7 +587,6 @@ header::after {
 }
 
 #userLookupPets {
-    max-width: 1200px;
     padding: 150px 0 160px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -1342,7 +1341,6 @@ img[src*="chia_coffee"] {
     }
 
     #userLookupPets {
-        width: 90%;
         padding: 120px 0 130px
     }
     #siteTrophiesList,
@@ -1414,7 +1412,6 @@ img[src*="chia_coffee"] {
     }
 
     #userLookupPets {
-        width: 90%
     }
 
     #userPetList .med-image {
@@ -1442,7 +1439,7 @@ img[src*="chia_coffee"] {
 
 @media only screen and (max-width: 700px) and (pointer: coarse) {
     #userLookupPets {
-        width: 90%
+       
     }
 
     #userPetList .med-image {
