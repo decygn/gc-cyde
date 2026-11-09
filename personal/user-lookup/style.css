@@ -603,6 +603,10 @@ header::after {
     content: url(https://i.imgur.com/dz4Lzqn.png);
     display: block
 }
+.ul__Cyde .ul--petname {
+    font-size: 20px;
+    line-height: 1;
+}
 
 #userPetList {
     
