@@ -599,7 +599,7 @@ header::after {
     display: none
 }
 
-.ul--petsheader::after {
+.ul--petsheader:first-child::after{
     content: url(https://i.imgur.com/dz4Lzqn.png);
     display: block
 }
