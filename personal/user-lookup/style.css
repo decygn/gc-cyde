@@ -399,7 +399,7 @@ header::after {
 .ul--avatarstext {
     margin-left: -155px;
     margin-top: -170px;
-    width: 100px;
+    width: 130px;
     display: flex;
     flex-direction: column-reverse;
     color: #fff;
