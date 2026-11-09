@@ -612,7 +612,7 @@ header::after {
     font-size: 20px;
     line-height: 1;
 }
-.ul__Cyde .ul--petimg {
+#userPetList .ul__Cyde .ul--petimg.med-image {
     width: 230px!important;
     height: auto!important;
 }
