@@ -654,6 +654,12 @@ a.ul--petname {
 
 /* ====================== PET OVERLAYS ======================= */
 
+.ul__Cyde img[src*="cybunny_alien"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny.png);
+    width: 230px!important;
+    height: auto!important;
+}
+
 .ul__Confront img[src*="kacheek_msp"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_kacheek.png);
 }
@@ -672,10 +678,6 @@ img[src*="acara_msp"] {
 
 img[src*="aisha_msp"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_aisha.png);
-}
-
-.ul__Cyde img[src*="cybunny_alien"] {
-    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny.png);
 }
 
 .ul__Nodical img[src*="ruki_alien"] {
