@@ -485,7 +485,8 @@ header::after {
     margin-bottom: 50px;
     transition: all 0.3s 0.3s;
 }
-.ul--avatars:hover img {
+.ul--avatarsimg:hover,
+.ul__avatars:hover img {
     transition: all 0.3s 0.3s;
     filter: saturate(1);
 }
