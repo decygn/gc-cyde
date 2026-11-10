@@ -1011,12 +1011,12 @@ img[src*="chia_coffee"] {
 
 .ul__Narcosis~.ul__pet {
     opacity: 0.4;
-    width: 140px !important;
+    width: 125px !important;
     flex: 0 0 auto;
 }
 
 #userPetList .ul__Narcosis~.ul__pet .med-image {
-    width: 115px !important;
+    width: 105px !important;
     margin-bottom: 18px;
 }
 
