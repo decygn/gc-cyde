@@ -688,7 +688,9 @@ img[src*="aisha_msp"] {
 .ul__Nodical img[src*="ruki_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_ruki.png);
 }
-
+ img[src*="kau_alien"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_kau.png);
+}
 .ul__Egocentric img[src*="blumaroo_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_blumaroo.png);
 }
@@ -761,6 +763,11 @@ img[src*="lutari_starry"] {
 img[src*="buzz_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_buzz.png);
 }
+
+img[src*="draik_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_draik.png);
+}
+
 
 img[src*="kyrii_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_kyrii.png);
