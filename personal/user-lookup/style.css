@@ -1053,7 +1053,7 @@ img[src*="chia_coffee"] {
     line-height: 1.2!important;
     margin: 0 auto;
     padding-top: 30px;
-    max-width: 60%;
+    max-width: 800px;
     text-transform: none !important
 }
 
