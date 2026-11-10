@@ -767,7 +767,9 @@ img[src*="buzz_robot"] {
 img[src*="draik_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_draik.png);
 }
-
+img[src*="krawk_robot"] {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_krawk.png);
+}
 
 img[src*="kyrii_robot"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/robot_kyrii.png);
