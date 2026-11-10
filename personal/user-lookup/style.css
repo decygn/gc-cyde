@@ -982,25 +982,29 @@ img[src*="chia_coffee"] {
 }
 */
 
-.cat-header--\[.WIP.\] {
+.cat-header--\[.WIP.\],
+.cat-header--\[.UFT.\] {
     opacity:0.4;
     font-family: Stretch Pro;
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 1px;
 }
-.cat-group--\[.WIP.\] .ul__pet {
+.cat-group--\[.WIP.\] .ul__pet,
+.cat-group--\[.UFT.\] .ul__pet {
     opacity: 0.4;
     width: 125px !important;
     flex: 0 0 auto; 
 }
 
-#userPetList .cat-group--\[.WIP.\] .ul__pet .med-image {
+#userPetList .cat-group--\[.WIP.\] .ul__pet .med-image,
+#userPetList .cat-group--\[.UFT.\] .ul__pet .med-image {
     width: 105px !important;
     margin-bottom: 18px;
 }
 
-.cat-group--\[.WIP.\] .ul--petname {
+.cat-group--\[.WIP.\] .ul--petname,
+.cat-group--\[.UFT.\] .ul--petname {
     font-family: Jetbrains Mono!important; 
 }
 
