@@ -993,7 +993,7 @@ img[src*="chia_coffee"] {
 .cat-group--\[.WIP.\] .ul__pet,
 .cat-group--\[.UFT.\] .ul__pet {
     opacity: 0.4;
-    width: 125px !important;
+    width: 105px !important;
     flex: 0 0 auto; 
 }
 
