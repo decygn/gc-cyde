@@ -1000,6 +1000,10 @@ img[src*="chia_coffee"] {
     margin-bottom: 18px;
 }
 
+.cat-group--\[.WIP.\] .ul--petname {
+    font-family: Jetbrains Mono!important;
+}
+
 .ul--sitetrophiesheader {
     padding-top: 35px
 }
