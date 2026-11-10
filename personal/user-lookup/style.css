@@ -982,13 +982,13 @@ img[src*="chia_coffee"] {
 }
 */
 
-.cat-group--WIP .ul__pet {
+.cat-group--\/\/\:WIP .ul__pet {
     opacity: 0.4;
     width: 125px !important;
     flex: 0 0 auto;
 }
 
-#userPetList .cat-group--WIP .ul__pet .med-image {
+#userPetList .cat-group--\/\/\:WIP .ul__pet .med-image {
     width: 105px !important;
     margin-bottom: 18px;
 }
