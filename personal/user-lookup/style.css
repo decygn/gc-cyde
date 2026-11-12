@@ -677,6 +677,8 @@ a.ul--petname {
     background: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny_bg.png);
     background-repeat: no-repeat;
     z-index: 1;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 .ul__Cyde .ul--petname {
