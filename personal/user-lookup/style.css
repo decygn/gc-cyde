@@ -680,7 +680,8 @@ a.ul--petname {
     content: 'MAIN / BD PET';
     display: block;
     font-size: 10px;
-    color: #999;
+    font-weight: 700;
+    color: #fff;
     text-transform: uppercase;
     margin-top: 3px;
 }
