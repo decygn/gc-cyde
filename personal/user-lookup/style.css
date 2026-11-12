@@ -670,7 +670,7 @@ a.ul--petname {
     position: relative;
     display: inline-block;
     margin-top: -313px;
-    animation: float 1s ease infinite;
+    animation: float 3s ease infinite;
 }
 
 .ul__Cyde {
