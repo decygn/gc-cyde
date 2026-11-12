@@ -669,7 +669,7 @@ a.ul--petname {
 }
 
 .ul__Cyde a {
-
+    color: #fff;
 }
 .ul__Cyde::after {
     content: 'MAIN / BD PET';
