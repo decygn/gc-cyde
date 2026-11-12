@@ -700,6 +700,7 @@ a.ul--petname {
 .ul__Cyde .ul--petname::after {
     content: 'MAIN / BD PET';
     display: block!important;
+    font-family: JetBrains Mono!important;
     font-size: 10px;
     font-weight: 700;
     color: #fff;
