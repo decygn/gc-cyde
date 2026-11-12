@@ -656,6 +656,16 @@ a.ul--petname {
     height: auto!important;
     animation: float 4s ease-in-out infinite;
 }
+.ul__Cyde .ul--petimg::before {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny_pp.png);
+    width: auto!important;
+    height: auto!important;
+}
+.ul__Cyde .ul--petimg::after {
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny_pp.png);
+    width: auto!important;
+    height: auto!important;
+}
 .ul__Cyde {
     background: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny_bg.png);
     background-repeat: no-repeat;
