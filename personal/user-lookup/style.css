@@ -1002,7 +1002,10 @@ img[src*="chia_coffee"] {
     width: 105px !important;
     margin-bottom: 18px;
 }
-
+#userPetList .cat-group--\[.WIP.\],
+#userPetList .cat-group--\[.UFT.\] {
+    max-width: 90%;
+}
 .cat-group--\[.WIP.\] .ul--petname,
 .cat-group--\[.UFT.\] .ul--petname {
     font-family: Jetbrains Mono!important; 
