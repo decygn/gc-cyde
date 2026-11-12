@@ -648,7 +648,13 @@ a.ul--petname {
     color: #000 !important
 }
 
-/* ====================== PET OVERLAYS ======================= */
+
+/* ====================== DEFAULT PET OVERLAYS ======================= */
+img[src*="nimmo_robot"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/nimmo_robot.gif);
+}
+
+/* ====================== CUSTOM PET OVERLAYS ======================= */
 
 .ul__Cyde img[src*="cybunny_alien"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny.png);
