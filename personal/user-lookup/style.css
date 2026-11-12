@@ -650,10 +650,35 @@ a.ul--petname {
 
 
 /* ====================== DEFAULT PET OVERLAYS ======================= */
+img[src*="poogle_msp"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/poogle_msp.gif);
+}img[src*="kacheek_msp"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kacheek_msp.gif);
+}img[src*="ruki_alien"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/ruki_alien.gif);
+}img[src*="blumaroo_alien"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/blumaroo_alien.gif);
+}img[src*="aisha_alien"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/aisha_alien.gif);
+}img[src*="jubjub_8-bit"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/jubjub_8-bit.gif);
+}
 img[src*="nimmo_robot"] {
     content: url(https://grundoscafe.b-cdn.net/pets/happy/nimmo_robot.gif);
 }
-
+img[src*="pteri_robot"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/pteri_robot.gif);
+}img[src*="mynci_robot"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/mynci_robot.gif);
+}img[src*="koi_robot"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/koi_robot.gif);
+}
+img[src*="jubjub_green"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/jubjub_green.gif);
+}
+img[src*="yurble_blue"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/yurble_blue.gif);
+}
 /* ====================== CUSTOM PET OVERLAYS ======================= */
 
 .ul__Cyde img[src*="cybunny_alien"] {
