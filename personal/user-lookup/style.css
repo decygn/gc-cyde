@@ -655,6 +655,7 @@ a.ul--petname {
     width: auto!important;
     height: auto!important;
     animation: float 4s ease-in-out infinite;
+    z-index: 2!important;
 }
 .ul__Cyde::before {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny_pp.png);
@@ -672,6 +673,8 @@ a.ul--petname {
     display: inline-block;
     margin-top: -313px;
     animation: float 3s ease infinite;
+    left: -17px;
+    top: 4px;
 }
 
 .ul__Cyde {
@@ -685,7 +688,7 @@ a.ul--petname {
 .ul__Cyde .ul--petname {
     font-size: 24px;
     line-height: 1;
-    margin-top: -120px;
+    margin-top: -130px;
     display: block;
     color: #fff!important;    
     z-index: 1 !important;
@@ -698,6 +701,7 @@ a.ul--petname {
     position: absolute;
     left: 0;
     right: 0;
+    opacity: 1 !important;
 }
 
 .ul__Cyde a {
@@ -708,10 +712,17 @@ a.ul--petname {
     font-family: JetBrains Mono!important;
     font-size: 10px;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     margin-top: 3px;
-    z-index: -1;
+    z-index: -1;  
+    background: #ffcc00;
+    width: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 4px;
+    padding: 4px 0 3px;
 }
 
 @keyframes float {
