@@ -608,15 +608,6 @@ header::after {
     content: url(https://i.imgur.com/dz4Lzqn.png);
     display: block
 }
-.ul__Cyde .ul--petname {
-    font-size: 20px;
-    line-height: 1;
-}
-#userPetList .ul__Cyde .ul--petimg.med-image {
-    width: auto!important;
-    height: auto!important;
-}
-
 #userPetList {
     
 }
@@ -666,10 +657,23 @@ a.ul--petname {
 }
 .ul__Cyde {
     background: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny_bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+
+.ul__Cyde .ul--petname {
+    font-size: 20px;
+    line-height: 1;
+    margin-top: -120px;
+    display: block;
+    color: #fff;
+}
+#userPetList .ul__Cyde .ul--petimg.med-image {
+    width: auto!important;
+    height: auto!important;
 }
 
 .ul__Cyde a {
-    color: #fff;
 }
 .ul__Cyde::after {
     content: 'MAIN / BD PET';
