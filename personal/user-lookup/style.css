@@ -686,7 +686,9 @@ a.ul--petname {
     line-height: 1;
     margin-top: -120px;
     display: block;
-    color: #fff!important;
+    color: #fff!important;    
+    z-index: 1 !important;
+    position: relative;
 }
 #userPetList .ul__Cyde .ul--petimg.med-image {
         width: auto !important;
