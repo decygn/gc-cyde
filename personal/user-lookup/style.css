@@ -664,7 +664,7 @@ a.ul--petname {
     display: inline-block;
 }
 .ul__Cyde::after {
-    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny_pp.png);
+    content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/alien_cybunny_ppp.png);
     width: 400px !important;
     height: 400px;
     position: relative;
