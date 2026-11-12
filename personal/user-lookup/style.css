@@ -670,6 +670,7 @@ a.ul--petname {
     position: relative;
     display: inline-block;
     margin-top: -313px;
+    animation: float 3s ease-in-out infinite;
 }
 
 .ul__Cyde {
@@ -697,7 +698,7 @@ a.ul--petname {
 }
 .Cyde__after::after {
     content: 'MAIN / BD PET';
-    display: block;
+    display: block!important;
     font-size: 10px;
     font-weight: 700;
     color: #fff;
