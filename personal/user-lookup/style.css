@@ -697,7 +697,7 @@ a.ul--petname {
 
 .ul__Cyde a {
 }
-.Cyde__after::after {
+.ul__Cyde .ul--petname::after {
     content: 'MAIN / BD PET';
     display: block!important;
     font-size: 10px;
