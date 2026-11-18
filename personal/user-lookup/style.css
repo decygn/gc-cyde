@@ -774,7 +774,7 @@ img[src*="yurble_blue"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_kacheek.png);
 }
 
-img[src*="jubjub_msp"] {
+.ul__Ardon img[src*="jubjub_msp"] {
     content: url(https://decygn.github.io/gc-cyde/personal/user-lookup/pet-overlays/msp_jubjub.png);
 }
 
