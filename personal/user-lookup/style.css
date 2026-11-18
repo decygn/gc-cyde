@@ -650,6 +650,8 @@ a.ul--petname {
 
 
 /* ====================== DEFAULT PET OVERLAYS ======================= */
+img[src*="jubjub_msp"] {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/jubjub_msp.gif);
 img[src*="poogle_msp"] {
     content: url(https://grundoscafe.b-cdn.net/pets/happy/poogle_msp.gif);
 }img[src*="kacheek_msp"] {
